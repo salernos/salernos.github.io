@@ -1,38 +1,49 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "*.png"
+  render:
+    - "*.qmd"
+    - "!content/publications/_template"
 
 website:
   title: "Stephen Salerno"
-  description: "Personal Website for Stephen Salerno"
+  description: "Personal Website for Stephen Salerno, PhD"
   site-url: https://salernos.github.io/
   favicon: img/pic.jpg
   image: img/pic.jpg
   navbar:
     background: primary
     search: true
-    left:
-      - text: "Home"
+    right:
+      - text: ""
         href: index.qmd
-      - text: "About"
-        href: about.qmd
-      - text: "CV"
-        href: cv.qmd
-      - text: "Projects"
-        href: projects.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Blog"
-        href: posts/
+      - text: "Data for Good"
+        href: content/d4g.qmd
+      # - text: "Research"
+      #   href: research.qmd
+      # - text: "Software"
+      #   href: software.qmd
+      # - text: "About"
+      #   href: about.qmd
+      # - text: "CV"
+      #   href: cv.qmd
+      # - text: "Projects"
+      #   href: projects.qmd
+      # - text: "Publications"
+      #   href: publications.qmd
+      # - text: "Blog"
+      #   href: posts/
     right:
       - icon: github
         href: https://github.com/salernos
       # - icon: twitter
       #   href: https://x.com/your-handle
   page-footer:
-    left: "© {{< today >}} Stephen Salerno"
+    left: "© 2025 Stephen Salerno"
     right: |
-      Built with [Quarto](https://quarto.org)
+      Proudly Built with [Quarto](https://quarto.org)
 
 format:
   html:
