@@ -1,0 +1,59 @@
+---
+title: "Stephen Salerno"
+page-layout: full
+image: img/pic.jpg
+---
+
+<div class="hero bg-light">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3"><img src="img/pic.jpg" class="img-fluid" alt="Stephen Salerno headshot"></div>
+    <div class="col-md-9">
+      <h1>Statistics, ML & Valid Inference with AI-Predicted Data</h1>
+      <p>
+      I build statistical methodology and software for inference with AI/ML-generated data,
+      including post-prediction inference (PPI / Post-PI), survey-weighted estimators, and
+      hybrid pipelines for biomedical applications (e.g., GTEx, NLST, automated karyotyping).
+      </p>
+      <p>
+      I lead development of the <em>scorcher</em> R framework for multimodal transformers and
+      prediction-powered inference, and collaborate on clinical tools that must be robust
+      on CPU-only production networks.
+      </p>
+      <p>
+      <a class="btn btn-primary" href="projects.qmd">See projects</a>
+      <a class="btn btn-outline-secondary" href="publications.qmd">Publications</a>
+      <a class="btn btn-outline-secondary" href="cv.qmd">CV</a>
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+## Highlights
+
+::: columns
+::: column
+### Methods
+- NEED
+:::
+::: column
+### Software
+- NEED
+:::
+::: column
+### Applications
+- NEED
+:::
+:::
+
+## Recent posts
+:::: {#home-posts}
+```{=yaml}
+listing:
+  contents: posts
+  type: grid
+  sort: "date desc"
+  page-size: 6
+```
+::::
