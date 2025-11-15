@@ -1,0 +1,14 @@
+---
+title: "Data Science for Good"
+subtitle: ""
+author: "Stephen Salerno, Ani Madurkar, Katie Nicholson, and Gauri Kambhatla"
+categories: ["Data for Good", "Data Science Education"]
+description: "2021 NxtGen Summer Academy"
+date: 2021-07-27
+image: img.png
+editor: source
+---
+
+<iframe id="2021.07.27-NxtGenSummerAcademy.pdf" src="./2021.07.27-NxtGenSummerAcademy.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

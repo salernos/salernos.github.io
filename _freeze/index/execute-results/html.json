@@ -1,0 +1,12 @@
+{
+  "hash": "80f56e64d6c620d318143648c3ec22ab",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntoc: false\nformat:\n  html:\n    sidebar: false\n    anchor-sections: false\nexecute: \n  echo: false\n---\n\n\n<!-----------------------------------------------------------------------------> \n<!--- LANDING PAGE \n<!----------------------------------------------------------------------------->\n\n<!--- HERO -------------------------------------------------------------------->\n\n\n```{html}\n<section class=\"hero\">\n    <img src=\"your-image.jpg\" alt=\"Your Name\">\n    <div class=\"hero-text\">\n        <h1>Your Name</h1>\n        <p>Welcome to my personal website! I'm passionate about XYZ and love creating meaningful projects.</p>\n    </div>\n</section>\n```\n\n\n\n\n<!--- END --------------------------------------------------------------------->\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

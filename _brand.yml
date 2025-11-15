@@ -1,0 +1,23 @@
+color:
+  palette:
+    grey1: "#111111"
+    grey9: "#F2F2F2"
+    blue1: "#ddeaf1"
+  background: grey9
+  foreground: grey1
+  primary: black
+
+logo:
+  medium: logo.png
+
+typography:
+  fonts:
+    - family: Jura
+      source: google
+  base: Jura
+  headings: Jura
+
+defaults:
+  bootstrap:
+    defaults:
+      navbar-bg: $brand-grey9

@@ -1,0 +1,24 @@
+[
+  {
+    "listing": "/research/highlights/index.html",
+    "items": []
+  },
+  {
+    "listing": "/content/research/highlights/index.html",
+    "items": []
+  },
+  {
+    "listing": "/content/presentations/presentations.html",
+    "items": [
+      "/content/presentations/2022.11.05-PSD/index.html",
+      "/content/presentations/2022.07.15-MIDAS/index.html",
+      "/content/presentations/2022.06.21-MtSinai/index.html",
+      "/content/presentations/2022.04.13-MiCHAMP/index.html",
+      "/content/presentations/2022.03.29-ENAR/index.html",
+      "/content/presentations/2021.07.27-NxtGen/index.html",
+      "/content/presentations/2020.08.06-JSM/index.html",
+      "/content/presentations/2020.06.04-SDSS/index.html",
+      "/content/presentations/2020.03.19-ENAR/index.html"
+    ]
+  }
+]

@@ -1,0 +1,96 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "*.png"
+  render:
+    - "*.qmd"
+    - "!content/publications/_template"
+
+website:
+  title: "Stephen Salerno"
+  description: "Personal website for Stephen Salerno, PhD"
+  site-url: https://salernos.github.io/
+  repo-url: https://github.com/salernos/salernos.github.io
+  repo-actions: [edit, issue]
+  favicon: content/images/pic.jpg
+  image: content/images/pic.jpg
+  # google-analytics: NEED
+  twitter-card: true
+  page-navigation: true
+  back-to-top-navigation: true
+  search: true
+
+  navbar:
+    search: true
+    #background: grey9
+    #foreground: $background-dark
+    pinned: true
+    title: "> Stephen Salerno"
+    # logo: content/images/pic.jpg
+    # logo-alt: "Stephen Salerno, PhD"
+    collapse-below: lg
+
+    right:
+      - href: research.qmd
+        text: Research
+      - href: content/software/software.qmd
+        text: Software
+      - href: content/presentations/presentations.qmd
+        text: Presentations
+      - href: content/good/good.qmd
+        text: Data for Good
+      - href: content/recipes.qmd
+        text: Recipes
+      - href: https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1
+        text: CV
+
+  page-footer:
+    #background: $background-dark
+    #foreground: $text-dark
+
+    left: |
+      Proudly built with [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+
+    center:
+      - text: © 2025 Stephen Salerno
+
+    right:
+      - icon: envelope-fill
+        href: mailto:ssalerno@fredhutch.org
+      - icon: twitter
+        href: https://twitter.com/StephenSalerno4
+      - icon: github
+        href: https://github.com/salernos
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=XUH1C6YAAAAJ&hl=en
+      - icon: linkedin
+        href: https://www.linkedin.com/in/stephen-salerno-90855563/
+
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**Test** of announcement bar."
+    type: light
+    position: below-navbar
+
+format:
+  html:
+    brand: _brand.yml
+    theme:
+      - cosmo
+      - theme.scss
+    include-in-header:
+      - file: "assets/script.html"
+    # mainfont: NEED
+    monofont: Fira Code
+    toc: true
+    code-overflow: scroll
+    link-external-newwindow: true
+    date-format: "MMM YYYY"
+    smooth-scroll: true
+    linkcolor: "#B8573E"
+
+freeze: true
+
+editor: source
