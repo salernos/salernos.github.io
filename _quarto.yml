@@ -1,6 +1,7 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
+
   resources:
     - "*.png"
   render:
@@ -9,6 +10,7 @@ project:
 
 website:
   title: "Stephen Salerno"
+<<<<<<< HEAD
   description: "Personal website for Stephen Salerno, PhD"
   site-url: https://salernos.github.io/
   repo-url: https://github.com/salernos/salernos.github.io

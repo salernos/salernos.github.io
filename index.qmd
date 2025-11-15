@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 toc: false
 format:
   html:
@@ -244,3 +245,59 @@ Test 3
 <br>
 
 <!--- END --------------------------------------------------------------------->
+=======
+title: "Stephen Salerno"
+page-layout: full
+image: img/pic.jpg
+---
+
+<div class="hero bg-light">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3"><img src="img/pic.jpg" class="img-fluid" alt="Stephen Salerno headshot"></div>
+    <div class="col-md-9">
+      <h1>Need tags</h1>
+      <p>
+      NEED
+      </p>
+      <p>
+      NEED
+      </p>
+      <p>
+      <a class="btn btn-primary" href="projects.qmd">See projects</a>
+      <a class="btn btn-outline-secondary" href="publications.qmd">Publications</a>
+      <a class="btn btn-outline-secondary" href="cv.qmd">CV</a>
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+## Highlights
+
+::: columns
+::: column
+### Methods
+- NEED
+:::
+::: column
+### Software
+- NEED
+:::
+::: column
+### Applications
+- NEED
+:::
+:::
+
+## Recent posts
+:::: {#home-posts}
+```{=yaml}
+listing:
+  contents: posts
+  type: grid
+  sort: "date desc"
+  page-size: 6
+```
+::::
+>>>>>>> 229bb414086c3885e0caf6f943d5c8cd18a1e6f4
