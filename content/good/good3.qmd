@@ -1,0 +1,194 @@
+---
+title: "<decor-dark>Data for Good</decor-dark>"
+subtitle: "Service, outreach, and community-engaged data science"
+page-layout: full
+search: false
+toc: false
+format:
+  html:
+    sidebar: false
+    anchor-sections: false
+execute: 
+  echo: false
+---
+
+::: {.dfg-hero}
+### Data for Good, by Design
+
+Data science can change policy, shape narratives, and support communities—not just produce papers.  
+My work in **data for good** focuses on three pillars:
+
+- **STATCOM** – community-engaged consulting with non-profits  
+- **MIDAS** – student leadership and cross-campus programming  
+- **CAIA** – trustworthy AI for cancer care  
+:::
+
+::: {.grid .dfg-stats}
+::: {.g-col-4}
+**10+**  
+years of community-engaged data work
+:::
+::: {.g-col-4}
+**Dozens**  
+of projects with non-profit & public partners
+:::
+::: {.g-col-4}
+**Across**  
+education, public health, youth advocacy, and oncology
+:::
+:::
+
+---
+
+## Statistics in the Community (STATCOM) 🤝  
+### Pro bono consulting for community partners
+
+As president of **Statistics in the Community (STATCOM)** at the University of Michigan, I helped coordinate teams of graduate students providing **free statistical consulting** to non-profit and community organizations.
+
+Projects included:
+
+- Community health perceptions after the **Flint Water Crisis**
+- **Trans youth advocacy**, including program evaluation and measurement
+- **Food access and food deserts**, quantifying gaps and evaluating interventions
+- Program evaluation and dashboarding for youth-serving organizations
+
+::: grid
+::: g-col-6
+
+[![Statistics in the Community](content/images/statcom.jpg){fig-alt="Statistics in the Community Logo" fig-align="left" width="70%"}](https://sph.umich.edu/biostat/statcom/)
+
+**STATCOM @ U-M** connects graduate students with community partners who need analytical support but lack in-house data science capacity.
+
+[Learn More](https://sph.umich.edu/biostat/statcom/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+
+:::
+
+::: g-col-6
+
+::: callout-tip
+#### Why this model works
+
+- Community partners get **access to expertise** they couldn’t otherwise afford  
+- Students learn to work with **real-world, messy data** and real constraints  
+- Projects often seed **long-term collaborations** and follow-up work  
+:::
+
+:::
+:::
+
+### STATCOM in Action 🎥
+
+::: grid
+::: g-col-6
+{{< video https://www.youtube.com/embed/V3iGTrot7Ig >}}
+:::
+
+::: g-col-6
+{{< video https://www.youtube.com/embed/hvgobPCsA80?si=ilt0Hyte6Q-2ICGX >}}
+:::
+:::
+
+### Highlight: Starr Commonwealth 🌱  
+A collaboration with **Starr Commonwealth** focused on understanding program outcomes and improving decision-making:
+
+- Building a Shiny-based dashboard to explore key indicators over time  
+- Creating interpretable visual summaries for non-technical stakeholders  
+- Supporting **continuous evaluation**, not just a one-off report  
+
+---
+
+## MIDAS Student Leadership Team 🎓  
+### Building a campus-wide data for good community
+
+The **MIDAS Student Leadership Team** (Michigan Institute for Data Science) brings together students from across campus who care about:
+
+- Data science education and training  
+- Community-building and mentorship  
+- Projects with clear **public-good or social-impact** goals  
+
+My contributions have included:
+
+- Designing student-facing programming (seminars, workshops, mixers)  
+- Advocating for **inclusive, accessible pathways** into data science  
+- Connecting students with **real-world projects** that mirror STATCOM’s impact model  
+
+::: callout-note
+#### Through MIDAS, STATCOM, and CAIA  
+I’m working toward an ecosystem where students can move **seamlessly** between:
+- learning core methods,  
+- applying them in community settings, and  
+- pushing on the frontier of AI for health.
+:::
+
+---
+
+## Cancer AI Alliance (CAIA) 🧬  
+### Trustworthy AI for precision oncology
+
+The **Cancer AI Alliance (CAIA)** focuses on building **clinically meaningful, trustworthy AI tools** for cancer research and care.
+
+My work within CAIA emphasizes:
+
+- Developing and validating AI/ML models for **precision oncology**
+- Studying how AI-predicted quantities can be used responsibly in **downstream statistical inference**
+- Designing workflows so models are transparent, reproducible, and aligned with real clinical needs  
+
+::: grid
+::: g-col-6
+
+::: callout-important
+#### Principles that guide this work
+
+- **Rigor** – robust validation, including out-of-distribution performance  
+- **Transparency** – clear documentation of models, data, and limitations  
+- **Equity** – attention to bias, representation, and downstream impacts  
+- **Longevity** – infrastructure that can be maintained beyond a single grant  
+:::
+
+:::
+
+::: g-col-6
+
+{{< video https://www.youtube.com/embed/BDGBBUVCouo?start=4 >}}
+
+:::
+:::
+
+---
+
+## Data for Public Good Symposium 📣  
+### Bringing methods and impact together
+
+The **Data for Public Good Symposium** highlights projects that blend methodological innovation with real-world impact. My involvement has included:
+
+- Presenting work on community-engaged data science and **prediction-powered inference**
+- Showcasing collaborations with non-profits, public health partners, and clinical teams
+- Helping connect students and researchers to **data-for-good opportunities**
+
+---
+
+## Talks & Media 🎥  
+
+A sampling of additional talks and media related to data for good, public communication, and applied data science:
+
+::: grid
+::: g-col-6
+{{< video https://www.youtube.com/embed/l9SVErXlckA >}}
+:::
+
+::: g-col-6
+{{< video https://www.youtube.com/embed/hISFahSOhGQ >}}
+:::
+:::
+
+---
+
+## Want to collaborate?
+
+If you’re interested in:
+
+- launching a **STATCOM-style initiative**,  
+- connecting students with **data for good projects**, or  
+- exploring **responsible AI workflows** in cancer or public health,
+
+feel free to get in touch — I’m always excited to brainstorm new collaborations at the intersection of **data, impact, and community**.

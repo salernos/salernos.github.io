@@ -1,0 +1,32 @@
+---
+title: "Nana’s Italian Wedding Cookies"
+prep: "10 minutes"
+cook: "10 minutes"
+servings: "About 20–24 cookies"
+ingredients: |
+  - **1 stick** butter, softened  
+  - **1/2 cup** sugar  
+  - **3** eggs, beaten  
+  - **1 1/2 tsp** almond extract  
+  - **2 1/4 cups** all-purpose flour  
+  - **2 tsp** baking powder  
+  - **Pinch** of salt  
+  **For the icing**  
+  - Almond extract  
+  - Milk  
+  - Powdered sugar  
+directions: |
+  1. Preheat oven to **350°F**.  
+  2. Cream together the butter and sugar.  
+  3. Add the eggs and almond extract; mix until smooth.  
+  4. In a separate bowl, whisk flour, baking powder, and salt.  
+  5. Add the dry ingredients to the wet and mix until just combined.  
+  6. Knead lightly by hand until dough is smooth.  
+  7. Roll dough into **2-tbsp balls** and arrange on an ungreased baking sheet.  
+  8. Bake for **10 minutes**, or until firm but *before* the bottoms brown.  
+  9. For icing: mix a small splash of almond extract, a few tbsp of milk, and enough powdered sugar to reach a pourable glaze.  
+  10. Drizzle the icing over cooled cookies and finish with a dusting of powdered sugar.  
+notes: |
+  These cookies were traditionally served at weddings in many Italian families—soft, lightly sweet, and almond-forward. Perfect with coffee.
+---
+

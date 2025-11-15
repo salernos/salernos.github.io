@@ -1,9 +1,7 @@
 ---
-title: <decor-dark>Data for Good</decor-dark>
-subtitle: Need
+title: "<decor-dark>Data for Good</decor-dark>"
+subtitle: "Service, outreach, and community-engaged data science"
 page-layout: full
-#title-block-banner: $background-dark
-#title-block-banner-color: $text-dark
 search: false
 toc: false
 format:
@@ -14,43 +12,98 @@ execute:
   echo: false
 ---
 
-Beyond research, the areas of service to our field that I am most passionate about are data science education and data for good outreach. As a doctoral student, I served as the president of Statistics in the Community (STATCOM), a volunteer student organization that provides pro bono statistical consulting services to non-profit and community organizations. This work was a privilege, allowing me to engage in diverse projects, from understanding community health perceptions after the Flint Water Crisis to trans youth advocacy and access to fresh produce in food deserts. I found that this work benefits both community partners and students – community partners benefit from resources not readily available to them due to budget or knowledge constraints, and students benefit from working with real data and collaborators with meaningful, tangible questions that impact their local community. This work is something I hope to continue in an advisory role in the next stage of my career, establishing a STATCOM chapter if one does not already exist in my department.
+Beyond research, I am deeply committed to data science education and data for good outreach. As a doctoral student, I served as president of **Statistics in the Community (STATCOM)**, a volunteer student organization that provides pro bono statistical consulting services to non-profit and community organizations. This work was a privilege, spanning projects from understanding community health perceptions after the Flint Water Crisis to supporting trans youth advocacy and improving access to fresh produce in food deserts.
+
+This work benefits both **community partners**—who gain access to expertise and resources they might not otherwise have—and **students**, who gain experience working with real data and collaborators posing meaningful, tangible questions that affect their local communities. In the next stage of my career, I aim to continue this work through advisory roles, student leadership, and broader collaborations like the **MIDAS Student Leadership Team** and the **Cancer AI Alliance (CAIA)**.
 
 ::: grid
 ::: g-col-8
+
 [![Statistics in the Community](content/images/statcom.jpg){fig-alt="Statistics in the Community Logo" fig-align="left" width="50%"}](https://sph.umich.edu/biostat/statcom/)
 
-Statistics in the Community (STATCOM) at the University of Michigan is a community outreach program offering the expertise of graduate students, free of charge, ...
+**Statistics in the Community (STATCOM)** at the University of Michigan is a community outreach program in which graduate students provide statistical consulting services, free of charge, to local non-profit and community organizations.
 
 [Learn More](https://sph.umich.edu/biostat/statcom/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+
 :::
 
 ::: g-col-4
+
 {{< video https://www.youtube.com/embed/V3iGTrot7Ig >}}
+
 :::
 :::
 
-## Statistics in the Community
+---
 
-## Select Projects
+## Statistics in the Community (STATCOM) {.section-underline}
 
-### Starr Commonwealth
+As president of STATCOM at the University of Michigan, I helped coordinate teams of student volunteers working on projects with mission-driven organizations. These collaborations often involved:
 
-... shiny app ...
+- Designing and analyzing surveys to understand community needs
+- Building predictive and descriptive models to guide program decisions
+- Creating visualizations and tools that partners could use after our projects ended
 
+### Select Projects
 
+#### Starr Commonwealth
 
+Working with **Starr Commonwealth**, we helped build tools to better understand program outcomes and inform resource allocation. This included a Shiny-based dashboard to:
+
+- Summarize key indicators across programs and time
+- Allow stakeholders to explore results interactively
+- Support ongoing evaluation and decision-making by non-technical users
 
 {{< video https://www.youtube.com/embed/hvgobPCsA80?si=ilt0Hyte6Q-2ICGX >}}
 
+#### Other Community Partners
 
+Additional STATCOM projects included:
 
+- Assessing community perceptions and health concerns in the wake of the **Flint Water Crisis**
+- Supporting **trans youth advocacy** groups in evaluating program reach and impact
+- Quantifying **food access** gaps and designing analyses to support interventions in food deserts
+
+::: {.dfg-divider}
+:::
+
+## MIDAS Student Leadership Team
+
+The **MIDAS Student Leadership Team** (Michigan Institute for Data Science) brings together students from across campus who are interested in data science, outreach, and community-building. As part of this team, I:
+
+- Helped shape student-facing programming, including seminars, workshops, and networking events  
+- Supported initiatives that connect students with real-world, socially impactful data projects  
+- Advocated for inclusive, accessible training and mentorship pathways in data science
+
+This work complements my STATCOM experience by extending data-for-good activities to a broader, cross-disciplinary community and by embedding data science education within a larger institutional ecosystem.
+
+---
+
+## Cancer AI Alliance (CAIA)
+
+The **Cancer AI Alliance (CAIA)** is a collaborative effort focused on building trustworthy, impactful AI tools for cancer research and care. My involvement centers on:
+
+- Developing and evaluating AI/ML models for precision oncology
+- Studying how **AI-generated predictions** can be used responsibly in downstream statistical inference  
+- Building infrastructure and workflows so that models are transparent, reproducible, and aligned with real clinical needs
+
+Within CAIA, I view “data for good” as encompassing not only community-facing outreach, but also responsible deployment of AI in high-stakes settings—ensuring that methods are rigorously validated, interpretable, and equitable.
+
+---
 
 ## Data for Public Good Symposium
 
-## Media
+The **Data for Public Good Symposium** highlights work at the intersection of data science, policy, and community impact. My contributions to this space include:
 
-::: grid
+- Presenting work on community-engaged data science and prediction-powered inference  
+- Serving as a bridge between methodological research and applied, community-driven projects  
+- Helping surface examples where rigorous methods and local expertise come together to inform action
+
+---
+
+## Media & Talks
+
+::: {.grid .grid-hover}
 ::: g-col-4
 {{< video https://www.youtube.com/embed/V3iGTrot7Ig >}}
 :::

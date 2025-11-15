@@ -1,0 +1,15 @@
+{
+  "hash": "f117b66cdba3e74f9fd09712acb4537e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Publications\"\nsubtitle: \"Full List of Publications\"\ntitle-block-banner: \"#E06E53\"\ntitle-block-banner-color: body\ntoc: false\nformat: \n  html: \n    # include-after-body: _footer.html\n    self-contained: true\nfreeze: true\n---\n\n\n\n:::{.column-page style=\"font-size:.9rem;\"}\n\n\n\n::: {.cell .column-page}\n\n:::\n\n\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

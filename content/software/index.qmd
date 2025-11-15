@@ -1,7 +1,0 @@
----
-title: "Software"
-subtitle: "Software I have developed or worked on"
-format: html
-freeze: true
----
-

@@ -10,7 +10,6 @@ project:
 
 website:
   title: "Stephen Salerno"
-<<<<<<< HEAD
   description: "Personal website for Stephen Salerno, PhD"
   site-url: https://salernos.github.io/
   repo-url: https://github.com/salernos/salernos.github.io
@@ -36,7 +35,7 @@ website:
     right:
       - href: research.qmd
         text: Research
-      - href: content/software/software.qmd
+      - href: content/software.qmd
         text: Software
       - href: content/presentations/presentations.qmd
         text: Presentations

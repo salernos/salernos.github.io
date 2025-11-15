@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 toc: false
 format:
   html:
@@ -10,23 +9,29 @@ execute:
 brand: _brand.yml
 ---
 
+<!-- HERO SECTION -->
 
 ::: {.column-screen style="min-height: calc(100vh - 36px); display: flex; align-items: stretch; margin: 0; padding: 0;"}
-
 ::: {.grid style="flex: 1; margin: 0; padding: 0; width: 100%; height: 100%; align-items: stretch;"}
 
-::: {.g-col-12 .g-col-md-4 style="background-image: url('content/images/hero-pic.png'); background-size: cover; background-position: center; height: calc(100vh - 36px);"}
+::: {.g-col-12 .g-col-md-4 style="background-image: url('content/images/hero-pic.png'); background-size: cover; background-position: center; min-height: 320px;"}
 :::
 
-::: {.g-col-12 .g-col-md-7 style="display: flex; flex-direction: column; justify-content: center; padding: 1rem;"}
+::: {.g-col-12 .g-col-md-7 style="display: flex; flex-direction: column; justify-content: center; padding: 1.5rem 2rem;"}
 
 ### Hello, my name is
 
 # Stephen Salerno
 
-<br>
+I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li, and a BS in Biometry and Statistics from Cornell University.  
 
-I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li, and a BS in Biometry and Statistics from Cornell University. My research focuses on statistical methods for drawing inference on algorithmically derived variables, deep learning for high-dimensional data, and survival analysis, as well as clinical quality measures and health policy. I’m also passionate about data-for-good initiatives.
+My research focuses on:
+
+- Statistical methods for drawing inference on algorithmically derived variables (post-prediction inference)  
+- Deep learning for high-dimensional data  
+- Survival analysis and causal questions in oncology and chronic disease  
+
+I also work on clinical quality measures, public reporting, and health policy — especially in kidney disease and lung cancer — and I’m committed to building user-friendly software and contributing to data-for-good initiatives.
 
 :::
 
@@ -36,268 +41,170 @@ I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center
 :::
 :::
 
-<!-- Research At a Glance Section -->
 
-::: {.column-screen style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center; background: white; text-align: center; margin: 0; padding: 2rem;"}
+<!-- RESEARCH AT A GLANCE -->
 
-# My Research At a Glance
-
-::: {#schematic}
-
-```{mermaid}
-flowchart LR
-  A[Deep Learning for Prediction]\n  B[Predicted Outcomes]\n  C[Downstream Inference on Predicted Data]
-  A --> B
-  B --> C
-  click A href "https://github.com/yourusername/scorcher" "Scorcher Repository"
-  click C href "https://github.com/yourusername/ipd" "ipd Repository"
-  classDef area fill:#f9f9f9,stroke:#ccc,stroke-width:2px;
-  class A area;
-  class C area;
-```
-
-:::
-
-:::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-::: {.column-screen}
-::: {.grid style="margin: 0; padding: 0; border-bottom: 3px solid #444;"}
-
-::: {.g-col-12 .g-col-md-4 style="background-image: url('content/images/hero-pic.png'); background-size: contain; background-repeat: no-repeat; background-position: center; height: 100%"}
-:::
-
-::: {.g-col-12 .g-col-md-7}
-
-### Hello, my name is
-
-# Stephen Salerno
-
-I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li. I obtained a BS in Biometry and Statistics with a minor in Health Policy from Cornell University. 
-
-My research focuses on statistical methods for drawing inference on algorithmically derived variables, deep learning approaches for high dimensional data, and survival analysis, as well as clinical quality measure development, public reporting efforts, and health policy surrounding kidney diseases and lung cancer. ... User-friendly software...  I am also passionate about applying my skill set to public service and am active in data for good initiatives.
-:::
-
-::: {.g-col-0 .g-col-md-1}
-:::
-
-:::
-:::
-
-::: {.column-screen style="background: white; text-align: center;"}
+::: {.column-screen style="min-height: 80vh; display: flex; flex-direction: column; justify-content: center; background: #ffffff; text-align: center; margin: 0; padding: 3rem 1.5rem;"}
 
 # My Research At a Glance
 
-Need
+I think about the full pipeline: **learning from complex data, using predictions as inputs, and still doing valid statistical inference.**
 
 :::
 
-<!---
-::: {.column-screen .hero}
+<!-- RESEARCH OVERVIEW -->
 
-![](content/images/hero-pic.png){alt="Photo of Stephen Salerno" class="hero-image"}
+::: {#research .column-screen style="padding: 3rem 1.5rem; max-width: 900px; margin: 0 auto;"}
 
-::: {.hero-content}
+## Research Overview
 
+I currently focus on three main areas:
 
+* **Inference with Predicted Data**
+  Developing methods like PPI, PPI++, PSPA, and related frameworks to enable valid downstream inference when key variables are imputed or predicted by complex models (e.g., deep neural networks, random forests).
 
-# <decor-dark>&nbsp; Stephen Salerno &nbsp;</decor-dark>
+* **Deep Learning and High-Dimensional Modeling**
+  Building and deploying deep learning models — often in R via <code>torch</code> and transformer architectures — for imaging and other high-dimensional biomedical data, with an emphasis on interpretability and integration with classical statistical models.
 
+* **Survey Methods, Quality Measures, and Health Policy**
+  Methods for stratified and cluster sampling, bias correction, and variance estimation, with applications to clinical quality measure development, public reporting, and health policy in oncology and nephrology.
 
-
-[Learn More >](#sec-glance){.hero-button}
-
-:::
-:::
-
-<!--- MORE INFORMATION -------------------------------------------------------->
-
-::: {.column-screen style='border-bottom: 3px solid #444; display: inline-block; text-align: center;'}
-::: {.column-screen-inset}
-
-<br>
-
-
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-:::
-:::
-
-Quick Links
-
-::: {.cards}
-
-::: {.card}
-
-Research
-
-Dive into my publications and projects on statistical methodology and AI-driven inference.
-
-Learn More
-:::
-
-::: {.card}
-
-Software
-
-Discover R packages and tools I've developed to advance reproducible science.
-
-Learn More
-:::
-
-::: {.card}
-
-Blog
-
-Read insights and tutorials on statistics, machine learning, and data science.
-
-Learn More
-:::
-
-::: {.card}
-
-CV
-
-View my professional history, education, and skills.
-
-View CV{target="_blank"}
-:::
+I aim to bridge **modern machine learning** with **rigorous statistical inference**, and to release open-source software so others can use these tools in applied research.
 
 :::
 
-::: {#research}
+<!-- QUICK LINKS + NEWS (FLOATING CARDS) -->
 
-Research Overview
+::: {.column-screen style="border-top: 3px solid #444; border-bottom: 3px solid #444; padding: 3rem 1.5rem; max-width: 1100px; margin: 0 auto;"}
 
-I focus on three main areas:
+## Quick Links
 
-Survey Methods: Stratified and cluster sampling inference, bias correction, variance estimation.
+::: {.home-card-grid}
 
-Post-Prediction Inference: Methods like PPI, PPI++, PSPA for valid downstream analysis of predicted data.
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-research.jpg');"}
+::: {.home-card-media-overlay}
+#### Research {.home-card-label}
+### Methodology &amp; Applications {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Publications and projects on inference with predicted data, deep learning for biomedical data, and precision oncology.
+:::
+[Learn more →](research.qmd){.home-card-link}
+:::
 
-Deep Learning in R: Custom frameworks using torch, transformer architectures, and model interpretability.
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-software.jpg');"}
+::: {.home-card-media-overlay}
+#### Software {.home-card-label}
+### Open-Source Tools {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+R packages and tools for post-prediction inference, survey methods, and deep learning in R (including <code>scorcher</code> and <code>ipd</code>).
+:::
+[View software →](software.qmd){.home-card-link}
+:::
 
-Learn more about each area and see my published work below.
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-blog.jpg');"}
+::: {.home-card-media-overlay}
+#### Presentations {.home-card-label}
+### Notes &amp; Tutorials {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Short posts on statistics, machine learning, reproducible research, and data-for-good projects.
+:::
+[Read the blog →](blog.qmd){.home-card-link}
+:::
+
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-cv.jpg');"}
+::: {.home-card-media-overlay}
+#### Data for Good {.home-card-label}
+### Academic CV {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Full record of my training, positions, publications, talks, teaching, and service.
+:::
+[View CV (PDF) →](cv.pdf){.home-card-link target="_blank" rel="noopener"}
+:::
+
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-cv.jpg');"}
+::: {.home-card-media-overlay}
+#### Recipes {.home-card-label}
+### Academic CV {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Full record of my training, positions, publications, talks, teaching, and service.
+:::
+[View CV (PDF) →](cv.pdf){.home-card-link target="_blank" rel="noopener"}
+:::
+
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-cv.jpg');"}
+::: {.home-card-media-overlay}
+#### CV {.home-card-label}
+### Academic CV {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Full record of my training, positions, publications, talks, teaching, and service.
+:::
+[View CV (PDF) →](cv.pdf){.home-card-link target="_blank" rel="noopener"}
+:::
 
 :::
 
-::: {.column-screen .hero}
-::: {.column-screen-inset}
 
-Test 3
+## Latest News & Updates {#news}
 
+::: {.home-card-grid .home-news-grid}
+
+::: {.home-card .home-card-compact}
+::: {.home-card-media style="background-image: url('content/images/card-karyotype.jpg');"}
+::: {.home-card-media-overlay}
+#### Oct&nbsp;2025 {.home-card-label}
+### Karyotyping AI project update {.home-card-title}
 :::
 :::
-
-# Software
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<!--- END --------------------------------------------------------------------->
-=======
-title: "Stephen Salerno"
-page-layout: full
-image: img/pic.jpg
----
-
-<div class="hero bg-light">
-<div class="container">
-  <div class="row">
-    <div class="col-md-3"><img src="img/pic.jpg" class="img-fluid" alt="Stephen Salerno headshot"></div>
-    <div class="col-md-9">
-      <h1>Need tags</h1>
-      <p>
-      NEED
-      </p>
-      <p>
-      NEED
-      </p>
-      <p>
-      <a class="btn btn-primary" href="projects.qmd">See projects</a>
-      <a class="btn btn-outline-secondary" href="publications.qmd">Publications</a>
-      <a class="btn btn-outline-secondary" href="cv.qmd">CV</a>
-      </p>
-    </div>
-  </div>
-</div>
-</div>
-
-## Highlights
-
-::: columns
-::: column
-### Methods
-- NEED
+::: {.home-card-body}
+We’re building an end-to-end pipeline for automated metaphase karyotyping, linking deep learning outputs to rigorous downstream inference.
 :::
-::: column
-### Software
-- NEED
-:::
-::: column
-### Applications
-- NEED
-:::
+[Read project overview →](blog/karyotyping-pipeline.qmd){.home-card-link}
 :::
 
-## Recent posts
-:::: {#home-posts}
-```{=yaml}
-listing:
-  contents: posts
-  type: grid
-  sort: "date desc"
-  page-size: 6
-```
-::::
->>>>>>> 229bb414086c3885e0caf6f943d5c8cd18a1e6f4
+::: {.home-card .home-card-compact}
+::: {.home-card-media style="background-image: url('content/images/card-ipd.jpg');"}
+::: {.home-card-media-overlay}
+#### Sep&nbsp;2025 {.home-card-label}
+### New paper on inference with predicted data {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+A new manuscript extends prediction-powered inference frameworks to more complex settings with survey designs and high-dimensional predictors.
+:::
+[See details →](research.ipd-paper.qmd){.home-card-link}
+:::
+
+::: {.home-card .home-card-compact}
+::: {.home-card-media style="background-image: url('content/images/card-software-update.jpg');"}
+::: {.home-card-media-overlay}
+#### Aug&nbsp;2025 {.home-card-label}
+### Software updates {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Major updates to the <code>ipd</code> and <code>scorcher</code> packages, including new APIs and improved documentation.
+:::
+[View release notes →](software.qmd#packages){.home-card-link}
+:::
+
+:::
+
+:::

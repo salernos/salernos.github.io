@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,24 +24,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./img/pic.jpg" rel="icon" type="image/jpeg">
+<link href="./content/images/pic.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e1c018ae7ee917d8ac68b5257c0549f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,20 +66,50 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script>
+
+  document.addEventListener("DOMContentLoaded", function () {
+
+    let navbar = document.querySelector("nav");
+
+    window.addEventListener("scroll", function () {
+
+        if (window.scrollY > 50) {
+
+            navbar.classList.add("scrolled");
+
+        } else {
+
+            navbar.classList.remove("scrolled");
+
+        }
+
+    });
+
+  });
+
+</script>
 
 
-<link rel="stylesheet" href="styles.scss">
+
+<meta name="twitter:title" content="Stephen Salerno">
+<meta name="twitter:description" content="Personal website for Stephen Salerno, PhD">
+<meta name="twitter:image" content="https://salernos.github.io/content/images/pic.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./logo.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Stephen Salerno</span>
+    <span class="navbar-title">&gt; Stephen Salerno</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -91,143 +117,260 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.qmd"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.qmd"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.qmd"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.qmd"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts/"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/salernos"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./research.qmd"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./content/software.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./content/presentations/presentations.html"> 
+<span class="menu-text">Presentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./content/good/good.html"> 
+<span class="menu-text">Data for Good</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./content/recipes.html"> 
+<span class="menu-text">Recipes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="89bb78f9e2ab61ee75fec13e93ffad23" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Test</strong> of announcement bar.</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#highlights" id="toc-highlights" class="nav-link active" data-scroll-target="#highlights">Highlights</a></li>
-  <li><a href="#recent-posts" id="toc-recent-posts" class="nav-link" data-scroll-target="#recent-posts">Recent posts</a></li>
-  </ul>
-</nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Stephen Salerno</h1>
+
+
+
+<!-- HERO SECTION -->
+<div class="column-screen" style="min-height: calc(100vh - 36px); display: flex; align-items: stretch; margin: 0; padding: 0;">
+<div class="grid" style="flex: 1; margin: 0; padding: 0; width: 100%; height: 100%; align-items: stretch;">
+<div class="g-col-12 g-col-md-4" style="background-image: url('content/images/hero-pic.png'); background-size: cover; background-position: center; min-height: 320px;">
+
 </div>
-
-
-
-<div class="quarto-title-meta column-page-right">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="hero bg-light">
-<div class="container">
-<div class="row">
-<pre><code>&lt;div class="col-md-3"&gt;&lt;img src="img/pic.jpg" class="img-fluid" alt="Stephen Salerno headshot"&gt;&lt;/div&gt;
-&lt;div class="col-md-9"&gt;
-  &lt;h1&gt;Need tags&lt;/h1&gt;
-  &lt;p&gt;
-  NEED
-  &lt;/p&gt;
-  &lt;p&gt;
-  NEED
-  &lt;/p&gt;
-  &lt;p&gt;
-  &lt;a class="btn btn-primary" href="projects.qmd"&gt;See projects&lt;/a&gt;
-  &lt;a class="btn btn-outline-secondary" href="publications.qmd"&gt;Publications&lt;/a&gt;
-  &lt;a class="btn btn-outline-secondary" href="cv.qmd"&gt;CV&lt;/a&gt;
-  &lt;/p&gt;
-&lt;/div&gt;</code></pre>
-</div>
-</div>
-</div>
-<section id="highlights" class="level2">
-<h2 class="anchored" data-anchor-id="highlights">Highlights</h2>
-<div class="columns">
-<div class="column">
-<section id="methods" class="level3">
-<h3 class="anchored" data-anchor-id="methods">Methods</h3>
+<div class="g-col-12 g-col-md-7" style="display: flex; flex-direction: column; justify-content: center; padding: 1.5rem 2rem;">
+<section id="hello-my-name-is" class="level3">
+<h3 data-anchor-id="hello-my-name-is">Hello, my name is</h3>
+</section>
+<section id="stephen-salerno" class="level1">
+<h1>Stephen Salerno</h1>
+<p>I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li, and a BS in Biometry and Statistics (with a minor in Health Policy) from Cornell University.</p>
+<p>My research focuses on:</p>
 <ul>
-<li>NEED</li>
+<li>Statistical methods for drawing inference on algorithmically derived variables (post-prediction inference)<br>
+</li>
+<li>Deep learning for high-dimensional data<br>
+</li>
+<li>Survival analysis and causal questions in oncology and chronic disease</li>
 </ul>
+<p>I also work on clinical quality measures, public reporting, and health policy — especially in kidney disease and lung cancer — and I’m committed to building user-friendly software and contributing to data-for-good initiatives.</p>
 </section>
-</div><div class="column">
-<section id="software" class="level3">
-<h3 class="anchored" data-anchor-id="software">Software</h3>
+</div>
+<div class="g-col-0 g-col-md-1">
+
+</div>
+</div>
+</div>
+<!-- RESEARCH AT A GLANCE -->
+<section id="my-research-at-a-glance" class="level1 column-screen" style="min-height: 80vh; display: flex; flex-direction: column; justify-content: center; background: #ffffff; text-align: center; margin: 0; padding: 3rem 1.5rem;">
+<h1>My Research At a Glance</h1>
+<p>I think about the full pipeline: <strong>learning from complex data, using predictions as inputs, and still doing valid statistical inference.</strong></p>
+</section>
+<!-- RESEARCH OVERVIEW -->
+<div id="research" class="column-screen" style="padding: 3rem 1.5rem; max-width: 900px; margin: 0 auto;">
+<section id="research-overview" class="level2">
+<h2 data-anchor-id="research-overview">Research Overview</h2>
+<p>I currently focus on three main areas:</p>
 <ul>
-<li>NEED</li>
+<li><p><strong>Inference with Predicted Data</strong> Developing methods like PPI, PPI++, PSPA, and related frameworks to enable valid downstream inference when key variables are imputed or predicted by complex models (e.g., deep neural networks, random forests).</p></li>
+<li><p><strong>Deep Learning and High-Dimensional Modeling</strong> Building and deploying deep learning models — often in R via <code>torch</code> and transformer architectures — for imaging and other high-dimensional biomedical data, with an emphasis on interpretability and integration with classical statistical models.</p></li>
+<li><p><strong>Survey Methods, Quality Measures, and Health Policy</strong> Methods for stratified and cluster sampling, bias correction, and variance estimation, with applications to clinical quality measure development, public reporting, and health policy in oncology and nephrology.</p></li>
 </ul>
+<p>I aim to bridge <strong>modern machine learning</strong> with <strong>rigorous statistical inference</strong>, and to release open-source software so others can use these tools in applied research.</p>
 </section>
-</div><div class="column">
-<section id="applications" class="level3">
-<h3 class="anchored" data-anchor-id="applications">Applications</h3>
-<ul>
-<li>NEED</li>
-</ul>
+</div>
+<!-- QUICK LINKS + NEWS (FLOATING CARDS) -->
+<div class="column-screen" style="border-top: 3px solid #444; border-bottom: 3px solid #444; padding: 3rem 1.5rem; max-width: 1100px; margin: 0 auto;">
+<section id="quick-links" class="level2">
+<h2 data-anchor-id="quick-links">Quick Links</h2>
+<div class="home-card-grid">
+<div class="home-card">
+<div class="home-card-media" style="background-image: url('content/images/card-research.jpg');">
+<div class="home-card-media-overlay">
+<section id="research" class="level4 home-card-label">
+<h4 class="home-card-label" data-anchor-id="research">Research</h4>
+</section>
+<section id="methodology-applications" class="level3 home-card-title">
+<h3 class="home-card-title" data-anchor-id="methodology-applications">Methodology &amp; Applications</h3>
 </section>
 </div>
 </div>
+<div class="home-card-body">
+<p>Publications and projects on inference with predicted data, deep learning for biomedical data, and precision oncology.</p>
+</div>
+<p><a href="research.qmd" class="home-card-link">Learn more →</a></p>
+</div>
+<div class="home-card">
+<div class="home-card-media" style="background-image: url('content/images/card-software.jpg');">
+<div class="home-card-media-overlay">
+<section id="software" class="level4 home-card-label">
+<h4 class="home-card-label" data-anchor-id="software">Software</h4>
 </section>
-<section id="recent-posts" class="level2">
-<h2 class="anchored" data-anchor-id="recent-posts">Recent posts</h2>
-<div id="home-posts">
-
+<section id="open-source-tools" class="level3 home-card-title">
+<h3 class="home-card-title" data-anchor-id="open-source-tools">Open-Source Tools</h3>
+</section>
+</div>
+</div>
+<div class="home-card-body">
+<p>R packages and tools for post-prediction inference, survey methods, and deep learning in R (including <code>scorcher</code> and <code>ipd</code>).</p>
+</div>
+<p><a href="software.qmd" class="home-card-link">View software →</a></p>
+</div>
+<div class="home-card">
+<div class="home-card-media" style="background-image: url('content/images/card-blog.jpg');">
+<div class="home-card-media-overlay">
+<section id="presentations" class="level4 home-card-label">
+<h4 class="home-card-label" data-anchor-id="presentations">Presentations</h4>
+</section>
+<section id="notes-tutorials" class="level3 home-card-title">
+<h3 class="home-card-title" data-anchor-id="notes-tutorials">Notes &amp; Tutorials</h3>
+</section>
+</div>
+</div>
+<div class="home-card-body">
+<p>Short posts on statistics, machine learning, reproducible research, and data-for-good projects.</p>
+</div>
+<p><a href="blog.qmd" class="home-card-link">Read the blog →</a></p>
+</div>
+<div class="home-card">
+<div class="home-card-media" style="background-image: url('content/images/card-cv.jpg');">
+<div class="home-card-media-overlay">
+<section id="data-for-good" class="level4 home-card-label">
+<h4 class="home-card-label" data-anchor-id="data-for-good">Data for Good</h4>
+</section>
+<section id="academic-cv" class="level3 home-card-title">
+<h3 class="home-card-title" data-anchor-id="academic-cv">Academic CV</h3>
+</section>
+</div>
+</div>
+<div class="home-card-body">
+<p>Full record of my training, positions, publications, talks, teaching, and service.</p>
+</div>
+<p><a href="cv.pdf" class="home-card-link" target="_blank" rel="noopener">View CV (PDF) →</a></p>
+</div>
+<div class="home-card">
+<div class="home-card-media" style="background-image: url('content/images/card-cv.jpg');">
+<div class="home-card-media-overlay">
+<section id="recipes" class="level4 home-card-label">
+<h4 class="home-card-label" data-anchor-id="recipes">Recipes</h4>
+</section>
+<section id="academic-cv-1" class="level3 home-card-title">
+<h3 class="home-card-title" data-anchor-id="academic-cv-1">Academic CV</h3>
+</section>
+</div>
+</div>
+<div class="home-card-body">
+<p>Full record of my training, positions, publications, talks, teaching, and service.</p>
+</div>
+<p><a href="cv.pdf" class="home-card-link" target="_blank" rel="noopener">View CV (PDF) →</a></p>
+</div>
+<div class="home-card">
+<div class="home-card-media" style="background-image: url('content/images/card-cv.jpg');">
+<div class="home-card-media-overlay">
+<section id="cv" class="level4 home-card-label">
+<h4 class="home-card-label" data-anchor-id="cv">CV</h4>
+</section>
+<section id="academic-cv-2" class="level3 home-card-title">
+<h3 class="home-card-title" data-anchor-id="academic-cv-2">Academic CV</h3>
+</section>
+</div>
+</div>
+<div class="home-card-body">
+<p>Full record of my training, positions, publications, talks, teaching, and service.</p>
+</div>
+<p><a href="cv.pdf" class="home-card-link" target="_blank" rel="noopener">View CV (PDF) →</a></p>
+</div>
+</div>
+</section>
+<section id="news" class="level2">
+<h2 data-anchor-id="news">Latest News &amp; Updates</h2>
+<div class="home-card-grid home-news-grid">
+<div class="home-card home-card-compact">
+<div class="home-card-media" style="background-image: url('content/images/card-karyotype.jpg');">
+<div class="home-card-media-overlay">
+<section id="oct-2025" class="level4 home-card-label">
+<h4 class="home-card-label" data-anchor-id="oct-2025">Oct&nbsp;2025</h4>
+</section>
+<section id="karyotyping-ai-project-update" class="level3 home-card-title">
+<h3 class="home-card-title" data-anchor-id="karyotyping-ai-project-update">Karyotyping AI project update</h3>
+</section>
+</div>
+</div>
+<div class="home-card-body">
+<p>We’re building an end-to-end pipeline for automated metaphase karyotyping, linking deep learning outputs to rigorous downstream inference.</p>
+</div>
+<p><a href="blog/karyotyping-pipeline.qmd" class="home-card-link">Read project overview →</a></p>
+</div>
+<div class="home-card home-card-compact">
+<div class="home-card-media" style="background-image: url('content/images/card-ipd.jpg');">
+<div class="home-card-media-overlay">
+<section id="sep-2025" class="level4 home-card-label">
+<h4 class="home-card-label" data-anchor-id="sep-2025">Sep&nbsp;2025</h4>
+</section>
+<section id="new-paper-on-inference-with-predicted-data" class="level3 home-card-title">
+<h3 class="home-card-title" data-anchor-id="new-paper-on-inference-with-predicted-data">New paper on inference with predicted data</h3>
+</section>
+</div>
+</div>
+<div class="home-card-body">
+<p>A new manuscript extends prediction-powered inference frameworks to more complex settings with survey designs and high-dimensional predictors.</p>
+</div>
+<p><a href="research.ipd-paper.qmd" class="home-card-link">See details →</a></p>
+</div>
+<div class="home-card home-card-compact">
+<div class="home-card-media" style="background-image: url('content/images/card-software-update.jpg');">
+<div class="home-card-media-overlay">
+<section id="aug-2025" class="level4 home-card-label">
+<h4 class="home-card-label" data-anchor-id="aug-2025">Aug&nbsp;2025</h4>
+</section>
+<section id="software-updates" class="level3 home-card-title">
+<h3 class="home-card-title" data-anchor-id="software-updates">Software updates</h3>
+</section>
+</div>
+</div>
+<div class="home-card-body">
+<p>Major updates to the <code>ipd</code> and <code>scorcher</code> packages, including new APIs and improved documentation.</p>
+</div>
+<p><a href="software.qmd#packages" class="home-card-link">View release notes →</a></p>
+</div>
+</div>
+</section>
 </div>
 
 
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -248,157 +391,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -454,8 +446,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -478,6 +468,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -566,7 +561,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -796,14 +790,49 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© {{&lt; today  &gt;}} Stephen Salerno</p>
+<p>Proudly built with <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © 2025 Stephen Salerno
+  </li>  
+</ul>
+    <div class="toc-actions"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Built with <a href="https://quarto.org">Quarto</a></p>
-</div>
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:ssalerno@fredhutch.org">
+      <i class="bi bi-envelope-fill" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/StephenSalerno4">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/salernos">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=XUH1C6YAAAAJ&amp;hl=en">
+      <i class="bi bi-mortarboard-fill" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/stephen-salerno-90855563/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
   </div>
 </footer>
 

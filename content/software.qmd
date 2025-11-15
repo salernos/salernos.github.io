@@ -1,0 +1,25 @@
+---
+title: "Software"
+page-layout: full
+toc: false
+
+# This tells Quarto to automatically list all the software/*.qmd files
+listing:
+  contents: "software/"
+  type: grid
+  sort: "date desc"
+  fields: [title, description, categories, github, doi]
+  image-align: left
+  # card/style tweaks
+  grid-columns: 3
+  # card-style: default
+  # card-border: true
+  # card-padding: 1.0
+---
+
+::: {.software-intro}
+
+I build open-source tools at the intersection of statistics, machine learning, and precision oncology.  
+Below is a curated collection of packages, libraries, and tools I maintain or actively contribute to.
+
+:::

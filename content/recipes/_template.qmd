@@ -1,0 +1,47 @@
+---
+title: "_template"
+format: html
+---
+
+---
+title: "{{< meta title >}}"
+format:
+  html:
+    toc: false
+    theme: default
+    css: ../../styles.css   # or wherever your site CSS lives
+page-layout: full
+---
+
+<div class="recipe-card">
+
+## {{< meta title >}}
+
+<div class="recipe-meta">
+- **Prep Time:** {{< meta prep >}}
+- **Cook Time:** {{< meta cook >}}
+- **Servings:** {{< meta servings >}}
+</div>
+
+---
+
+### **Ingredients**
+<div class="ingredients-list">
+{{< meta ingredients >}}
+</div>
+
+---
+
+### **Directions**
+<div class="directions">
+{{< meta directions >}}
+</div>
+
+---
+
+### **Notes**
+<div class="notes">
+{{< meta notes >}}
+</div>
+
+</div>

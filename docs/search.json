@@ -4,20 +4,181 @@
     "href": "index.html",
     "title": "Stephen Salerno",
     "section": "",
-    "text": "&lt;div class=\"col-md-3\"&gt;&lt;img src=\"img/pic.jpg\" class=\"img-fluid\" alt=\"Stephen Salerno headshot\"&gt;&lt;/div&gt;\n&lt;div class=\"col-md-9\"&gt;\n  &lt;h1&gt;Need tags&lt;/h1&gt;\n  &lt;p&gt;\n  NEED\n  &lt;/p&gt;\n  &lt;p&gt;\n  NEED\n  &lt;/p&gt;\n  &lt;p&gt;\n  &lt;a class=\"btn btn-primary\" href=\"projects.qmd\"&gt;See projects&lt;/a&gt;\n  &lt;a class=\"btn btn-outline-secondary\" href=\"publications.qmd\"&gt;Publications&lt;/a&gt;\n  &lt;a class=\"btn btn-outline-secondary\" href=\"cv.qmd\"&gt;CV&lt;/a&gt;\n  &lt;/p&gt;\n&lt;/div&gt;"
+    "text": "I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li, and a BS in Biometry and Statistics (with a minor in Health Policy) from Cornell University.\nMy research focuses on:\n\nStatistical methods for drawing inference on algorithmically derived variables (post-prediction inference)\n\nDeep learning for high-dimensional data\n\nSurvival analysis and causal questions in oncology and chronic disease\n\nI also work on clinical quality measures, public reporting, and health policy — especially in kidney disease and lung cancer — and I’m committed to building user-friendly software and contributing to data-for-good initiatives."
   },
   {
-    "objectID": "index.html#highlights",
-    "href": "index.html#highlights",
-    "title": "Stephen Salerno",
-    "section": "Highlights",
-    "text": "Highlights\n\n\n\nMethods\n\nNEED\n\n\n\n\nSoftware\n\nNEED\n\n\n\n\nApplications\n\nNEED"
+    "objectID": "content/software/software.html",
+    "href": "content/software/software.html",
+    "title": "Software",
+    "section": "",
+    "text": "My Software\nExplore the tools and packages I have created.\n\n\n Software 1\n\n\n\n\n\n Software 2\n\n\n\n\n\n Software 3\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
+    "objectID": "content/research/publications/index.html",
+    "href": "content/research/publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/research.html",
+    "href": "content/research.html",
+    "title": "research",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/2022.11.05-PSD/index.html",
+    "href": "content/presentations/2022.11.05-PSD/index.html",
+    "title": "Prospective Student Day",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/2022.06.21-MtSinai/index.html",
+    "href": "content/presentations/2022.06.21-MtSinai/index.html",
+    "title": "A New Deep Learning Approach",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/2022.03.29-ENAR/index.html",
+    "href": "content/presentations/2022.03.29-ENAR/index.html",
+    "title": "A New Deep Learning Approach",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/2020.08.06-JSM/index.html",
+    "href": "content/presentations/2020.08.06-JSM/index.html",
+    "title": "Data for Good in Your Neighborhood",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/2020.03.19-ENAR/index.html",
+    "href": "content/presentations/2020.03.19-ENAR/index.html",
+    "title": "Selection and Estimation",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/d4g.html",
+    "href": "content/d4g.html",
+    "title": "d4g",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/2020.06.04-SDSS/index.html",
+    "href": "content/presentations/2020.06.04-SDSS/index.html",
+    "title": "Statistics in the Community",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/2021.07.27-NxtGen/index.html",
+    "href": "content/presentations/2021.07.27-NxtGen/index.html",
+    "title": "Data Science for Good",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/2022.04.13-MiCHAMP/index.html",
+    "href": "content/presentations/2022.04.13-MiCHAMP/index.html",
+    "title": "Use of Machine Learning and Michigan EHR Data",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/2022.07.15-MIDAS/index.html",
+    "href": "content/presentations/2022.07.15-MIDAS/index.html",
+    "title": "Data Science Journey",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/presentations.html",
+    "href": "content/presentations/presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProspective Student Day\n\n\nAn Overview of My Research\n\n\n\nData Science Education\n\n\n\n2022 Biostatistics Prospective Student Day\n\n\n\n\n\nNov 2022\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Journey\n\n\n\n\n\n\nData for Good\n\n\nData Science Education\n\n\n\n2022 MIDAS Data Science Summer Camp\n\n\n\n\n\nJul 2022\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nA New Deep Learning Approach\n\n\nfor Predicting Survival Processes in the Presence of Semi-Competing Risks\n\n\n\nSurvival Analysis\n\n\nMachine Learning\n\n\n\n2022 Department of Population Health Sciences Seminar, Icahn School of Medicine, Mount Sinai\n\n\n\n\n\nJun 2022\n\n\nStephen Salerno and Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nUse of Machine Learning and Michigan EHR Data\n\n\nto assess the prognostic utility of radiomic features in predicting the survival of hospitalized patient with COVID-19\n\n\n\nSurvival Analysis\n\n\nMachine Learning\n\n\nImaging\n\n\n\n2022 Michigan Biostatistics Collaborative Lunches\n\n\n\n\n\nApr 2022\n\n\nStephen Salerno and Yuming Sun\n\n\n\n\n\n\n\n\n\n\n\n\nA New Deep Learning Approach\n\n\nfor Predicting Survival Processes in the Presence of Semi-Competing Risks\n\n\n\nSurvival Analysis\n\n\nMachine Learning\n\n\n\n2022 International Biometric Society Eastern North American Region Spring Meeting\n\n\n\n\n\nMar 2022\n\n\nStephen Salerno and Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nData Science for Good\n\n\n\n\n\n\nData for Good\n\n\nData Science Education\n\n\n\n2021 NxtGen Summer Academy\n\n\n\n\n\nJul 2021\n\n\nStephen Salerno, Ani Madurkar, Katie Nicholson, and Gauri Kambhatla\n\n\n\n\n\n\n\n\n\n\n\n\nData for Good in Your Neighborhood\n\n\nHow Graduate Students and Local Communities Benefit from Collaborative Partnerships\n\n\n\nData for Good\n\n\nSTATCOM\n\n\n\n2020 Joint Statistical Meetings\n\n\n\n\n\nAug 2020\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics in the Community\n\n\nCommunity University Partnerships Fostering Data Science Education\n\n\n\nData for Good\n\n\nSTATCOM\n\n\n\n2020 Symposium on Data Science and Statistics\n\n\n\n\n\nJun 2020\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nSelection and Estimation\n\n\nof Conditional Graphical Models\n\n\n\nGraphical Models\n\n\n\n2020 International Biometric Society Eastern North American Region Spring Meeting\n\n\n\n\n\nMar 2020\n\n\nStephen Salerno and Yi Li\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "content/research/highlights/index.html",
+    "href": "content/research/highlights/index.html",
+    "title": "Research Highlights",
+    "section": "",
+    "text": "No matching items\n\n Back to top"
+  },
+  {
+    "objectID": "content/software/index.html",
+    "href": "content/software/index.html",
+    "title": "Software",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "extra.html",
+    "href": "extra.html",
+    "title": "extra",
+    "section": "",
+    "text": "Stephen Salerno\nI am a post-doctoral research fellow in the Fred Hutch Data Science Lab. My research centers on statistical methods for multivariate data and machine learning for high dimensional survival analysis, as well as its applications to clinical quality measure development, public reporting efforts, and health policy surrounding kidney diseases and lung cancer. I am also passionate about applying my skill set to public service and am active in data for good initiatives at the University of Michigan and beyond.\nEducation:  PhD | Biostatistics | University of Michigan | 2023  MS | Biostatistics | University of Michigan | 2018  BS | Biometry & Statistics | Cornell University | 2016 \nExperience:  Post-Doctoral Research Fellow | Fred Hutchinson Cancer Center | Seattle, WA\n\nView Login Register\n\n\n\n\n\n\n\n\nIntroduction to the SRE Database\nThis website provides an atlas of cancer synergistic regulatory enhancer networks across different organ tissues. Designed for researchers and professionals, our platform offers an interactive, data-driven resource for exploring detailed tissue-specific data, including biosample metadata, experiment summaries, and genomic regulatory elements. Dive into organ- and tissue-specific pages, where you can explore curated data, conduct track selection, and visualize results in a genome browser to advance your research.\n\n\n\n\n\nOrgan and Tissue Selection\nPlease select an available organ/tissue to view the related experimental data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnouncements\nStay updated with the latest news and find more …\n\n\n\n\n\n\n\nDocumentation\nFind resources and documentation on using the SRE Database.\nLearn More!\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
     "title": "Stephen Salerno",
-    "section": "Recent posts",
-    "text": "Recent posts"
+    "section": "Quick Links",
+    "text": "Quick Links\n\n\n\n\n\nResearch\n\n\nMethodology & Applications\n\n\n\n\nPublications and projects on inference with predicted data, deep learning for biomedical data, and precision oncology.\n\nLearn more →\n\n\n\n\n\nSoftware\n\n\nOpen-Source Tools\n\n\n\n\nR packages and tools for post-prediction inference, survey methods, and deep learning in R (including scorcher and ipd).\n\nView software →\n\n\n\n\n\nPresentations\n\n\nNotes & Tutorials\n\n\n\n\nShort posts on statistics, machine learning, reproducible research, and data-for-good projects.\n\nRead the blog →\n\n\n\n\n\nData for Good\n\n\nAcademic CV\n\n\n\n\nFull record of my training, positions, publications, talks, teaching, and service.\n\nView CV (PDF) →\n\n\n\n\n\nRecipes\n\n\nAcademic CV\n\n\n\n\nFull record of my training, positions, publications, talks, teaching, and service.\n\nView CV (PDF) →\n\n\n\n\n\nCV\n\n\nAcademic CV\n\n\n\n\nFull record of my training, positions, publications, talks, teaching, and service.\n\nView CV (PDF) →"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Stephen Salerno",
+    "section": "Latest News & Updates",
+    "text": "Latest News & Updates\n\n\n\n\n\nOct 2025\n\n\nKaryotyping AI project update\n\n\n\n\nWe’re building an end-to-end pipeline for automated metaphase karyotyping, linking deep learning outputs to rigorous downstream inference.\n\nRead project overview →\n\n\n\n\n\nSep 2025\n\n\nNew paper on inference with predicted data\n\n\n\n\nA new manuscript extends prediction-powered inference frameworks to more complex settings with survey designs and high-dimensional predictors.\n\nSee details →\n\n\n\n\n\nAug 2025\n\n\nSoftware updates\n\n\n\n\nMajor updates to the ipd and scorcher packages, including new APIs and improved documentation.\n\nView release notes →"
+  },
+  {
+    "objectID": "index.html#research-overview",
+    "href": "index.html#research-overview",
+    "title": "Stephen Salerno",
+    "section": "Research Overview",
+    "text": "Research Overview\nI currently focus on three main areas:\n\nInference with Predicted Data Developing methods like PPI, PPI++, PSPA, and related frameworks to enable valid downstream inference when key variables are imputed or predicted by complex models (e.g., deep neural networks, random forests).\nDeep Learning and High-Dimensional Modeling Building and deploying deep learning models — often in R via torch and transformer architectures — for imaging and other high-dimensional biomedical data, with an emphasis on interpretability and integration with classical statistical models.\nSurvey Methods, Quality Measures, and Health Policy Methods for stratified and cluster sampling, bias correction, and variance estimation, with applications to clinical quality measure development, public reporting, and health policy in oncology and nephrology.\n\nI aim to bridge modern machine learning with rigorous statistical inference, and to release open-source software so others can use these tools in applied research."
+  },
+  {
+    "objectID": "content/software.html",
+    "href": "content/software.html",
+    "title": "Software",
+    "section": "",
+    "text": "I build open-source tools at the intersection of statistics, machine learning, and precision oncology.\nBelow is a curated collection of packages, libraries, and tools I maintain or actively contribute to.\n\n\n\n\n\n\n\n\n\n\n\n\nscorcher\n\n\n\nR package\n\n\nDeep learning\n\n\nTorch\n\n\nSoftware framework\n\n\n\nModular deep learning in R with torch, designed for prediction-powered inference workflows.\n\n\n\n\ngithub\n\n\nhttps://github.com/jtleek/scorcher\n\n\n\n\ndoi\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\nipd\n\n\n\nR package\n\n\nInference with predicted data\n\n\nCausal inference\n\n\n\nInference with predicted data for generalized linear models and beyond.\n\n\n\n\ngithub\n\n\nhttps://github.com/ipd-tools/ipd\n\n\n\n\ndoi\n\n\nhttps://doi.org/10.1234/ipd-package\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "content/software/ipd.html",
+    "href": "content/software/ipd.html",
+    "title": "ipd",
+    "section": "",
+    "text": "ipd is an R package implementing a unifying framework for inference with predicted data, including methods such as PPI, RePPI, and prediction-powered inference variants.\nKey features:\n\nUnified interface that mirrors glm()\nSupport for multiple IPD estimators via a single high-level API\nTools for diagnostics, simulation, and workflow integration\n\n\n\nGitHub: https://github.com/ipd-tools/ipd\nDocumentation: coming soon\nDOI / paper: https://doi.org/10.1234/ipd-package\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/software/scorcher.html",
+    "href": "content/software/scorcher.html",
+    "title": "scorcher",
+    "section": "",
+    "text": "scorcher provides a composable, Keras Functional-style interface for building deep learning models in R using torch, with special attention to workflows needed for inference with predicted data.\nHighlights:\n\nFunctional API for multi-input, multi-output architectures\nHelpers for Hugging Face models and multimodal pipelines\nDesigned to play nicely with ipd and related inference tooling\n\n\n\nGitHub: https://github.com/jtleek/scorcher\nDocumentation: in development\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "content/recipes/2025-11-15_Nanas-Cookies.html",
+    "href": "content/recipes/2025-11-15_Nanas-Cookies.html",
+    "title": "Nana’s Italian Wedding Cookies",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/recipes.html",
+    "href": "content/recipes.html",
+    "title": "Recipes",
+    "section": "",
+    "text": "Recipes\n\n\nFamily favorites and go-to dishes, collected in one place.\n\n\n\n{{&lt; listing &gt;}}\n\n\n\n\n\n\n\n\n\n\n\n\n\nNana’s Italian Wedding Cookies\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   }
 ]

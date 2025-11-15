@@ -1,0 +1,19 @@
+---
+title: "Recipes"
+page-layout: full
+listing:
+  contents: recipes
+  type: grid
+  sort: "title"
+  max-items: 100
+  categories: false
+---
+
+<div class="recipes-intro">
+  <h1>Recipes</h1>
+  <p>Family favorites and go-to dishes, collected in one place.</p>
+</div>
+
+<div class="recipe-card-grid">
+  {{< listing >}}
+</div>

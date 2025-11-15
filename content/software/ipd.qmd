@@ -1,0 +1,30 @@
+---
+title: "ipd"
+description: "Inference with predicted data for generalized linear models and beyond."
+date: 2025-01-01
+
+categories: ["R package", "Inference with predicted data", "Causal inference"]
+
+# Custom fields used by the listing
+github: "https://github.com/ipd-tools/ipd"
+doi: "https://doi.org/10.1234/ipd-package"   # replace with real DOI if/when
+link-external-icon: true
+
+# Optional: thumbnail image if you want a logo later
+# image: "images/software/ipd-logo.png"
+---
+
+`ipd` is an R package implementing a unifying framework for **inference with predicted data**, 
+including methods such as PPI, RePPI, and prediction-powered inference variants.
+
+Key features:
+
+- Unified interface that mirrors `glm()`
+- Support for multiple IPD estimators via a single high-level API
+- Tools for diagnostics, simulation, and workflow integration
+
+::: {.software-links}
+- GitHub: <https://github.com/ipd-tools/ipd>
+- Documentation: *coming soon*
+- DOI / paper: <https://doi.org/10.1234/ipd-package>
+:::
