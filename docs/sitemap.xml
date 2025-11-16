@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://salernos.github.io/index.html</loc>
-<<<<<<< HEAD
-    <lastmod>2025-11-15T05:15:59.717Z</lastmod>
-=======
-    <lastmod>2025-11-15T03:44:08.163Z</lastmod>
->>>>>>> 0816ace132f0904f22f61ba95b6fd4b094cc28d3
+    <lastmod>2025-11-16T14:49:12.525Z</lastmod>
   </url>
   <url>
-    <loc>https://salernos.github.io/content/software/software.html</loc>
-    <lastmod>2025-03-02T05:14:04.858Z</lastmod>
+    <loc>https://salernos.github.io/content/software/scorcher.html</loc>
+    <lastmod>2025-11-15T05:26:51.300Z</lastmod>
   </url>
   <url>
-    <loc>https://salernos.github.io/content/research/publications/index.html</loc>
-    <lastmod>2024-10-14T03:55:28.292Z</lastmod>
+    <loc>https://salernos.github.io/content/software.html</loc>
+    <lastmod>2025-11-15T05:28:44.765Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/research.html</loc>
     <lastmod>2025-11-15T03:38:34.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/recipes.html</loc>
+    <lastmod>2025-11-15T05:57:32.293Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/presentations/2022.11.05-PSD/index.html</loc>
@@ -41,16 +41,20 @@
     <lastmod>2024-04-21T13:30:04.548Z</lastmod>
   </url>
   <url>
+    <loc>https://salernos.github.io/content/good/good2.html</loc>
+    <lastmod>2025-11-15T05:34:20.991Z</lastmod>
+  </url>
+  <url>
     <loc>https://salernos.github.io/content/d4g.html</loc>
     <lastmod>2025-11-15T03:38:34.408Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/good/good.html</loc>
-<<<<<<< HEAD
     <lastmod>2025-11-15T05:52:45.954Z</lastmod>
-=======
-    <lastmod>2025-05-14T02:12:58.194Z</lastmod>
->>>>>>> 0816ace132f0904f22f61ba95b6fd4b094cc28d3
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/good/good3.html</loc>
+    <lastmod>2025-11-15T05:41:50.965Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/presentations/2020.06.04-SDSS/index.html</loc>
@@ -73,46 +77,19 @@
     <lastmod>2025-05-14T02:13:05.027Z</lastmod>
   </url>
   <url>
+    <loc>https://salernos.github.io/content/recipes/2025-11-15_Nanas-Cookies.html</loc>
+    <lastmod>2025-11-15T05:49:26.757Z</lastmod>
+  </url>
+  <url>
     <loc>https://salernos.github.io/content/research/highlights/index.html</loc>
     <lastmod>2024-10-14T04:54:00.900Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/software/index.html</loc>
-    <lastmod>2025-11-15T03:38:34.410Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/extra.html</loc>
-    <lastmod>2025-03-01T17:10:03.622Z</lastmod>
-<<<<<<< HEAD
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/software.html</loc>
-    <lastmod>2025-11-15T05:28:44.765Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/software/ipd.html</loc>
     <lastmod>2025-11-15T05:26:26.568Z</lastmod>
   </url>
   <url>
-    <loc>https://salernos.github.io/content/software/scorcher.html</loc>
-    <lastmod>2025-11-15T05:26:51.300Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/good/good2.html</loc>
-    <lastmod>2025-11-15T05:34:20.991Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/good/good3.html</loc>
-    <lastmod>2025-11-15T05:41:50.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/recipes/2025-11-15_Nanas-Cookies.html</loc>
-    <lastmod>2025-11-15T05:49:26.757Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/recipes.html</loc>
-    <lastmod>2025-11-15T05:57:32.293Z</lastmod>
-=======
->>>>>>> 0816ace132f0904f22f61ba95b6fd4b094cc28d3
+    <loc>https://salernos.github.io/extra.html</loc>
+    <lastmod>2025-03-01T17:10:03.622Z</lastmod>
   </url>
 </urlset>

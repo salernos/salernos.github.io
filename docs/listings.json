@@ -1,5 +1,18 @@
 [
   {
+    "listing": "/content/software.html",
+    "items": [
+      "/content/software/scorcher.html",
+      "/content/software/ipd.html"
+    ]
+  },
+  {
+    "listing": "/content/recipes.html",
+    "items": [
+      "/content/recipes/2025-11-15_Nanas-Cookies.html"
+    ]
+  },
+  {
     "listing": "/content/presentations/presentations.html",
     "items": [
       "/content/presentations/2022.11.05-PSD/index.html",
@@ -16,21 +29,5 @@
   {
     "listing": "/content/research/highlights/index.html",
     "items": []
-<<<<<<< HEAD:docs/listings.json
-  },
-  {
-    "listing": "/content/software.html",
-    "items": [
-      "/content/software/scorcher.html",
-      "/content/software/ipd.html"
-    ]
-  },
-  {
-    "listing": "/content/recipes.html",
-    "items": [
-      "/content/recipes/2025-11-15_Nanas-Cookies.html"
-    ]
-=======
->>>>>>> 0816ace132f0904f22f61ba95b6fd4b094cc28d3:_site/listings.json
   }
 ]
