@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ff0eb5c7b7f78352fafcef15ea3220fd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,8 +69,29 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<script>
 
+  document.addEventListener("DOMContentLoaded", function () {
 
+    let navbar = document.querySelector("nav");
+
+    window.addEventListener("scroll", function () {
+
+        if (window.scrollY > 50) {
+
+            navbar.classList.add("scrolled");
+
+        } else {
+
+            navbar.classList.remove("scrolled");
+
+        }
+
+    });
+
+  });
+
+</script>
 <meta name="twitter:title" content="Stephen Salerno">
 <meta name="twitter:description" content="Personal website for Stephen Salerno, PhD">
 <meta name="twitter:image" content="https://salernos.github.io/content/images/pic.jpg">
@@ -84,6 +105,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./logo.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">&gt; Stephen Salerno</span>
     </a>
@@ -95,29 +119,29 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.qmd"> 
+    <a class="nav-link" href="./research.qmd">
 <span class="menu-text">Research</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./content/software/software.qmd"> 
+    <a class="nav-link" href="./content/software/software.html">
 <span class="menu-text">Software</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./content/presentations/presentations.qmd"> 
+    <a class="nav-link" href="./content/presentations/presentations.html">
 <span class="menu-text">Presentations</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./content/good/good.qmd"> 
+    <a class="nav-link" href="./content/good/good.html">
 <span class="menu-text">Data for Good</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./content/recipes.qmd"> 
+    <a class="nav-link" href="./content/recipes.qmd">
 <span class="menu-text">Recipes</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1"> 
+    <a class="nav-link" href="https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1">
 <span class="menu-text">CV</span></a>
-  </li>  
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -132,9 +156,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -316,10 +340,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       toggleBodyColorMode(bsSheetEl);
     }
   }
-  toggleBodyColorPrimary();  
+  toggleBodyColorPrimary();
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
+      if (clz.startsWith('code-annotation-')) {
         return true;
       }
     }
@@ -339,11 +363,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
       button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
+      tooltip = new bootstrap.Tooltip(button,
+        { trigger: "manual",
           customClass: "code-copy-button-tooltip",
           offset: [0, -8]});
-      tooltip.show();    
+      tooltip.show();
     }
     setTimeout(function() {
       if (tooltip) {
@@ -372,8 +396,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -426,7 +448,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     if (onUntriggerFn) {
       config.onUntrigger = onUntriggerFn;
     }
-    window.tippy(el, config); 
+    window.tippy(el, config);
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
   for (var i=0; i<noterefs.length; i++) {
@@ -489,7 +511,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -502,7 +523,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     tippyHover(xref, undefined, function(instance) {
       instance.disable();
       let url = xref.getAttribute('href');
-      let hash = undefined; 
+      let hash = undefined;
       if (url.startsWith('#')) {
         hash = url;
       } else {
@@ -530,7 +551,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             if (note !== null) {
               const html = processXRef(id, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -554,7 +575,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             const html = processXRef(null, note);
             instance.setContent(html);
-          } 
+          }
         }).finally(() => {
           instance.enable();
           instance.show();
@@ -594,7 +615,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             height = bottom - top;
           }
           if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
+            // cook up a div (if necessary) and position it
             let div = window.document.getElementById("code-annotation-line-highlight");
             if (div === null) {
               div = window.document.createElement("div");
@@ -720,12 +741,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Proudly built with <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
-</div>   
+</div>
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
  © 2025 Stephen Salerno
-  </li>  
+  </li>
 </ul>
     <div class="toc-actions"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
@@ -733,33 +754,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item compact">
     <a class="nav-link" href="mailto:ssalerno@fredhutch.org">
       <i class="bi bi-envelope-fill" role="img">
-</i> 
+</i>
     </a>
-  </li>  
+  </li>
     <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/StephenSalerno4">
       <i class="bi bi-twitter" role="img">
-</i> 
+</i>
     </a>
-  </li>  
+  </li>
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/salernos">
       <i class="bi bi-github" role="img">
-</i> 
+</i>
     </a>
-  </li>  
+  </li>
     <li class="nav-item compact">
     <a class="nav-link" href="https://scholar.google.com/citations?user=XUH1C6YAAAAJ&amp;hl=en">
       <i class="bi bi-mortarboard-fill" role="img">
-</i> 
+</i>
     </a>
-  </li>  
+  </li>
     <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/stephen-salerno-90855563/">
       <i class="bi bi-linkedin" role="img">
-</i> 
+</i>
     </a>
-  </li>  
+  </li>
 </ul>
     </div>
   </div>

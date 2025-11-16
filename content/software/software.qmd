@@ -1,0 +1,40 @@
+---
+title: "Software"
+toc: false
+---
+
+::: {.software-section}
+
+# My Software
+  
+Explore the tools and packages I have created.
+
+::: {.hex-grid}
+
+::: {.hex}
+![](../images/hex/hex.png){alt="Software 1"}
+Software 1
+:::
+
+::: {.hex.empty}
+:::
+
+::: {.hex}
+![](../images/hex/hex.png){alt="Software 2"}
+Software 2
+:::
+
+::: {.hex.empty}
+:::
+
+::: {.hex}
+![](../images/hex/hex.png){alt="Software 3"}
+Software 3
+:::
+
+::: {.hex.empty}
+:::
+
+:::
+
+:::

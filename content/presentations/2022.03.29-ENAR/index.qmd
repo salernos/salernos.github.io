@@ -1,0 +1,14 @@
+---
+title: "A New Deep Learning Approach"
+subtitle: "for Predicting Survival Processes in the Presence of Semi-Competing Risks"
+author: "Stephen Salerno and Yi Li"
+categories: ["Survival Analysis", "Machine Learning"]
+description: "2022 International Biometric Society Eastern North American Region Spring Meeting"
+date: 2022-03-29
+image: img.png
+editor: source
+---
+
+<iframe id="2022.03.29-ENAR.pdf" src="./2022.03.29-ENAR.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

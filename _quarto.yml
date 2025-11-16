@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+
   resources:
     - "*.png"
   render:
@@ -79,7 +80,7 @@ format:
     brand: _brand.yml
     theme:
       - cosmo
-      - styles.scss
+      - theme.scss
     include-in-header:
       - file: "assets/script.html"
     # mainfont: NEED
