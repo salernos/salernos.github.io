@@ -9,77 +9,88 @@ project:
 
 website:
   title: "Stephen Salerno"
-  description: "Personal Website for Stephen Salerno, PhD"
+  description: "Personal website for Stephen Salerno, PhD"
   site-url: https://salernos.github.io/
-  favicon: img/pic.jpg
-  image: img/pic.jpg
+  repo-url: https://github.com/salernos/salernos.github.io
+  repo-actions: [edit, issue]
+  favicon: content/images/pic.jpg
+  image: content/images/pic.jpg
+  # google-analytics: NEED
+  twitter-card: true
+  page-navigation: true
+  back-to-top-navigation: true
+  search: true
+
   navbar:
-    background: primary
     search: true
+    #background: grey9
+    #foreground: $background-dark
+    pinned: true
+    title: "> Stephen Salerno"
+    # logo: content/images/pic.jpg
+    # logo-alt: "Stephen Salerno, PhD"
+    collapse-below: lg
+
     right:
-      - text: ""
-        href: index.qmd
-      - text: "Data for Good"
-        href: content/d4g.qmd
-      # - text: "Research"
-      #   href: research.qmd
-      # - text: "Software"
-      #   href: software.qmd
-      # - text: "About"
-      #   href: about.qmd
-      # - text: "CV"
-      #   href: cv.qmd
-      # - text: "Projects"
-      #   href: projects.qmd
-      # - text: "Publications"
-      #   href: publications.qmd
-      # - text: "Blog"
-      #   href: posts/
+      - href: research.qmd
+        text: Research
+      - href: content/software/software.qmd
+        text: Software
+      - href: content/presentations/presentations.qmd
+        text: Presentations
+      - href: content/good/good.qmd
+        text: Data for Good
+      - href: content/recipes.qmd
+        text: Recipes
+      - href: https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1
+        text: CV
+
+  page-footer:
+    #background: $background-dark
+    #foreground: $text-dark
+
+    left: |
+      Proudly built with [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+
+    center:
+      - text: © 2025 Stephen Salerno
+
     right:
+      - icon: envelope-fill
+        href: mailto:ssalerno@fredhutch.org
+      - icon: twitter
+        href: https://twitter.com/StephenSalerno4
       - icon: github
         href: https://github.com/salernos
-      # - icon: twitter
-      #   href: https://x.com/your-handle
-  page-footer:
-    left: "© 2025 Stephen Salerno"
-    right: |
-      Proudly Built with [Quarto](https://quarto.org)
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=XUH1C6YAAAAJ&hl=en
+      - icon: linkedin
+        href: https://www.linkedin.com/in/stephen-salerno-90855563/
+
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**Test** of announcement bar."
+    type: light
+    position: below-navbar
 
 format:
   html:
+    brand: _brand.yml
     theme:
-      light: cosmo
-      dark: darkly
+      - cosmo
+      - styles.scss
+    include-in-header:
+      - file: "assets/script.html"
+    # mainfont: NEED
+    monofont: Fira Code
     toc: true
-    toc-location: left
-    css: styles.scss
+    code-overflow: scroll
+    link-external-newwindow: true
+    date-format: "MMM YYYY"
     smooth-scroll: true
-    code-copy: true
-    anchor-sections: true
-    # include-in-header:
-    #   text: |
-    #     <!-- Person schema JSON-LD -->
-    #     <script type="application/ld+json">
-    #     {
-    #       "@context": "https://schema.org",
-    #       "@type": "Person",
-    #       "name": "Stephen Salerno",
-    #       "url": "https://your-username.github.io/stephen-site",
-    #       "jobTitle": "Biostatistician / ML Researcher",
-    #       "worksFor": {
-    #         "@type": "Organization",
-    #         "name": "Your Institution"
-    #       },
-    #       "image": "https://your-username.github.io/stephen-site/img/headshot.jpg",
-    #       "sameAs": [
-    #         "https://scholar.google.com/citations?user=XXXX",
-    #         "https://orcid.org/0000-0000-0000-0000",
-    #         "https://github.com/your-username"
-    #       ]
-    #     }
-    #     </script>
+    linkcolor: "#B8573E"
 
-metadata-files:
-  - posts/_metadata.yml
-execute:
-  freeze: auto
+freeze: true
+
+editor: source

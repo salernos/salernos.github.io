@@ -1,55 +1,246 @@
 ---
-title: "Stephen Salerno"
-page-layout: full
-image: img/pic.jpg
+toc: false
+format:
+  html:
+    sidebar: false
+    anchor-sections: false
+execute: 
+  echo: false
+brand: _brand.yml
 ---
 
-<div class="hero bg-light">
-<div class="container">
-  <div class="row">
-    <div class="col-md-3"><img src="img/pic.jpg" class="img-fluid" alt="Stephen Salerno headshot"></div>
-    <div class="col-md-9">
-      <h1>Need tags</h1>
-      <p>
-      NEED
-      </p>
-      <p>
-      NEED
-      </p>
-      <p>
-      <a class="btn btn-primary" href="projects.qmd">See projects</a>
-      <a class="btn btn-outline-secondary" href="publications.qmd">Publications</a>
-      <a class="btn btn-outline-secondary" href="cv.qmd">CV</a>
-      </p>
-    </div>
-  </div>
-</div>
-</div>
 
-## Highlights
+::: {.column-screen style="min-height: calc(100vh - 36px); display: flex; align-items: stretch; margin: 0; padding: 0;"}
 
-::: columns
-::: column
-### Methods
-- NEED
+::: {.grid style="flex: 1; margin: 0; padding: 0; width: 100%; height: 100%; align-items: stretch;"}
+
+::: {.g-col-12 .g-col-md-4 style="background-image: url('content/images/hero-pic.png'); background-size: cover; background-position: center; height: calc(100vh - 36px);"}
 :::
-::: column
-### Software
-- NEED
+
+::: {.g-col-12 .g-col-md-7 style="display: flex; flex-direction: column; justify-content: center; padding: 1rem;"}
+
+### Hello, my name is
+
+# Stephen Salerno
+
+<br>
+
+I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li, and a BS in Biometry and Statistics from Cornell University. My research focuses on statistical methods for drawing inference on algorithmically derived variables, deep learning for high-dimensional data, and survival analysis, as well as clinical quality measures and health policy. I’m also passionate about data-for-good initiatives.
+
 :::
-::: column
-### Applications
-- NEED
+
+::: {.g-col-0 .g-col-md-1}
+:::
+
 :::
 :::
 
-## Recent posts
-:::: {#home-posts}
-```{=yaml}
-listing:
-  contents: posts
-  type: grid
-  sort: "date desc"
-  page-size: 6
+<!-- Research At a Glance Section -->
+
+::: {.column-screen style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center; background: white; text-align: center; margin: 0; padding: 2rem;"}
+
+# My Research At a Glance
+
+::: {#schematic}
+
+```{mermaid}
+flowchart LR
+  A[Deep Learning for Prediction]\n  B[Predicted Outcomes]\n  C[Downstream Inference on Predicted Data]
+  A --> B
+  B --> C
+  click A href "https://github.com/yourusername/scorcher" "Scorcher Repository"
+  click C href "https://github.com/yourusername/ipd" "ipd Repository"
+  classDef area fill:#f9f9f9,stroke:#ccc,stroke-width:2px;
+  class A area;
+  class C area;
 ```
-::::
+
+:::
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.column-screen}
+::: {.grid style="margin: 0; padding: 0; border-bottom: 3px solid #444;"}
+
+::: {.g-col-12 .g-col-md-4 style="background-image: url('content/images/hero-pic.png'); background-size: contain; background-repeat: no-repeat; background-position: center; height: 100%"}
+:::
+
+::: {.g-col-12 .g-col-md-7}
+
+### Hello, my name is
+
+# Stephen Salerno
+
+I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li. I obtained a BS in Biometry and Statistics with a minor in Health Policy from Cornell University. 
+
+My research focuses on statistical methods for drawing inference on algorithmically derived variables, deep learning approaches for high dimensional data, and survival analysis, as well as clinical quality measure development, public reporting efforts, and health policy surrounding kidney diseases and lung cancer. ... User-friendly software...  I am also passionate about applying my skill set to public service and am active in data for good initiatives.
+:::
+
+::: {.g-col-0 .g-col-md-1}
+:::
+
+:::
+:::
+
+::: {.column-screen style="background: white; text-align: center;"}
+
+# My Research At a Glance
+
+Need
+
+:::
+
+<!---
+::: {.column-screen .hero}
+
+![](content/images/hero-pic.png){alt="Photo of Stephen Salerno" class="hero-image"}
+
+::: {.hero-content}
+
+
+
+# <decor-dark>&nbsp; Stephen Salerno &nbsp;</decor-dark>
+
+
+
+[Learn More >](#sec-glance){.hero-button}
+
+:::
+:::
+
+<!--- MORE INFORMATION -------------------------------------------------------->
+
+::: {.column-screen style='border-bottom: 3px solid #444; display: inline-block; text-align: center;'}
+::: {.column-screen-inset}
+
+<br>
+
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+:::
+:::
+
+Quick Links
+
+::: {.cards}
+
+::: {.card}
+
+Research
+
+Dive into my publications and projects on statistical methodology and AI-driven inference.
+
+Learn More
+:::
+
+::: {.card}
+
+Software
+
+Discover R packages and tools I've developed to advance reproducible science.
+
+Learn More
+:::
+
+::: {.card}
+
+Blog
+
+Read insights and tutorials on statistics, machine learning, and data science.
+
+Learn More
+:::
+
+::: {.card}
+
+CV
+
+View my professional history, education, and skills.
+
+View CV{target="_blank"}
+:::
+
+:::
+
+::: {#research}
+
+Research Overview
+
+I focus on three main areas:
+
+Survey Methods: Stratified and cluster sampling inference, bias correction, variance estimation.
+
+Post-Prediction Inference: Methods like PPI, PPI++, PSPA for valid downstream analysis of predicted data.
+
+Deep Learning in R: Custom frameworks using torch, transformer architectures, and model interpretability.
+
+Learn more about each area and see my published work below.
+
+:::
+
+::: {.column-screen .hero}
+::: {.column-screen-inset}
+
+Test 3
+
+:::
+:::
+
+# Software
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<!--- END --------------------------------------------------------------------->
