@@ -16,6 +16,7 @@
   {
     "listing": "/content/research/highlights/index.html",
     "items": []
+<<<<<<< HEAD:docs/listings.json
   },
   {
     "listing": "/content/software.html",
@@ -29,5 +30,7 @@
     "items": [
       "/content/recipes/2025-11-15_Nanas-Cookies.html"
     ]
+=======
+>>>>>>> 0816ace132f0904f22f61ba95b6fd4b094cc28d3:_site/listings.json
   }
 ]

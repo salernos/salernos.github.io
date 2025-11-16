@@ -205,6 +205,4 @@ Major updates to the <code>ipd</code> and <code>scorcher</code> packages, includ
 [View release notes →](software.qmd#packages){.home-card-link}
 :::
 
-:::
-
-:::
+<!--- END --------------------------------------------------------------------->
