@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Stephen Salerno",
     "section": "",
-    "text": "I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li, and a BS in Biometry and Statistics from Cornell University.\nMy research focuses on:\n\nStatistical methods for drawing inference on algorithmically derived variables (post-prediction inference)\n\nDeep learning for high-dimensional data\n\nSurvival analysis and causal questions in oncology and chronic disease\n\nI also work on clinical quality measures, public reporting, and health policy — especially in kidney disease and lung cancer — and I’m committed to building user-friendly software and contributing to data-for-good initiatives."
+    "text": "I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li, and a BS in Biometry and Statistics from Cornell University.\nMy research focuses on:\n\nStatistical methods for drawing inference on algorithmically derived variables (post-prediction inference)\n\nDeep learning for high-dimensional data\n\nSurvival analysis and causal questions in oncology and chronic disease\n\nI also work on clinical quality measures, public reporting, and health policy, especially in kidney disease and lung cancer, and I am committed to building user-friendly software and contributing to data-for-good initiatives."
   },
   {
     "objectID": "index.html#research-overview",
@@ -25,7 +25,7 @@
     "href": "index.html#news",
     "title": "Stephen Salerno",
     "section": "Latest News & Updates",
-    "text": "Latest News & Updates\n\n\n\n\n\nOct 2025\n\n\nKaryotyping AI project update\n\n\n\n\nWe’re building an end-to-end pipeline for automated metaphase karyotyping, linking deep learning outputs to rigorous downstream inference.\n\nRead project overview →\n\n\n\n\n\nSep 2025\n\n\nNew paper on inference with predicted data\n\n\n\n\nA new manuscript extends prediction-powered inference frameworks to more complex settings with survey designs and high-dimensional predictors.\n\nSee details →\n\n\n\n\n\nAug 2025\n\n\nSoftware updates\n\n\n\n\nMajor updates to the ipd and scorcher packages, including new APIs and improved documentation.\n\nView release notes →"
+    "text": "Latest News & Updates\n\n\n\n\n\nOct 2025\n\n\nKaryotyping AI project update\n\n\n\n\nWe’re building an end-to-end pipeline for automated metaphase karyotyping, linking deep learning outputs to rigorous downstream inference.\n\nRead project overview →\n\n\n\n\n\nSep 2025\n\n\nNew paper on inference with predicted data\n\n\n\n\nA new manuscript reviewing inference with predicted data.\n\nSee details →\n\n\n\n\n\nAug 2025\n\n\nSoftware updates\n\n\n\n\nMajor updates to the ipd and scorcher packages, including new APIs and improved documentation.\n\nView release notes →"
   },
   {
     "objectID": "content/software/scorcher.html",
@@ -53,7 +53,7 @@
     "href": "content/recipes.html",
     "title": "Recipes",
     "section": "",
-    "text": "Recipes\n\n\nFamily favorites and go-to dishes, collected in one place.\n\n\n\n{{&lt; listing &gt;}}\n\n\n\n\n\n\n\n\n\n\n\n\n\nNana’s Italian Wedding Cookies\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Family favorites and go-to dishes, collected in one place.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNana’s Italian Wedding Cookies\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "content/presentations/2022.11.05-PSD/index.html",
