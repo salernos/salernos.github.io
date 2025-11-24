@@ -1,19 +1,17 @@
 ---
 title: "Recipes"
+title-block-banner: true
 page-layout: full
 listing:
+  id: recipe-listings
   contents: recipes
   type: grid
   sort: "title"
   max-items: 100
-  categories: false
+  categories: true
 ---
 
-<div class="recipes-intro">
-  <h1>Recipes</h1>
-  <p>Family favorites and go-to dishes, collected in one place.</p>
-</div>
+Family favorites and go-to dishes, collected in one place.
 
-<div class="recipe-card-grid">
-  {{< listing >}}
-</div>
+::: {#sample-listings .recipe-card-grid}
+:::

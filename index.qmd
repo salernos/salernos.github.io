@@ -31,7 +31,7 @@ My research focuses on:
 - Deep learning for high-dimensional data  
 - Survival analysis and causal questions in oncology and chronic disease  
 
-I also work on clinical quality measures, public reporting, and health policy — especially in kidney disease and lung cancer — and I’m committed to building user-friendly software and contributing to data-for-good initiatives.
+I also work on clinical quality measures, public reporting, and health policy, especially in kidney disease and lung cancer, and I am committed to building user-friendly software and contributing to data-for-good initiatives.
 
 :::
 
@@ -187,7 +187,7 @@ We’re building an end-to-end pipeline for automated metaphase karyotyping, lin
 :::
 :::
 ::: {.home-card-body}
-A new manuscript extends prediction-powered inference frameworks to more complex settings with survey designs and high-dimensional predictors.
+A new manuscript reviewing inference with predicted data.
 :::
 [See details →](research.ipd-paper.qmd){.home-card-link}
 :::
