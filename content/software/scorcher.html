@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Modular deep learning in R with torch, designed for prediction-powered inference workflows.">
+<meta name="description" content="High-Level API for Torch">
 
 <title>scorcher – Stephen Salerno</title>
 <style>
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e1c018ae7ee917d8ac68b5257c0549f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a4e3c40ab79f8625b91bf7b8c5d53c0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,8 +95,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta name="twitter:title" content="scorcher – Stephen Salerno">
-<meta name="twitter:description" content="Modular deep learning in R with torch, designed for prediction-powered inference workflows.">
-<meta name="twitter:image" content="https://salernos.github.io/content/software/content/images/pic.jpg">
+<meta name="twitter:description" content="High-Level API for Torch">
+<meta name="twitter:image" content="https://salernos.github.io/content/images/software/scorcher.png">
+<meta name="twitter:image-height" content="500">
+<meta name="twitter:image-width" content="500">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -120,18 +122,48 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../research.qmd"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../../content/research/publications.html">
+ <span class="dropdown-text">Publications</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/research/conference.html">
+ <span class="dropdown-text">Conference Papers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/research/editorials.html">
+ <span class="dropdown-text">Editorials</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../content/software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/presentations/presentations.html"> 
-<span class="menu-text">Presentations</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-presentations" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Presentations</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-presentations">    
+        <li>
+    <a class="dropdown-item" href="../../content/presentations/workshops.html">
+ <span class="dropdown-text">Workshops</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/presentations/talks.html">
+ <span class="dropdown-text">Talks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/presentations/posters.html">
+ <span class="dropdown-text">Posters</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../content/good/good.html"> 
 <span class="menu-text">Data for Good</span></a>
@@ -150,16 +182,22 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="89bb78f9e2ab61ee75fec13e93ffad23" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Test</strong> of announcement bar.</p>
+  <div id="quarto-announcement" data-announcement-id="67a1ff00a191fe310f0874a475115ced" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p>This site is currently <strong>under development</strong>! Please check back for regular updates.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/content/software/scorcher.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -168,16 +206,15 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">scorcher</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">R package</div>
-    <div class="quarto-category">Deep learning</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Machine learning</div>
     <div class="quarto-category">Torch</div>
-    <div class="quarto-category">Software framework</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Modular deep learning in R with torch, designed for prediction-powered inference workflows.
+    High-Level API for Torch
   </div>
 </div>
 
@@ -188,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Jan 2025</p>
+      <p class="date">Dec 2025</p>
     </div>
   </div>
   
@@ -200,21 +237,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><code>scorcher</code> provides a composable, <strong>Keras Functional-style</strong> interface for building deep learning models in R using <code>torch</code>, with special attention to workflows needed for <strong>inference with predicted data</strong>.</p>
-<p>Highlights:</p>
-<ul>
-<li>Functional API for multi-input, multi-output architectures</li>
-<li>Helpers for Hugging Face models and multimodal pipelines</li>
-<li>Designed to play nicely with <code>ipd</code> and related inference tooling</li>
-</ul>
+<section id="overview" class="level3">
+<h3 class="anchored" data-anchor-id="overview">Overview</h3>
+<p>The <code>scorcher</code> package provides high-level functionality for building and fitting deep learning models using the Torch library in R. By simplifying model development through easy-to-use functions and ensuring compatibility with existing R workflows and data structures, scorcher facilitates the use of deep learning without the need for extensive programming knowledge.</p>
+<p>The package allows users to create, modify, and visualize models through functions such as <code>initiate_scorch</code>, <code>scorch_layer</code>, <code>compile_scorch</code>, and <code>fit_scorch</code>. The package flexibly handles tasks such as prediction, classification, computer vision, diffusion, and more.</p>
 <div class="software-links">
 <ul>
 <li>GitHub: <a href="https://github.com/jtleek/scorcher" class="uri">https://github.com/jtleek/scorcher</a></li>
-<li>Documentation: <em>in development</em></li>
 </ul>
 </div>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -326,8 +360,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
           if (link.getAttribute("rel") === null) {
             link.setAttribute("rel", "noopener");
           }
-          // default icon
-          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -653,7 +685,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
  © 2025 Stephen Salerno
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/content/software/scorcher.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/content/software/scorcher.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
