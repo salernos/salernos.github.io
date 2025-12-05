@@ -1,0 +1,24 @@
+---
+title: RRmix
+description: Simultaneous Batch Effect Correction and Analysis in the Absence of Internal Standards
+date: 2017-06-29
+categories:
+  - R
+  - Batch Effects
+  - Latent Variable Models
+  - Metabolomics
+image: ../images/software/rrmix.png
+---
+
+### Overview
+
+`RRmix` is a latent-factor mixture model for correcting batch effects in LC-MS metabolomics data, particularly when no internal standards or known controls are available. Instead of explicitly modeling known batch covariates, `RRmix` treats unobserved technical variation as latent factors: for all metabolites simultaneously it fits a hierarchical model with a random main effect + random compound-specific error variance + mixture structure.
+
+The model decomposes observed metabolite intensities into biological signal, latent batch (or other technical) variation, and noise. It uses an EM algorithm to estimate parameters and, via a mixture indicator on the per-metabolite effects, identifies which metabolites are significantly associated with the biological condition (e.g., treatment vs control).
+
+Because `RRmix` does not rely on internal standards or pre-specified technical covariates, it offers a flexible, data-driven approach to batch effect correction and differential abundance testing in high-dimensional metabolomics experiments.
+
+::: {.software-links}
+- GitHub: <https://github.com/salernos/RRmix>
+- Paper: <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0179530>
+:::

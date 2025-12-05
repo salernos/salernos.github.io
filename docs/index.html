@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e1c018ae7ee917d8ac68b5257c0549f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a4e3c40ab79f8625b91bf7b8c5d53c0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -93,7 +93,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta name="twitter:title" content="Stephen Salerno">
-<meta name="twitter:description" content="Personal website for Stephen Salerno, PhD">
 <meta name="twitter:image" content="https://salernos.github.io/content/images/pic.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -118,18 +117,48 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./research.qmd"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./content/research/publications.html">
+ <span class="dropdown-text">Publications</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./content/research/conference.html">
+ <span class="dropdown-text">Conference Papers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./content/research/editorials.html">
+ <span class="dropdown-text">Editorials</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./content/software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./content/presentations/presentations.html"> 
-<span class="menu-text">Presentations</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-presentations" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Presentations</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-presentations">    
+        <li>
+    <a class="dropdown-item" href="./content/presentations/workshops.html">
+ <span class="dropdown-text">Workshops</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./content/presentations/talks.html">
+ <span class="dropdown-text">Talks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./content/presentations/posters.html">
+ <span class="dropdown-text">Posters</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./content/good/good.html"> 
 <span class="menu-text">Data for Good</span></a>
@@ -148,8 +177,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="89bb78f9e2ab61ee75fec13e93ffad23" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Test</strong> of announcement bar.</p>
+  <div id="quarto-announcement" data-announcement-id="67a1ff00a191fe310f0874a475115ced" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p>This site is currently <strong>under development</strong>! Please check back for regular updates.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -192,184 +221,175 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<!-- RESEARCH AT A GLANCE -->
-<section id="my-research-at-a-glance" class="level1 column-screen" style="min-height: 80vh; display: flex; flex-direction: column; justify-content: center; background: #ffffff; text-align: center; margin: 0; padding: 3rem 1.5rem;">
-<h1>My Research At a Glance</h1>
-<p>I think about the full pipeline: <strong>learning from complex data, using predictions as inputs, and still doing valid statistical inference.</strong></p>
-</section>
-<!-- RESEARCH OVERVIEW -->
-<div id="research" class="column-screen" style="padding: 3rem 1.5rem; max-width: 900px; margin: 0 auto;">
-<section id="research-overview" class="level2">
-<h2 data-anchor-id="research-overview">Research Overview</h2>
-<p>I currently focus on three main areas:</p>
-<ul>
-<li><p><strong>Inference with Predicted Data</strong> Developing methods like PPI, PPI++, PSPA, and related frameworks to enable valid downstream inference when key variables are imputed or predicted by complex models (e.g., deep neural networks, random forests).</p></li>
-<li><p><strong>Deep Learning and High-Dimensional Modeling</strong> Building and deploying deep learning models — often in R via <code>torch</code> and transformer architectures — for imaging and other high-dimensional biomedical data, with an emphasis on interpretability and integration with classical statistical models.</p></li>
-<li><p><strong>Survey Methods, Quality Measures, and Health Policy</strong> Methods for stratified and cluster sampling, bias correction, and variance estimation, with applications to clinical quality measure development, public reporting, and health policy in oncology and nephrology.</p></li>
-</ul>
-<p>I aim to bridge <strong>modern machine learning</strong> with <strong>rigorous statistical inference</strong>, and to release open-source software so others can use these tools in applied research.</p>
-</section>
-</div>
-<!-- QUICK LINKS + NEWS (FLOATING CARDS) -->
-<div class="column-screen" style="border-top: 3px solid #444; border-bottom: 3px solid #444; padding: 3rem 1.5rem; max-width: 1100px; margin: 0 auto;">
-<section id="quick-links" class="level2">
-<h2 data-anchor-id="quick-links">Quick Links</h2>
-<div class="home-card-grid">
-<div class="home-card">
-<div class="home-card-media" style="background-image: url('content/images/card-research.jpg');">
-<div class="home-card-media-overlay">
-<section id="research" class="level4 home-card-label">
-<h4 class="home-card-label" data-anchor-id="research">Research</h4>
-</section>
-<section id="methodology-applications" class="level3 home-card-title">
-<h3 class="home-card-title" data-anchor-id="methodology-applications">Methodology &amp; Applications</h3>
-</section>
-</div>
-</div>
-<div class="home-card-body">
-<p>Publications and projects on inference with predicted data, deep learning for biomedical data, and precision oncology.</p>
-</div>
-<p><a href="research.qmd" class="home-card-link">Learn more →</a></p>
-</div>
-<div class="home-card">
-<div class="home-card-media" style="background-image: url('content/images/card-software.jpg');">
-<div class="home-card-media-overlay">
-<section id="software" class="level4 home-card-label">
-<h4 class="home-card-label" data-anchor-id="software">Software</h4>
-</section>
-<section id="open-source-tools" class="level3 home-card-title">
-<h3 class="home-card-title" data-anchor-id="open-source-tools">Open-Source Tools</h3>
-</section>
-</div>
-</div>
-<div class="home-card-body">
-<p>R packages and tools for post-prediction inference, survey methods, and deep learning in R (including <code>scorcher</code> and <code>ipd</code>).</p>
-</div>
-<p><a href="software.qmd" class="home-card-link">View software →</a></p>
-</div>
-<div class="home-card">
-<div class="home-card-media" style="background-image: url('content/images/card-blog.jpg');">
-<div class="home-card-media-overlay">
-<section id="presentations" class="level4 home-card-label">
-<h4 class="home-card-label" data-anchor-id="presentations">Presentations</h4>
-</section>
-<section id="notes-tutorials" class="level3 home-card-title">
-<h3 class="home-card-title" data-anchor-id="notes-tutorials">Notes &amp; Tutorials</h3>
-</section>
-</div>
-</div>
-<div class="home-card-body">
-<p>Short posts on statistics, machine learning, reproducible research, and data-for-good projects.</p>
-</div>
-<p><a href="blog.qmd" class="home-card-link">Read the blog →</a></p>
-</div>
-<div class="home-card">
-<div class="home-card-media" style="background-image: url('content/images/card-cv.jpg');">
-<div class="home-card-media-overlay">
-<section id="data-for-good" class="level4 home-card-label">
-<h4 class="home-card-label" data-anchor-id="data-for-good">Data for Good</h4>
-</section>
-<section id="academic-cv" class="level3 home-card-title">
-<h3 class="home-card-title" data-anchor-id="academic-cv">Academic CV</h3>
-</section>
-</div>
-</div>
-<div class="home-card-body">
-<p>Full record of my training, positions, publications, talks, teaching, and service.</p>
-</div>
-<p><a href="cv.pdf" class="home-card-link" target="_blank" rel="noopener">View CV (PDF) →</a></p>
-</div>
-<div class="home-card">
-<div class="home-card-media" style="background-image: url('content/images/card-cv.jpg');">
-<div class="home-card-media-overlay">
-<section id="recipes" class="level4 home-card-label">
-<h4 class="home-card-label" data-anchor-id="recipes">Recipes</h4>
-</section>
-<section id="academic-cv-1" class="level3 home-card-title">
-<h3 class="home-card-title" data-anchor-id="academic-cv-1">Academic CV</h3>
-</section>
-</div>
-</div>
-<div class="home-card-body">
-<p>Full record of my training, positions, publications, talks, teaching, and service.</p>
-</div>
-<p><a href="cv.pdf" class="home-card-link" target="_blank" rel="noopener">View CV (PDF) →</a></p>
-</div>
-<div class="home-card">
-<div class="home-card-media" style="background-image: url('content/images/card-cv.jpg');">
-<div class="home-card-media-overlay">
-<section id="cv" class="level4 home-card-label">
-<h4 class="home-card-label" data-anchor-id="cv">CV</h4>
-</section>
-<section id="academic-cv-2" class="level3 home-card-title">
-<h3 class="home-card-title" data-anchor-id="academic-cv-2">Academic CV</h3>
-</section>
-</div>
-</div>
-<div class="home-card-body">
-<p>Full record of my training, positions, publications, talks, teaching, and service.</p>
-</div>
-<p><a href="cv.pdf" class="home-card-link" target="_blank" rel="noopener">View CV (PDF) →</a></p>
-</div>
-</div>
-</section>
-<section id="news" class="level2">
-<h2 data-anchor-id="news">Latest News &amp; Updates</h2>
-<div class="home-card-grid home-news-grid">
-<div class="home-card home-card-compact">
-<div class="home-card-media" style="background-image: url('content/images/card-karyotype.jpg');">
-<div class="home-card-media-overlay">
-<section id="oct-2025" class="level4 home-card-label">
-<h4 class="home-card-label" data-anchor-id="oct-2025">Oct&nbsp;2025</h4>
-</section>
-<section id="karyotyping-ai-project-update" class="level3 home-card-title">
-<h3 class="home-card-title" data-anchor-id="karyotyping-ai-project-update">Karyotyping AI project update</h3>
-</section>
-</div>
-</div>
-<div class="home-card-body">
-<p>We’re building an end-to-end pipeline for automated metaphase karyotyping, linking deep learning outputs to rigorous downstream inference.</p>
-</div>
-<p><a href="blog/karyotyping-pipeline.qmd" class="home-card-link">Read project overview →</a></p>
-</div>
-<div class="home-card home-card-compact">
-<div class="home-card-media" style="background-image: url('content/images/card-ipd.jpg');">
-<div class="home-card-media-overlay">
-<section id="sep-2025" class="level4 home-card-label">
-<h4 class="home-card-label" data-anchor-id="sep-2025">Sep&nbsp;2025</h4>
-</section>
-<section id="new-paper-on-inference-with-predicted-data" class="level3 home-card-title">
-<h3 class="home-card-title" data-anchor-id="new-paper-on-inference-with-predicted-data">New paper on inference with predicted data</h3>
-</section>
-</div>
-</div>
-<div class="home-card-body">
-<p>A new manuscript reviewing inference with predicted data.</p>
-</div>
-<p><a href="research.ipd-paper.qmd" class="home-card-link">See details →</a></p>
-</div>
-<div class="home-card home-card-compact">
-<div class="home-card-media" style="background-image: url('content/images/card-software-update.jpg');">
-<div class="home-card-media-overlay">
-<section id="aug-2025" class="level4 home-card-label">
-<h4 class="home-card-label" data-anchor-id="aug-2025">Aug&nbsp;2025</h4>
-</section>
-<section id="software-updates" class="level3 home-card-title">
-<h3 class="home-card-title" data-anchor-id="software-updates">Software updates</h3>
-</section>
-</div>
-</div>
-<div class="home-card-body">
-<p>Major updates to the <code>ipd</code> and <code>scorcher</code> packages, including new APIs and improved documentation.</p>
-</div>
-<p><a href="software.qmd#packages" class="home-card-link">View release notes →</a></p>
-</div>
+<!--
+
+
+<!-- RESEARCH AT A GLANCE --
+
+::: {.column-screen style="min-height: 80vh; display: flex; flex-direction: column; justify-content: center; background: #ffffff; text-align: center; margin: 0; padding: 3rem 1.5rem;"}
+
+# My Research At a Glance
+
+I think about the full pipeline: **learning from complex data, using predictions as inputs, and still doing valid statistical inference.**
+
+:::
+
+<!-- RESEARCH OVERVIEW --
+
+::: {#research .column-screen style="padding: 3rem 1.5rem; max-width: 900px; margin: 0 auto;"}
+
+## Research Overview
+
+I currently focus on three main areas:
+
+* **Inference with Predicted Data**
+  Developing methods like PPI, PPI++, PSPA, and related frameworks to enable valid downstream inference when key variables are imputed or predicted by complex models (e.g., deep neural networks, random forests).
+
+* **Deep Learning and High-Dimensional Modeling**
+  Building and deploying deep learning models — often in R via <code>torch</code> and transformer architectures — for imaging and other high-dimensional biomedical data, with an emphasis on interpretability and integration with classical statistical models.
+
+* **Survey Methods, Quality Measures, and Health Policy**
+  Methods for stratified and cluster sampling, bias correction, and variance estimation, with applications to clinical quality measure development, public reporting, and health policy in oncology and nephrology.
+
+I aim to bridge **modern machine learning** with **rigorous statistical inference**, and to release open-source software so others can use these tools in applied research.
+
+:::
+
+<!-- QUICK LINKS + NEWS (FLOATING CARDS) --
+
+::: {.column-screen style="border-top: 3px solid #444; border-bottom: 3px solid #444; padding: 3rem 1.5rem; max-width: 1100px; margin: 0 auto;"}
+
+## Quick Links
+
+::: {.home-card-grid}
+
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-research.jpg');"}
+::: {.home-card-media-overlay}
+#### Research {.home-card-label}
+### Methodology &amp; Applications {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Publications and projects on inference with predicted data, deep learning for biomedical data, and precision oncology.
+:::
+[Learn more →](research.qmd){.home-card-link}
+:::
+
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-software.jpg');"}
+::: {.home-card-media-overlay}
+#### Software {.home-card-label}
+### Open-Source Tools {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+R packages and tools for post-prediction inference, survey methods, and deep learning in R (including <code>scorcher</code> and <code>ipd</code>).
+:::
+[View software →](software.qmd){.home-card-link}
+:::
+
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-blog.jpg');"}
+::: {.home-card-media-overlay}
+#### Presentations {.home-card-label}
+### Notes &amp; Tutorials {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Short posts on statistics, machine learning, reproducible research, and data-for-good projects.
+:::
+[Read the blog →](blog.qmd){.home-card-link}
+:::
+
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-cv.jpg');"}
+::: {.home-card-media-overlay}
+#### Data for Good {.home-card-label}
+### Academic CV {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Full record of my training, positions, publications, talks, teaching, and service.
+:::
+[View CV (PDF) →](cv.pdf){.home-card-link target="_blank" rel="noopener"}
+:::
+
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-cv.jpg');"}
+::: {.home-card-media-overlay}
+#### Recipes {.home-card-label}
+### Academic CV {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Full record of my training, positions, publications, talks, teaching, and service.
+:::
+[View CV (PDF) →](cv.pdf){.home-card-link target="_blank" rel="noopener"}
+:::
+
+::: {.home-card}
+::: {.home-card-media style="background-image: url('content/images/card-cv.jpg');"}
+::: {.home-card-media-overlay}
+#### CV {.home-card-label}
+### Academic CV {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Full record of my training, positions, publications, talks, teaching, and service.
+:::
+[View CV (PDF) →](cv.pdf){.home-card-link target="_blank" rel="noopener"}
+:::
+
+:::
+
+
+## Latest News & Updates {#news}
+
+::: {.home-card-grid .home-news-grid}
+
+::: {.home-card .home-card-compact}
+::: {.home-card-media style="background-image: url('content/images/card-karyotype.jpg');"}
+::: {.home-card-media-overlay}
+#### Oct&nbsp;2025 {.home-card-label}
+### Karyotyping AI project update {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+We’re building an end-to-end pipeline for automated metaphase karyotyping, linking deep learning outputs to rigorous downstream inference.
+:::
+[Read project overview →](blog/karyotyping-pipeline.qmd){.home-card-link}
+:::
+
+::: {.home-card .home-card-compact}
+::: {.home-card-media style="background-image: url('content/images/card-ipd.jpg');"}
+::: {.home-card-media-overlay}
+#### Sep&nbsp;2025 {.home-card-label}
+### New paper on inference with predicted data {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+A new manuscript reviewing inference with predicted data.
+:::
+[See details →](research.ipd-paper.qmd){.home-card-link}
+:::
+
+::: {.home-card .home-card-compact}
+::: {.home-card-media style="background-image: url('content/images/card-software-update.jpg');"}
+::: {.home-card-media-overlay}
+#### Aug&nbsp;2025 {.home-card-label}
+### Software updates {.home-card-title}
+:::
+:::
+::: {.home-card-body}
+Major updates to the <code>ipd</code> and <code>scorcher</code> packages, including new APIs and improved documentation.
+:::
+[View release notes →](software.qmd#packages){.home-card-link}
+:::
+
 <!--- END --------------------------------------------------------------------->
 
 
-</div>
-</section>
-</div>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

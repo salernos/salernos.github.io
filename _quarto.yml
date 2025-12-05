@@ -33,12 +33,24 @@ website:
     collapse-below: lg
 
     right:
-      - href: research.qmd
-        text: Research
+      - text: Research
+        menu:
+          - text: Publications
+            href: content/research/publications.qmd
+          - text: Conference Papers
+            href: content/research/conference.qmd
+          - text: Editorials
+            href: content/research/editorials.qmd
       - href: content/software.qmd
         text: Software
-      - href: content/presentations/presentations.qmd
-        text: Presentations
+      - text: Presentations
+        menu:
+          - text: Workshops
+            href: content/presentations/workshops.qmd
+          - text: Talks
+            href: content/presentations/talks.qmd
+          - text: Posters
+            href: content/presentations/posters.qmd
       - href: content/good/good.qmd
         text: Data for Good
       - href: content/recipes.qmd
@@ -71,7 +83,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "**Test** of announcement bar."
+    content: "This site is currently **under development**! Please check back for regular updates."
     type: light
     position: below-navbar
 

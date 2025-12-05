@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e1c018ae7ee917d8ac68b5257c0549f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a4e3c40ab79f8625b91bf7b8c5d53c0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-categories','listing-github','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -153,8 +153,10 @@ window.Quarto = {
 };
 </script>
 
-<meta name="twitter:title" content="Software – Stephen Salerno">
-<meta name="twitter:image" content="https://salernos.github.io/content/content/images/pic.jpg">
+<link rel="alternate" type="application/rss+xml" title="Stephen Salerno" href="software.xml" data-external="1"><meta name="twitter:title" content="Software – Stephen Salerno">
+<meta name="twitter:image" content="https://salernos.github.io/content/images/software/scorcher.png">
+<meta name="twitter:image-height" content="500">
+<meta name="twitter:image-width" content="500">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -178,18 +180,48 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../research.qmd"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../content/research/publications.html">
+ <span class="dropdown-text">Publications</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../content/research/conference.html">
+ <span class="dropdown-text">Conference Papers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../content/research/editorials.html">
+ <span class="dropdown-text">Editorials</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="../content/software.html" aria-current="page"> 
 <span class="menu-text">Software</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../content/presentations/presentations.html"> 
-<span class="menu-text">Presentations</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-presentations" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Presentations</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-presentations">    
+        <li>
+    <a class="dropdown-item" href="../content/presentations/workshops.html">
+ <span class="dropdown-text">Workshops</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../content/presentations/talks.html">
+ <span class="dropdown-text">Talks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../content/presentations/posters.html">
+ <span class="dropdown-text">Posters</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../content/good/good.html"> 
 <span class="menu-text">Data for Good</span></a>
@@ -208,17 +240,18 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="89bb78f9e2ab61ee75fec13e93ffad23" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Test</strong> of announcement bar.</p>
+  <div id="quarto-announcement" data-announcement-id="67a1ff00a191fe310f0874a475115ced" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p>This site is currently <strong>under development</strong>! Please check back for regular updates.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QmF0Y2glMjBFZmZlY3Rz">Batch Effects <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2F1c2FsJTIwSW5mZXJlbmNl">Causal Inference <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29tcGxleCUyMFN1cnZleXM=">Complex Surveys <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29udHJvbGxlZCUyME91dGNvbWUlMjBEaWZmZXJlbmNlcw==">Controlled Outcome Differences <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVlcCUyMExlYXJuaW5n">Deep Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RU0lMjBBbGdvcml0aG0=">EM Algorithm <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGE=">Inference with Predicted Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGF0ZW50JTIwVmFyaWFibGUlMjBNb2RlbHM=">Latent Variable Models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMGxlYXJuaW5n">Machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWV0YWJvbG9taWNz">Metabolomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvcGVuc2l0eSUyMFNjb3Jlcw==">Propensity Scores <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(6)</span></div><div class="category" data-category="U2VtaS1Db21wZXRpbmclMjBSaXNrcw==">Semi-Competing Risks <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VG9yY2g=">Torch <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -227,7 +260,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -240,100 +273,266 @@ window.Quarto = {
 
 
 <div class="software-intro">
-<p>I build open-source tools at the intersection of statistics, machine learning, and precision oncology.<br>
-Below is a curated collection of packages, libraries, and tools I maintain or actively contribute to.</p>
+<p>I build open-source tools at the intersection of statistics, machine learning, and precision oncology. Below are packages, libraries, and tools I maintain or actively contribute to.</p>
 </div>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UiUyMHBhY2thZ2UlMkNEZWVwJTIwbGVhcm5pbmclMkNUb3JjaCUyQ1NvZnR3YXJlJTIwZnJhbWV3b3Jr" data-listing-date-sort="1736917200000" data-listing-file-modified-sort="1763184411300" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<div class="g-col-1" data-index="0" data-categories="UiUyQ01hY2hpbmUlMjBsZWFybmluZyUyQ1RvcmNo" data-listing-date-sort="1764565200000" data-listing-file-modified-sort="1764962121810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
 <a href="../content/software/scorcher.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../content/images/software/scorcher.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 scorcher
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UiUyMHBhY2thZ2U='); return false;">
-R package
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('RGVlcCUyMGxlYXJuaW5n'); return false;">
-Deep learning
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMGxlYXJuaW5n'); return false;">
+Machine learning
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('VG9yY2g='); return false;">
 Torch
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('U29mdHdhcmUlMjBmcmFtZXdvcms='); return false;">
-Software framework
-</div>
 </div>
 <div class="card-text listing-description">
-Modular deep learning in R with torch, designed for prediction-powered inference workflows.
+High-Level API for Torch
 </div>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-github
-</td>
-<td class="github">
-https://github.com/jtleek/scorcher
-</td>
-</tr>
-<tr>
-<td>
-doi
-</td>
-<td class="doi">
-&nbsp;
-</td>
-</tr>
-</tbody></table>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Dec 2025
+</div>
+</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UiUyMHBhY2thZ2UlMkNJbmZlcmVuY2UlMjB3aXRoJTIwcHJlZGljdGVkJTIwZGF0YSUyQ0NhdXNhbCUyMGluZmVyZW5jZQ==" data-listing-date-sort="1735707600000" data-listing-file-modified-sort="1763184386568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<div class="g-col-1" data-index="1" data-categories="UiUyQ0RlZXAlMjBMZWFybmluZyUyQ1NlbWktQ29tcGV0aW5nJTIwUmlza3MlMkNFTSUyMEFsZ29yaXRobQ==" data-listing-date-sort="1763614800000" data-listing-file-modified-sort="1764964309055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
+<a href="../content/software/semicompdnn.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../content/images/software/semicompdnn.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SemiCompDNN
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGVlcCUyMExlYXJuaW5n'); return false;">
+Deep Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U2VtaS1Db21wZXRpbmclMjBSaXNrcw=='); return false;">
+Semi-Competing Risks
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RU0lMjBBbGdvcml0aG0='); return false;">
+EM Algorithm
+</div>
+</div>
+<div class="card-text listing-description">
+Deep Learning of Semi-Competing Risk Data via a New Neural Expectation-Maximization Algorithm
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Nov 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UiUyQ0NvbXBsZXglMjBTdXJ2ZXlzJTJDQ29udHJvbGxlZCUyME91dGNvbWUlMjBEaWZmZXJlbmNlcyUyQ1Byb3BlbnNpdHklMjBTY29yZXMlMkNDYXVzYWwlMjBJbmZlcmVuY2U=" data-listing-date-sort="1753156800000" data-listing-file-modified-sort="1764964584748" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="163">
+<a href="../content/software/svycdiff.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../content/images/software/svycdiff.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+svycdiff
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxleCUyMFN1cnZleXM='); return false;">
+Complex Surveys
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q29udHJvbGxlZCUyME91dGNvbWUlMjBEaWZmZXJlbmNlcw=='); return false;">
+Controlled Outcome Differences
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvcGVuc2l0eSUyMFNjb3Jlcw=='); return false;">
+Propensity Scores
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q2F1c2FsJTIwSW5mZXJlbmNl'); return false;">
+Causal Inference
+</div>
+</div>
+<div class="card-text listing-description">
+Estimating Controlled Outcome Differences in Complex Surveys
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jul 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="UiUyQ0RlZXAlMjBMZWFybmluZyUyQ1NlbWktQ29tcGV0aW5nJTIwUmlza3MlMkNDYXVzYWwlMjBJbmZlcmVuY2U=" data-listing-date-sort="1740978000000" data-listing-file-modified-sort="1764964774196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
+<a href="../content/software/pseudoscr.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../content/images/software/pseudoscr.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+pseudoSCR
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGVlcCUyMExlYXJuaW5n'); return false;">
+Deep Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U2VtaS1Db21wZXRpbmclMjBSaXNrcw=='); return false;">
+Semi-Competing Risks
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q2F1c2FsJTIwSW5mZXJlbmNl'); return false;">
+Causal Inference
+</div>
+</div>
+<div class="card-text listing-description">
+A Pseudo-Value Approach to Causal Deep Learning of Semi-Competing Risks
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UiUyQ0luZmVyZW5jZSUyMHdpdGglMjBQcmVkaWN0ZWQlMjBEYXRhJTJDTWFjaGluZSUyMExlYXJuaW5n" data-listing-date-sort="1736226000000" data-listing-file-modified-sort="1764962363741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
 <a href="../content/software/ipd.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../content/images/software/ipd.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 ipd
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UiUyMHBhY2thZ2U='); return false;">
-R package
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('SW5mZXJlbmNlJTIwd2l0aCUyMHByZWRpY3RlZCUyMGRhdGE='); return false;">
-Inference with predicted data
+<div class="listing-category" onclick="window.quartoListingCategory('SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGE='); return false;">
+Inference with Predicted Data
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q2F1c2FsJTIwaW5mZXJlbmNl'); return false;">
-Causal inference
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
+Machine Learning
 </div>
 </div>
 <div class="card-text listing-description">
-Inference with predicted data for generalized linear models and beyond.
+Inference with Predicted Data
 </div>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-github
-</td>
-<td class="github">
-https://github.com/ipd-tools/ipd
-</td>
-</tr>
-<tr>
-<td>
-doi
-</td>
-<td class="doi">
-https://doi.org/10.1234/ipd-package
-</td>
-</tr>
-</tbody></table>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="UiUyQ0JhdGNoJTIwRWZmZWN0cyUyQ0xhdGVudCUyMFZhcmlhYmxlJTIwTW9kZWxzJTJDTWV0YWJvbG9taWNz" data-listing-date-sort="1498708800000" data-listing-file-modified-sort="1764963631581" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
+<a href="../content/software/rrmix.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../content/images/software/rrmix.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+RRmix
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QmF0Y2glMjBFZmZlY3Rz'); return false;">
+Batch Effects
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TGF0ZW50JTIwVmFyaWFibGUlMjBNb2RlbHM='); return false;">
+Latent Variable Models
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TWV0YWJvbG9taWNz'); return false;">
+Metabolomics
+</div>
+</div>
+<div class="card-text listing-description">
+Simultaneous Batch Effect Correction and Analysis in the Absence of Internal Standards
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jun 2017
+</div>
+</div>
 </div>
 </div>
 </a>

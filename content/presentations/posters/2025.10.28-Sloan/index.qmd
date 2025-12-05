@@ -1,0 +1,28 @@
+---
+title: scorcher
+subtitle: Democratizing AI/ML for Precision Oncology
+author:
+  - Stephen Salerno
+  - Carrie Wright
+  - Ava Hoffman
+  - Awan Afiaz
+  - Sean Kross
+  - Barbara Lam
+  - Xiaoyu Qu
+  - Min Fang
+  - Jeffrey T. Leek
+categories:
+  - Machine Learning
+  - R
+  - Torch
+description: 2025 Sloan Precision Oncology Symposium
+date: 2025-10-28
+image: img.png
+editor: source
+---
+
+<iframe id="2025.10.28-Sloan.pdf" src="./2025.10.28-Sloan.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>
+
+

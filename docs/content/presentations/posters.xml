@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Stephen Salerno</title>
+<link>https://salernos.github.io/content/presentations/posters.html</link>
+<atom:link href="https://salernos.github.io/content/presentations/posters.xml" rel="self" type="application/rss+xml"/>
+<description>Personal website for Stephen Salerno, PhD</description>
+<image>
+<url>https://salernos.github.io/content/images/pic.jpg</url>
+<title>Stephen Salerno</title>
+<link>https://salernos.github.io/content/presentations/posters.html</link>
+</image>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Tue, 28 Oct 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>scorcher</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Carrie Wright</dc:creator>
+  <dc:creator>Ava Hoffman</dc:creator>
+  <dc:creator>Awan Afiaz</dc:creator>
+  <dc:creator>Sean Kross</dc:creator>
+  <dc:creator>Barbara Lam</dc:creator>
+  <dc:creator>Xiaoyu Qu</dc:creator>
+  <dc:creator>Min Fang</dc:creator>
+  <dc:creator>Jeffrey T. Leek</dc:creator>
+  <link>https://salernos.github.io/content/presentations/posters/2025.10.28-Sloan/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2025.10.28-Sloan.pdf" src="./2025.10.28-Sloan.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Machine Learning</category>
+  <category>R</category>
+  <category>Torch</category>
+  <guid>https://salernos.github.io/content/presentations/posters/2025.10.28-Sloan/</guid>
+  <pubDate>Tue, 28 Oct 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/posters/2025.10.28-Sloan/img.png" medium="image" type="image/png" height="86" width="144"/>
+</item>
+<item>
+  <title>Inference with Predicted Data</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Jiacheng Miao</dc:creator>
+  <dc:creator>Awan Afiaz</dc:creator>
+  <dc:creator>Kentaro Hoffman</dc:creator>
+  <dc:creator>Jesse Gronsbell</dc:creator>
+  <dc:creator>Jianhui Gao</dc:creator>
+  <dc:creator>David Cheng</dc:creator>
+  <dc:creator>Anna Neufeld</dc:creator>
+  <dc:creator>Qiongshi Lu</dc:creator>
+  <dc:creator>Tyler H. McCormick</dc:creator>
+  <dc:creator>Jeffrey T. Leek</dc:creator>
+  <link>https://salernos.github.io/content/presentations/posters/2025.06.24-GBCC/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2025.06.24-GBCC.pdf" src="./2025.06.24-GBCC.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Inference with Predicted Data</category>
+  <category>Machine Learning</category>
+  <category>R</category>
+  <guid>https://salernos.github.io/content/presentations/posters/2025.06.24-GBCC/</guid>
+  <pubDate>Tue, 24 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/posters/2025.06.24-GBCC/img.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>

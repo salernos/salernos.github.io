@@ -1,0 +1,22 @@
+---
+title: SemiCompDNN
+description: Deep Learning of Semi-Competing Risk Data via a New Neural Expectation-Maximization Algorithm
+date: 2025-11-20
+categories:
+  - R
+  - Deep Learning
+  - Semi-Competing Risks
+  - EM Algorithm
+image: ../images/software/semicompdnn.png
+---
+
+### Overview
+
+Prognostication for individuals with lung cancer is a complex task, often relying on the use of risk factors and health events spanning their entire life course. One challenge is that an individual's disease course involves non-terminal (e.g., disease progression) and terminal (e.g., death) events, which form *semi-competing* relationships. By semi-competing, we mean that the occurrence of a non-terminal event is subject to the occurrence of a terminal event.  
+
+Following developments in the prediction of time-to-event outcomes with neural networks, deep learning has become a key area of focus for the development of risk prediction methods in survival analysis. However, limited work has been done to predict multi-state or competing risk outcomes, let alone semi-competing outcomes. To address this, we propose a novel neural expectation-maximization algorithm, in which we hope to bridge the gap between classical statistical approaches and machine learning. Our algorithm allows us to estimate the non-parametric baseline hazards of each state transition, risk functions of our predictors, and the degree of dependence among different transitions by utilizing a multi-task deep neural network with transition-specific sub-architectures. As deep learning can recover non-linear risk scores, we test our method by simulating risk surfaces of varying complexity. 
+
+::: {.software-links}
+- GitHub: <https://github.com/salernos/SemiCompDNN>
+- Paper: <https://arxiv.org/abs/2212.12028>
+:::

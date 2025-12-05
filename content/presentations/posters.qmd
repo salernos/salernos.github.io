@@ -1,0 +1,13 @@
+---
+title: Posters
+subtitle: Select posters are given below. A full listing is available on my **[CV](https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1)**.
+listing:
+  contents: "posters"
+  feed: true
+  sort: "date desc"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+search: true
+---

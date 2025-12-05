@@ -1,27 +1,28 @@
 ---
-title: "scorcher"
-description: "Modular deep learning in R with torch, designed for prediction-powered inference workflows."
-date: 2025-01-15
-
-categories: ["R package", "Deep learning", "Torch", "Software framework"]
-
-github: "https://github.com/jtleek/scorcher"
-doi: ""
-
-link-external-icon: true
+title: scorcher
+description: High-Level API for Torch
+date: 2025-12-01
+categories:
+  - R
+  - Machine learning
+  - Torch
+image: ../images/software/scorcher.png
 ---
 
-`scorcher` provides a composable, **Keras Functional-style** interface for building deep learning models in R 
-using `torch`, with special attention to workflows needed for **inference with predicted data**.
+### Overview
 
-Highlights:
+The `scorcher` package provides high-level functionality for building
+and fitting deep learning models using the Torch library in R. By
+simplifying model development through easy-to-use functions and ensuring
+compatibility with existing R workflows and data structures, scorcher
+facilitates the use of deep learning without the need for extensive
+programming knowledge.
 
-- Functional API for multi-input, multi-output architectures
-- Helpers for Hugging Face models and multimodal pipelines
-- Designed to play nicely with `ipd` and related inference tooling
+The package allows users to create, modify, and visualize models through
+functions such as `initiate_scorch`, `scorch_layer`, `compile_scorch`,
+and `fit_scorch`. The package flexibly handles tasks such as prediction,
+classification, computer vision, diffusion, and more.
 
 ::: {.software-links}
 - GitHub: <https://github.com/jtleek/scorcher>
-- Documentation: *in development*
 :::
-

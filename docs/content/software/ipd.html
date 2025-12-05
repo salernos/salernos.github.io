@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Inference with predicted data for generalized linear models and beyond.">
+<meta name="description" content="Inference with Predicted Data">
 
 <title>ipd – Stephen Salerno</title>
 <style>
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e1c018ae7ee917d8ac68b5257c0549f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a4e3c40ab79f8625b91bf7b8c5d53c0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,8 +95,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta name="twitter:title" content="ipd – Stephen Salerno">
-<meta name="twitter:description" content="Inference with predicted data for generalized linear models and beyond.">
-<meta name="twitter:image" content="https://salernos.github.io/content/software/content/images/pic.jpg">
+<meta name="twitter:description" content="Inference with Predicted Data">
+<meta name="twitter:image" content="https://salernos.github.io/content/images/software/ipd.png">
+<meta name="twitter:image-height" content="500">
+<meta name="twitter:image-width" content="500">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -120,18 +122,48 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../research.qmd"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../../content/research/publications.html">
+ <span class="dropdown-text">Publications</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/research/conference.html">
+ <span class="dropdown-text">Conference Papers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/research/editorials.html">
+ <span class="dropdown-text">Editorials</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../content/software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/presentations/presentations.html"> 
-<span class="menu-text">Presentations</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-presentations" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Presentations</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-presentations">    
+        <li>
+    <a class="dropdown-item" href="../../content/presentations/workshops.html">
+ <span class="dropdown-text">Workshops</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/presentations/talks.html">
+ <span class="dropdown-text">Talks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/presentations/posters.html">
+ <span class="dropdown-text">Posters</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../content/good/good.html"> 
 <span class="menu-text">Data for Good</span></a>
@@ -150,16 +182,22 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="89bb78f9e2ab61ee75fec13e93ffad23" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Test</strong> of announcement bar.</p>
+  <div id="quarto-announcement" data-announcement-id="67a1ff00a191fe310f0874a475115ced" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p>This site is currently <strong>under development</strong>! Please check back for regular updates.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/content/software/ipd.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -168,15 +206,15 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">ipd</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">R package</div>
-    <div class="quarto-category">Inference with predicted data</div>
-    <div class="quarto-category">Causal inference</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Inference with Predicted Data</div>
+    <div class="quarto-category">Machine Learning</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Inference with predicted data for generalized linear models and beyond.
+    Inference with Predicted Data
   </div>
 </div>
 
@@ -192,14 +230,6 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
     
-    <div>
-    <div class="quarto-title-meta-heading">Doi</div>
-    <div class="quarto-title-meta-contents">
-      <p class="doi">
-        <a href="https://doi.org/https://doi.org/10.1234/ipd-package">https://doi.org/10.1234/ipd-package</a>
-      </p>
-    </div>
-  </div>
   </div>
   
 
@@ -207,22 +237,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><code>ipd</code> is an R package implementing a unifying framework for <strong>inference with predicted data</strong>, including methods such as PPI, RePPI, and prediction-powered inference variants.</p>
-<p>Key features:</p>
-<ul>
-<li>Unified interface that mirrors <code>glm()</code></li>
-<li>Support for multiple IPD estimators via a single high-level API</li>
-<li>Tools for diagnostics, simulation, and workflow integration</li>
-</ul>
+<section id="overview" class="level3">
+<h3 class="anchored" data-anchor-id="overview">Overview</h3>
+<p><code>ipd</code> is an open-source <code>R</code> software package for the downstream modeling of an outcome and its associated features where a potentially sizable portion of the outcome data has been imputed by an artificial intelligence or machine learning (AI/ML) prediction algorithm. The package implements several recent proposed methods for inference on predicted data (IPD) with a single, user-friendly wrapper function, <code>ipd</code>. The package also provides custom <code>print</code>, <code>summary</code>, <code>tidy</code>, <code>glance</code>, and <code>augment</code> methods to facilitate easy model inspection.</p>
 <div class="software-links">
 <ul>
 <li>GitHub: <a href="https://github.com/ipd-tools/ipd" class="uri">https://github.com/ipd-tools/ipd</a></li>
-<li>Documentation: <em>coming soon</em></li>
-<li>DOI / paper: <a href="https://doi.org/10.1234/ipd-package" class="uri">https://doi.org/10.1234/ipd-package</a></li>
+<li>CRAN: <a href="https://cran.r-project.org/web/packages/ipd/index.html" class="uri">https://cran.r-project.org/web/packages/ipd/index.html</a></li>
+<li>Paper: <a href="https://academic.oup.com/bioinformatics/article/41/2/btaf055/7997267" class="uri">https://academic.oup.com/bioinformatics/article/41/2/btaf055/7997267</a></li>
 </ul>
 </div>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -334,8 +361,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
           if (link.getAttribute("rel") === null) {
             link.setAttribute("rel", "noopener");
           }
-          // default icon
-          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -661,7 +686,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
  © 2025 Stephen Salerno
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/content/software/ipd.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/content/software/ipd.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

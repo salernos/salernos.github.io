@@ -1,30 +1,20 @@
 ---
-title: "ipd"
-description: "Inference with predicted data for generalized linear models and beyond."
-date: 2025-01-01
-
-categories: ["R package", "Inference with predicted data", "Causal inference"]
-
-# Custom fields used by the listing
-github: "https://github.com/ipd-tools/ipd"
-doi: "https://doi.org/10.1234/ipd-package"   # replace with real DOI if/when
-link-external-icon: true
-
-# Optional: thumbnail image if you want a logo later
-# image: "images/software/ipd-logo.png"
+title: ipd
+description: Inference with Predicted Data
+date: 2025-01-07
+categories:
+  - R
+  - Inference with Predicted Data
+  - Machine Learning
+image: ../images/software/ipd.png
 ---
 
-`ipd` is an R package implementing a unifying framework for **inference with predicted data**, 
-including methods such as PPI, RePPI, and prediction-powered inference variants.
+### Overview
 
-Key features:
-
-- Unified interface that mirrors `glm()`
-- Support for multiple IPD estimators via a single high-level API
-- Tools for diagnostics, simulation, and workflow integration
+`ipd` is an open-source `R` software package for the downstream modeling of an outcome and its associated features where a potentially sizable portion of the outcome data has been imputed by an artificial intelligence or machine learning (AI/ML) prediction algorithm. The package implements several recent proposed methods for inference on predicted data (IPD) with a single, user-friendly wrapper function, `ipd`. The package also provides custom `print`, `summary`, `tidy`, `glance`, and `augment` methods to facilitate easy model inspection.
 
 ::: {.software-links}
 - GitHub: <https://github.com/ipd-tools/ipd>
-- Documentation: *coming soon*
-- DOI / paper: <https://doi.org/10.1234/ipd-package>
+- CRAN: <https://cran.r-project.org/web/packages/ipd/index.html>
+- Paper: <https://academic.oup.com/bioinformatics/article/41/2/btaf055/7997267>
 :::

@@ -1,0 +1,24 @@
+---
+title: pseudoSCR
+description: A Pseudo-Value Approach to Causal Deep Learning of Semi-Competing Risks
+date: 2025-03-03
+categories:
+  - R
+  - Deep Learning
+  - Semi-Competing Risks
+  - Causal Inference
+image: ../images/software/pseudoscr.png
+---
+
+### Overview
+
+This project proposes a deep learning approach for estimating the causal effect of treatment on non-fatal outcomes in the presence of dependent censoring and complex covariate relationships. Our three-stage approach involves:
+
+1. Estimating the non-fatal event's marginal survival function using an Archimedean copula representation
+2. Constructing jackknife pseudo-values that estimate pseudo-survival probabilities for the non-fatal event at fixed time points
+3. Fitting a deep neural network (S-learner) to estimate survival average causal effect of treatment
+
+::: {.software-links}
+- GitHub: <https://github.com/salernos/pseudoSCR>
+- Paper: <https://link.springer.com/article/10.1007/s40065-025-00501-7>
+:::
