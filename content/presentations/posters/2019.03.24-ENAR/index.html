@@ -6,8 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Stephen Salerno">
+<meta name="author" content="Lili Zhao">
+<meta name="author" content="Yi Li">
+<meta name="description" content="2019 International Biometric Society Eastern North American Region Spring Meeting">
 
-<title>Workshops – Stephen Salerno</title>
+<title>A Bayesian Semi-Parametric Copula Factor Model – Stephen Salerno</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +27,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../content/images/pic.jpg" rel="icon" type="image/jpeg">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-ecdbf4bfd8fb75ebc4a6d010e646cbaf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../content/images/pic.jpg" rel="icon" type="image/jpeg">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-ecdbf4bfd8fb75ebc4a6d010e646cbaf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-href","listing-title","listing-date","listing-categories","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <script>
 
@@ -123,39 +96,12 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Stephen Salerno" href="workshops.xml" data-external="1"><meta name="twitter:title" content="Workshops – Stephen Salerno">
-<meta name="twitter:description" content="Select workshops are given below. A full listing is available on my CV.">
-<meta name="twitter:image" content="https://salernos.github.io/content/presentations/content/images/ipd-workshop.png">
+<meta name="twitter:title" content="A Bayesian Semi-Parametric Copula Factor Model – Stephen Salerno">
+<meta name="twitter:description" content="2019 International Biometric Society Eastern North American Region Spring Meeting">
+<meta name="twitter:image" content="https://salernos.github.io/content/presentations/posters/2019.03.24-ENAR/img.png">
+<meta name="twitter:image-height" content="827">
+<meta name="twitter:image-width" content="1098">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -166,10 +112,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../logo.png" alt="" class="navbar-logo">
+    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">&gt; Stephen Salerno</span>
     </a>
   </div>
@@ -185,21 +131,21 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="../../content/research/publications.html">
+    <a class="dropdown-item" href="../../../../content/research/publications.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/research/conference.html">
+    <a class="dropdown-item" href="../../../../content/research/conference.html">
  <span class="dropdown-text">Conference Papers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/research/editorials.html">
+    <a class="dropdown-item" href="../../../../content/research/editorials.html">
  <span class="dropdown-text">Editorials</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../content/software.html"> 
+    <a class="nav-link" href="../../../../content/software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -208,25 +154,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-presentations">    
         <li>
-    <a class="dropdown-item" href="../../content/presentations/workshops.html">
+    <a class="dropdown-item" href="../../../../content/presentations/workshops.html">
  <span class="dropdown-text">Workshops</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/presentations/talks.html">
+    <a class="dropdown-item" href="../../../../content/presentations/talks.html">
  <span class="dropdown-text">Talks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/presentations/posters.html">
+    <a class="dropdown-item" href="../../../../content/presentations/posters.html">
  <span class="dropdown-text">Posters</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../content/good/good.html"> 
+    <a class="nav-link" href="../../../../content/good/good.html"> 
 <span class="menu-text">Data for Good</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../content/recipes.html"> 
+    <a class="nav-link" href="../../../../content/recipes.html"> 
 <span class="menu-text">Recipes</span></a>
   </li>  
   <li class="nav-item">
@@ -244,26 +190,49 @@ window.Quarto = {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGE=">Inference with Predicted Data <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Workshops</h1>
-<p class="subtitle lead"></p><p>Select workshops are given below. A full listing is available on my <strong><a href="https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1">CV</a></strong>.</p><p></p>
+<h1 class="title">A Bayesian Semi-Parametric Copula Factor Model</h1>
+<p class="subtitle lead">for Estimating Composite Measures of Quality</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Factor Model</div>
+    <div class="quarto-category">Quality Measurement</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    2019 International Biometric Society Eastern North American Region Spring Meeting
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page-left">
-
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Stephen Salerno </p>
+             <p>Lili Zhao </p>
+             <p>Yi Li </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Mar 2019</p>
+    </div>
+  </div>
   
     
   </div>
@@ -273,89 +242,12 @@ window.Quarto = {
 </header>
 
 
+<iframe id="2019.03.24-ENAR.pdf" src="./2019.03.24-ENAR.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGElMkNNYWNoaW5lJTIwTGVhcm5pbmclMkNS" data-listing-date-sort="1773720000000">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="content/images/ipd-workshop.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to Prediction-based Inference: Methods &amp; Applications
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGE='); return false;">
-Inference with Predicted Data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
-Machine Learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-</div>
-<div class="card-text listing-description">
-<p>In this tutorial, we explore the consequences of inference on predicted data across several biomedical applications.</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGElMkNNYWNoaW5lJTIwTGVhcm5pbmclMkNS" data-listing-date-sort="1749268800000">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="content/images/ipdworkshop.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Inference with Predicted Data (IPD) Workshop
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGE='); return false;">
-Inference with Predicted Data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
-Machine Learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-</div>
-<div class="card-text listing-description">
-<p>In this workshop, we explore the consequences of inference with predicted data across several biomedical applications.</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -790,7 +682,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
  © 2025 Stephen Salerno
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/content/presentations/workshops.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/salernos/salernos.github.io/edit/main/content/presentations/posters/2019.03.24-ENAR/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/salernos/salernos.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -831,5 +723,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
