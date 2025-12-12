@@ -11,7 +11,9 @@ execute:
   message: false
 ---
 
-This page lists all of my publications, organized by year. Click a paper’s *title* to visit the publisher page and access the official version. Use *Abstract* to reveal the summary, *Citation* for the APA 7th-edition reference, and *BibTeX* to view the BibTeX entry. Clicking the link a second time will close the display again. *Preprint* links to a free author version (not the final typeset copy), and *Materials* leads to an open repository with data, code, and other open-science resources. <span style="font-size:0.9rem; opacity:0.8; margin-bottom:0.5rem;">★ = (co) first-authored work</span>
+This page lists all of my publications, organized by year. Click a paper’s *title* to visit the publisher page and access the official version. Use *Abstract* to reveal the summary, *Citation* for the APA 7th-edition reference, and *BibTeX* to view the BibTeX entry. Clicking the link a second time will close the display again. *Preprint* links to a free author version (not the final typeset copy), and *Materials* leads to an open repository with data, code, and other open-science resources. 
+
+★ = (co)first-authored work
 
 For the most up-to-date listing of my work, please see my [Google Scholar](https://scholar.google.com/citations?user=XUH1C6YAAAAJ&hl=en) or [My Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/stephen.salerno.2/bibliography/public/).
 
@@ -140,13 +142,21 @@ rows <- tibble(
     materials_url = normalize_link(materials_val)) |>
   
   mutate(
-    doi_url = normalize_link(
-      if_else(
-        nzchar(doi %||% ""),
-        str_glue("https://doi.org/{doi}"),
-        if_else(nzchar(preprint_url %||% ""), preprint_url, url_fallback)
-      )
+    
+    url_fallback = normalize_link(url_fallback),
+
+    title_url = coalesce(
+      url_fallback,
+      preprint_url,
+      materials_url
     ),
+  
+    doi_url = if_else(
+      nzchar(doi %||% ""),
+      paste0("https://doi.org/", doi),
+      title_url
+    ),
+  
     year_num = suppressWarnings(as.integer(str_extract(year, "\\d{4}"))),
     year_lbl = ifelse(is.na(year_num), "n.d.", as.character(year_num))) |>
   

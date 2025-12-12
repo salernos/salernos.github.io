@@ -1,0 +1,19 @@
+---
+title: A Bayesian Semi-Parametric Copula Factor Model 
+subtitle: for Estimating Composite Measures of Quality
+author:
+  - Stephen Salerno
+  - Lili Zhao
+  - Yi Li
+categories:
+  - Factor Model
+  - Quality Measurement
+description: 2019 International Biometric Society Eastern North American Region Spring Meeting 
+date: 2019-03-24
+image: img.png
+editor: source
+---
+
+<iframe id="2019.03.24-ENAR.pdf" src="./2019.03.24-ENAR.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

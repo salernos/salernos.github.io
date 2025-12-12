@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a4e3c40ab79f8625b91bf7b8c5d53c0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-ecdbf4bfd8fb75ebc4a6d010e646cbaf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-href","listing-title","listing-date","listing-categories","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -155,7 +155,7 @@ window.Quarto = {
 
 <link rel="alternate" type="application/rss+xml" title="Stephen Salerno" href="workshops.xml" data-external="1"><meta name="twitter:title" content="Workshops – Stephen Salerno">
 <meta name="twitter:description" content="Select workshops are given below. A full listing is available on my CV.">
-<meta name="twitter:image" content="https://salernos.github.io/content/presentations/content/images/pic.jpg">
+<meta name="twitter:image" content="https://salernos.github.io/content/presentations/content/images/ipd-workshop.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -249,14 +249,14 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGE=">Inference with Predicted Data <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Workshops</h1>
-<p class="subtitle lead">Select workshops are given below. A full listing is available on my <strong><a href="https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1">CV</a></strong>.</p>
+<p class="subtitle lead"></p><p>Select workshops are given below. A full listing is available on my <strong><a href="https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1">CV</a></strong>.</p><p></p>
 </div>
 
 
@@ -277,15 +277,80 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list quarto-listing-default">
-
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGElMkNNYWNoaW5lJTIwTGVhcm5pbmclMkNS" data-listing-date-sort="1773720000000">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="content/images/ipd-workshop.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introduction to Prediction-based Inference: Methods &amp; Applications
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGE='); return false;">
+Inference with Predicted Data
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+</div>
+<div class="card-text listing-description">
+<p>In this tutorial, we explore the consequences of inference on predicted data across several biomedical applications.</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGElMkNNYWNoaW5lJTIwTGVhcm5pbmclMkNS" data-listing-date-sort="1749268800000">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="content/images/ipdworkshop.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Inference with Predicted Data (IPD) Workshop
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SW5mZXJlbmNlJTIwd2l0aCUyMFByZWRpY3RlZCUyMERhdGE='); return false;">
+Inference with Predicted Data
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+</div>
+<div class="card-text listing-description">
+<p>In this workshop, we explore the consequences of inference with predicted data across several biomedical applications.</p>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

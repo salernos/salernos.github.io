@@ -1,6 +1,8 @@
 ---
 title: Presentations
-subtitle: Select presentations are given below. A full listing is available on my **[CV](https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1)**.
+subtitle: |
+  Select presentations are given below. A full listing is available on my
+  **[CV](https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1)**.
 listing:
   contents: "talks"
   feed: true

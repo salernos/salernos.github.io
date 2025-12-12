@@ -11,7 +11,9 @@ execute:
   message: false
 ---
 
-This page lists all of my publications, organized by year. Click a paper’s *title* to visit the publisher page and access the official version. Use *Abstract* to reveal the summary, *Citation* for the APA 7th-edition reference, and *BibTeX* to view the BibTeX entry. Clicking the link a second time will close the display again. *Preprint* links to a free author version (not the final typeset copy), and *Materials* leads to an open repository with data, code, and other open-science resources. <span style="font-size:0.9rem; opacity:0.8; margin-bottom:0.5rem;">★ = (co) first-authored work</span>
+This page lists all of my publications, organized by year. Click a paper’s *title* to visit the publisher page and access the official version. Use *Abstract* to reveal the summary, *Citation* for the APA 7th-edition reference, and *BibTeX* to view the BibTeX entry. Clicking the link a second time will close the display again. *Preprint* links to a free author version (not the final typeset copy), and *Materials* leads to an open repository with data, code, and other open-science resources.
+
+★ = (co)first-authored work
 
 For the most up-to-date listing of my work, please see my [Google Scholar](https://scholar.google.com/citations?user=XUH1C6YAAAAJ&hl=en) or [My Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/stephen.salerno.2/bibliography/public/).
 

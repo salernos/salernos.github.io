@@ -78,5 +78,50 @@
   <pubDate>Tue, 24 Jun 2025 04:00:00 GMT</pubDate>
   <media:content url="https://salernos.github.io/content/presentations/posters/2025.06.24-GBCC/img.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
+<item>
+  <title>A New Deep Learning Approach</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Yi Li</dc:creator>
+  <link>https://salernos.github.io/content/presentations/posters/2022.06.07-StJude/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2022.06.07-StJude.pdf" src="./2022.06.07-StJude.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Deep Learning</category>
+  <category>Semi-Competing Risks</category>
+  <guid>https://salernos.github.io/content/presentations/posters/2022.06.07-StJude/</guid>
+  <pubDate>Tue, 07 Jun 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/posters/2022.06.07-StJude/img.png" medium="image" type="image/png" height="132" width="144"/>
+</item>
+<item>
+  <title>A Bayesian Semi-Parametric Copula Factor Model</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Lili Zhao</dc:creator>
+  <dc:creator>Yi Li</dc:creator>
+  <link>https://salernos.github.io/content/presentations/posters/2019.03.24-ENAR/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2019.03.24-ENAR.pdf" src="./2019.03.24-ENAR.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Factor Model</category>
+  <category>Quality Measurement</category>
+  <guid>https://salernos.github.io/content/presentations/posters/2019.03.24-ENAR/</guid>
+  <pubDate>Sun, 24 Mar 2019 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/posters/2019.03.24-ENAR/img.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
 </channel>
 </rss>
