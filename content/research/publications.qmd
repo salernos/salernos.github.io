@@ -17,7 +17,7 @@ This page lists all of my publications, organized by year. Click a paper’s *ti
 
 ★ = (co)first-authored work
 
-For the most up-to-date listing of my work, please see my [Google Scholar](https://scholar.google.com/citations?user=XUH1C6YAAAAJ&hl=en) or [My Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/stephen.salerno.2/bibliography/public/).
+For the most up-to-date listing of my work, please see my [CV](/content/CV.pdf), [Google Scholar](https://scholar.google.com/citations?user=XUH1C6YAAAAJ&hl=en), or [My Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/stephen.salerno.2/bibliography/public/).
 
 
 ```{r setup}
