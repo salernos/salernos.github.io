@@ -15,6 +15,19 @@
 <link>https://salernos.github.io/content/presentations/workshops.html</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Thu, 18 Dec 2025 03:42:23 GMT</lastBuildDate>
+<lastBuildDate>Sat, 07 Jun 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Inference with Predicted Data (IPD) Workshop</title>
+  <link>https://salernos.github.io/</link>
+  <description>In this workshop, we explore the consequences of inference with
+predicted data across several biomedical applications.
+</description>
+  <category>Inference with Predicted Data</category>
+  <category>Machine Learning</category>
+  <category>R</category>
+  <guid>https://salernos.github.io/</guid>
+  <pubDate>Sat, 07 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/images/ipdworkshop.png" medium="image" type="image/png"/>
+</item>
 </channel>
 </rss>
