@@ -20,7 +20,7 @@ listing:
         - Inference with Predicted Data
         - Machine Learning
         - R
-      image: content/images/ipdworkshop.png
+      image: /content/images/ipdworkshop.png
       description: |
         In this workshop, we explore the consequences of inference with 
         predicted data across several biomedical applications.
