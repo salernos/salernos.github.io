@@ -1,0 +1,82 @@
+---
+title: "Nana's Italian Wedding Cookies"
+image: img.jpg
+prep: "10 minutes"
+cook: "10 minutes"
+servings: "20–24 cookies"
+description: "One of my favorite family traditions"
+---
+
+These cookies are traditionally served at weddings in many Italian families, but to us they were always just my Nana's cookies. We had them (and made them) whenever we went to her house, for every family gathering. They are a part of so many of my memories, and now they've become a family tradition of our own.
+
+::: {.recipe-card}
+
+::: {.recipe-hero}
+![]({{< meta image >}})
+:::
+
+::: {.recipe-meta-strip}
+::: {.meta-item}
+<span class="k">Prep</span> <span class="v">{{< meta prep >}}</span>
+:::
+::: {.meta-item}
+<span class="k">Cook</span> <span class="v">{{< meta cook >}}</span>
+:::
+::: {.meta-item}
+<span class="k">Servings</span> <span class="v">{{< meta servings >}}</span>
+:::
+:::
+
+::: {.recipe-body}
+
+::: {.recipe-panel .ingredients}
+## Ingredients
+
+- **1 stick** butter, softened
+- **1/2 cup** sugar
+- **3** eggs, beaten
+- **1 1/2 tsp** almond extract
+- **2 1/4 cups** all-purpose flour
+- **2 tsp** baking powder
+- **Pinch** of salt
+
+<br>
+
+**For the Icing**
+
+- Almond extract
+- Milk
+- Powdered sugar
+:::
+
+::: {.recipe-panel .directions}
+## Directions
+
+1. Preheat oven to **350°F**.
+2. Cream together the butter and sugar.
+3. Add the eggs and almond extract; mix until smooth.
+4. In a separate bowl, whisk flour, baking powder, and salt.
+5. Add the dry ingredients to the wet and mix until just combined.
+6. Knead lightly by hand until dough is smooth.
+7. Roll dough into **2-tbsp balls** and arrange on an ungreased baking sheet.
+8. Bake for **10 minutes**, or until firm but *before* the bottoms brown.
+
+<br>
+
+**For the Icing**
+
+9. Mix a small splash of almond extract, a few tbsp of milk, and enough powdered sugar to reach a pourable glaze.
+10. Drizzle the icing over cooled cookies and finish with a dusting of powdered sugar.
+:::
+
+:::
+
+::: {.recipe-notes}
+## Notes
+
+These cookies don't have to be almond! If you have allergies, or if almond just isn't your favorite, vanilla, lemon, anisette, and many other extracts work beautifully. 
+
+My grandma would often roll the dough out into logs and shape the cookies into bows. She would also sprinkle the cookies with rainbow nonpareils before the icing set (or let us kids!).
+:::
+
+:::

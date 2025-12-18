@@ -1,9 +1,12 @@
 ---
-title: "Data for Good in Your Neighborhood"
-subtitle: "How Graduate Students and Local Communities Benefit from Collaborative Partnerships"
-author: "Stephen Salerno"
-categories: ["Data for Good", "STATCOM"]
-description: "2020 Joint Statistical Meetings"
+title: Data for Good in Your Neighborhood
+subtitle: How Graduate Students and Local Communities Benefit from Collaborative Partnerships
+author: 
+  - Stephen Salerno
+categories: 
+  - Data for Good
+  - STATCOM
+description: 2020 Joint Statistical Meetings
 date: 2020-08-06
 image: img.png
 editor: source

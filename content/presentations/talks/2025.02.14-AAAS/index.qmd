@@ -1,0 +1,28 @@
+---
+title: Valid Statistical Inference
+subtitle: on AI/ML Predicted Outcomes
+author: 
+  - Stephen Salerno
+  - Jiacheng Miao
+  - Awan Afiaz
+  - Kentaro Hoffman
+  - Jesse Gronsbell
+  - Jianhui Gao
+  - David Cheng
+  - Anna Neufeld
+  - Qiongshi Lu
+  - Tyler H. McCormick
+  - Jeffrey T. Leek
+categories:
+  - Inference with Predicted Data
+  - Machine Learning
+  - R
+description: AAAS 2025 Annual Meeting
+date: 2025-02-14
+image: img.png
+editor: source
+---
+
+<iframe id="2025.02.14-AAAS.pdf" src="./2025.02.14-AAAS.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

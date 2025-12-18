@@ -1,0 +1,20 @@
+---
+title: A Pseudo-Value Approach 
+subtitle: to Causal Deep Learning of Semi-Competing Risks
+author: 
+  - Stephen Salerno
+  - Yi Li
+categories:
+  - Deep Learning
+  - Semi-Competing Risks
+  - Survival Analysis
+  - Causal Inference
+description: 2025 Lifetime Data Science Conference
+date: 2025-05-30
+image: img.png
+editor: source
+---
+
+<iframe id="2025.05.30-LiDS.pdf" src="./2025.05.30-LiDS.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

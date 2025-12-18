@@ -1,0 +1,24 @@
+---
+title: What's the Weight? 
+subtitle: Estimating Controlled Outcome Differences in Complex Surveys for Health Disparities Research
+author: 
+  - Stephen Salerno
+  - Emily K Roberts
+  - Belinda L. Needham
+  - Tyler H. McCormick
+  - Bhramar Mukherjee
+  - Xu Shi
+categories:
+  - Causal Inference
+  - Complex Surveys
+  - Average Controlled Difference
+  - NHANES
+description: 2024 Joint Statistical Meetings
+date: 2024-08-04
+image: img.png
+editor: source
+---
+
+<iframe id="2024.08.04-JSM.pdf" src="./2024.08.04-JSM.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

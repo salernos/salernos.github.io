@@ -1,9 +1,11 @@
 ---
-title: "Statistics in the Community"
-subtitle: "Community University Partnerships Fostering Data Science Education"
-author: "Stephen Salerno"
-categories: ["Data for Good", "STATCOM"]
-description: "2020 Symposium on Data Science and Statistics"
+title: Statistics in the Community
+subtitle: Community University Partnerships Fostering Data Science Education
+author: Stephen Salerno
+categories:
+  - Data for Good
+  - STATCOM
+description: 2020 Symposium on Data Science and Statistics
 date: 2020-06-04
 image: img.png
 editor: source

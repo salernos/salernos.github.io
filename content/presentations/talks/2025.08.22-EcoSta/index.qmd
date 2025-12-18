@@ -1,0 +1,25 @@
+---
+title: What's the Weight? 
+subtitle: Estimating Controlled Outcome Differences in Complex Surveys for Health Disparities Research
+author: 
+  - Stephen Salerno
+  - Emily K Roberts
+  - Belinda L. Needham
+  - Tyler H. McCormick
+  - Fan Li
+  - Bhramar Mukherjee
+  - Xu Shi
+categories:
+  - Causal Inference
+  - Complex Surveys
+  - Average Controlled Difference
+  - NHANES
+description: 2025 EcoSta
+date: 2025-08-22
+image: img.png
+editor: source
+---
+
+<iframe id="2025.08.22-EcoSta.pdf" src="./2025.08.22-EcoSta.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

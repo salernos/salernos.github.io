@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Stephen Salerno",
     "section": "",
-    "text": "Hello, my name is\n\n\nStephen Salerno\nI am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li, and a BS in Biometry and Statistics from Cornell University.\nMy research focuses on:\n\nStatistical methods for drawing inference on algorithmically derived variables (post-prediction inference)\n\nDeep learning for high-dimensional data\n\nSurvival analysis and causal questions in oncology and chronic disease\n\nI also work on clinical quality measures, public reporting, and health policy, especially in kidney disease and lung cancer, and I am committed to building user-friendly software and contributing to data-for-good initiatives.\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Hello, my name is\n\n\nStephen Salerno\nI am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center, working with Jeff Leek. I received my PhD and MS in Biostatistics from the University of Michigan under the supervision of Yi Li, and a BS in Biometry and Statistics from Cornell University.\nMy research focuses on:\n\nStatistical methods for drawing inference on AI/ML-generated data\n\nDeep learning for high-dimensional data and correlated survival endpoints\n\nSurvival analysis for oncology and chronic disease\n\nCausal inference in settings of complex sampling\n\nI also work on clinical quality measure development, public reporting, and health policy, especially in kidney disease and lung cancer, and I am committed to building user-friendly software and contributing to data-for-good initiatives.\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "content/software/semicompdnn.html",
@@ -42,11 +42,32 @@
     "text": "This page lists all of my publications, organized by year. Click a paper’s title to visit the publisher page and access the official version. Use Abstract to reveal the summary, Citation for the APA 7th-edition reference, and BibTeX to view the BibTeX entry. Clicking the link a second time will close the display again. Preprint links to a free author version (not the final typeset copy), and Materials leads to an open repository with data, code, and other open-science resources.\n★ = (co)first-authored work\nFor the most up-to-date listing of my work, please see my Google Scholar or My Bibliography.\n\n\n\n\n\n2024\n\n\n\nFrom Narratives to Numbers: Valid Inference Using Language Model Predictions from Verbal Autopsies\n\n\nFan, Visokay, Hoffman, Salerno, Liu, Leek & McCormick\n\nFirst Conference on Language Modeling\n\n\nAbstract\nCitation\nBibTeX\nPreprint\n\n\nCopy\nCopied!\n—\n\n\n\nIn settings where most deaths occur outside the healthcare system, verbal autopsies (VAs) are a common tool to monitor trends in causes of death (COD). VAs are interviews with a surviving caregiver or relative that are used to predict the decedent’s COD. Turning VAs into actionable insights for researchers and policymakers requires two steps (i) predicting likely COD using the VA interview and (ii) performing inference with predicted CODs (e.g. modeling the breakdown of causes by demographic factors using a sample of deaths). In this paper, we develop a method for valid inference using outcomes (in our case COD) predicted from free-form text using state-of-the-art NLP techniques. This method, which we call multiPPI++, extends recent work in “prediction-powered inference” to multinomial classification. We leverage a suite of NLP techniques for COD prediction and, through empirical analysis of VA data, we demonstrate the effectiveness of our approach in handling transportability issues. multiPPI++ recovers ground truth estimates, regardless of which NLP model produced predictions and regardless of whether they were produced by a more accurate predictor like GPT-4-32k or a less accurate predictor like KNN. Our findings demonstrate the practical importance of inference correction for public health decision-making and suggests that if inference tasks are the end goal, having a small amount of contextually relevant, high quality labeled data is essential regardless of the NLP algorithm.\n@inproceedings{fan2024from,\n  title = {From Narratives to Numbers: Valid Inference Using Language Model Predictions from Verbal Autopsies},\n  author = {Shuxian Fan and Adam Visokay and Kentaro Hoffman and Stephen Salerno and Li Liu and Jeffrey T. Leek and Tyler McCormick},\n  year = {2024},\n  booktitle = {First Conference on Language Modeling}\n}\n\n\n\n\n\n2018\n\n\n\nData for Good In Your Neighborhood: A case study on how data can benefit your local community\n\n\nNeCamp, Morris, Reynolds & Salerno\n\nBloomberg Data for Good Exchange\n\n\nAbstract\nCitation\nBibTeX\nPreprint\n\n\nCopy\nCopied!\n—\n\n\n\nData are beneficial resources for big businesses, national and state governments, and large nonprofits. In this article we describe how the benefits of data can be similarly reaped by local community organizations. We exemplar this benefit through Statistics in the Community (STATCOM) at the University of Michigan. STATCOM is an organization which connects statistics graduate students to local community organizations to provide free assistance around data organization, analysis, and interpretation. We describe three specific projects where STATCOM members partnered with a food assistance program, a crisis center, and a community foundation. For each project, we provide an overview of the community partner, the data available, the statistical methods used, the findings, and discuss how the analyses impacted the partner and the local community.\nNA\n\n\n\n\n\n\n\nThis page was adapted from https://github.com/jmgirard/affcomlab/blob/main/publications.qmd\n\n\n\n\n Back to topReferences\n\nFan, S., Visokay, A., Hoffman, K., Salerno, S., Liu, L., Leek, J. T., & McCormick, T. (2024). From narratives to numbers: Valid inference using language model predictions from verbal autopsies. First Conference on Language Modeling.\n\n\nNeCamp, T., Morris, E., Reynolds, E., & Salerno, S. (2018). Data for good in your neighborhood: A case study on how data can benefit your local community."
   },
   {
-    "objectID": "content/recipes/2025-11-15_Nanas-Cookies.html",
-    "href": "content/recipes/2025-11-15_Nanas-Cookies.html",
+    "objectID": "content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html",
+    "href": "content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html",
     "title": "Nana’s Italian Wedding Cookies",
     "section": "",
-    "text": "Back to top"
+    "text": "These cookies are traditionally served at weddings in many Italian families, but to us they were always just my Nana’s cookies. We had them (and made them) whenever we went to her house, for every family gathering. They are a part of so many of my memories, and now they’ve become a family tradition of our own."
+  },
+  {
+    "objectID": "content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html#ingredients",
+    "href": "content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html#ingredients",
+    "title": "Nana’s Italian Wedding Cookies",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n1 stick butter, softened\n1/2 cup sugar\n3 eggs, beaten\n1 1/2 tsp almond extract\n2 1/4 cups all-purpose flour\n2 tsp baking powder\nPinch of salt\n\n\nFor the Icing\n\nAlmond extract\nMilk\nPowdered sugar"
+  },
+  {
+    "objectID": "content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html#directions",
+    "href": "content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html#directions",
+    "title": "Nana’s Italian Wedding Cookies",
+    "section": "Directions",
+    "text": "Directions\n\nPreheat oven to 350°F.\nCream together the butter and sugar.\nAdd the eggs and almond extract; mix until smooth.\nIn a separate bowl, whisk flour, baking powder, and salt.\nAdd the dry ingredients to the wet and mix until just combined.\nKnead lightly by hand until dough is smooth.\nRoll dough into 2-tbsp balls and arrange on an ungreased baking sheet.\nBake for 10 minutes, or until firm but before the bottoms brown.\n\n\nFor the Icing\n\nMix a small splash of almond extract, a few tbsp of milk, and enough powdered sugar to reach a pourable glaze.\nDrizzle the icing over cooled cookies and finish with a dusting of powdered sugar."
+  },
+  {
+    "objectID": "content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html#notes",
+    "href": "content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html#notes",
+    "title": "Nana’s Italian Wedding Cookies",
+    "section": "Notes",
+    "text": "Notes\nThese cookies don’t have to be almond! If you have allergies, or if almond just isn’t your favorite, vanilla, lemon, anisette, and many other extracts work beautifully.\nMy grandma would often roll the dough out into logs and shape the cookies into bows. She would also sprinkle the cookies with rainbow nonpareils before the icing set (or let us kids!)."
   },
   {
     "objectID": "content/presentations/workshops.html",
@@ -56,8 +77,50 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntroduction to Prediction-based Inference: Methods & Applications\n\n\n\nInference with Predicted Data\n\n\nMachine Learning\n\n\nR\n\n\n\nIn this tutorial, we explore the consequences of inference on predicted data across several biomedical applications.\n\n\n\n\n\n\n\n\n\n\n\n\n\nInference with Predicted Data (IPD) Workshop\n\n\n\nInference with Predicted Data\n\n\nMachine Learning\n\n\nR\n\n\n\nIn this workshop, we explore the consequences of inference with predicted data across several biomedical applications.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "content/presentations/talks/2022.07.15-MIDAS/index.html",
-    "href": "content/presentations/talks/2022.07.15-MIDAS/index.html",
+    "objectID": "content/presentations/talks/2025.08.22-EcoSta/index.html",
+    "href": "content/presentations/talks/2025.08.22-EcoSta/index.html",
+    "title": "What’s the Weight?",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2025.05.30-LiDS/index.html",
+    "href": "content/presentations/talks/2025.05.30-LiDS/index.html",
+    "title": "A Pseudo-Value Approach",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2024.12.16-CFE-CMStatistics/index.html",
+    "href": "content/presentations/talks/2024.12.16-CFE-CMStatistics/index.html",
+    "title": "A Pseudo-Value Approach",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2023.09.26-Etzioni/index.html",
+    "href": "content/presentations/talks/2023.09.26-Etzioni/index.html",
+    "title": "A Brief Introduction to Survival Analysis",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2023.04.11-DaSL/index.html",
+    "href": "content/presentations/talks/2023.04.11-DaSL/index.html",
+    "title": "Deep Learning for Semi-Competing Risks and Statistics in the Community",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2022.11.05-PSD/index.html",
+    "href": "content/presentations/talks/2022.11.05-PSD/index.html",
+    "title": "Prospective Student Day",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2022.07.15-Camp/index.html",
+    "href": "content/presentations/talks/2022.07.15-Camp/index.html",
     "title": "Data Science Journey",
     "section": "",
     "text": "Back to top"
@@ -70,9 +133,16 @@
     "text": "Back to top"
   },
   {
-    "objectID": "content/presentations/talks/2021.07.27-NxtGen/index.html",
-    "href": "content/presentations/talks/2021.07.27-NxtGen/index.html",
-    "title": "Data Science for Good",
+    "objectID": "content/presentations/talks/2022.03.04-NeuroNet/index.html",
+    "href": "content/presentations/talks/2022.03.04-NeuroNet/index.html",
+    "title": "Introduction to R and RStudio",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2021.02.26-D4PG/index.html",
+    "href": "content/presentations/talks/2021.02.26-D4PG/index.html",
+    "title": "How to Create Data Visualizations Using Best Practices",
     "section": "",
     "text": "Back to top"
   },
@@ -84,30 +154,23 @@
     "text": "Back to top"
   },
   {
-    "objectID": "content/presentations/talks.html",
-    "href": "content/presentations/talks.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProspective Student Day\n\n\nAn Overview of My Research\n\n\n\nData Science Education\n\n\n\n2022 Biostatistics Prospective Student Day\n\n\n\n\n\nNov 2022\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Journey\n\n\n\n\n\n\nData for Good\n\n\nData Science Education\n\n\n\n2022 MIDAS Data Science Summer Camp\n\n\n\n\n\nJul 2022\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nA New Deep Learning Approach\n\n\nfor Predicting Survival Processes in the Presence of Semi-Competing Risks\n\n\n\nSurvival Analysis\n\n\nMachine Learning\n\n\n\n2022 Department of Population Health Sciences Seminar, Icahn School of Medicine, Mount Sinai\n\n\n\n\n\nJun 2022\n\n\nStephen Salerno and Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nUse of Machine Learning and Michigan EHR Data\n\n\nto assess the prognostic utility of radiomic features in predicting the survival of hospitalized patient with COVID-19\n\n\n\nSurvival Analysis\n\n\nMachine Learning\n\n\nImaging\n\n\n\n2022 Michigan Biostatistics Collaborative Lunches\n\n\n\n\n\nApr 2022\n\n\nStephen Salerno and Yuming Sun\n\n\n\n\n\n\n\n\n\n\n\n\nA New Deep Learning Approach\n\n\nfor Predicting Survival Processes in the Presence of Semi-Competing Risks\n\n\n\nSurvival Analysis\n\n\nMachine Learning\n\n\n\n2022 International Biometric Society Eastern North American Region Spring Meeting\n\n\n\n\n\nMar 2022\n\n\nStephen Salerno and Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nData Science for Good\n\n\n\n\n\n\nData for Good\n\n\nData Science Education\n\n\n\n2021 NxtGen Summer Academy\n\n\n\n\n\nJul 2021\n\n\nStephen Salerno, Ani Madurkar, Katie Nicholson, and Gauri Kambhatla\n\n\n\n\n\n\n\n\n\n\n\n\nData for Good in Your Neighborhood\n\n\nHow Graduate Students and Local Communities Benefit from Collaborative Partnerships\n\n\n\nData for Good\n\n\nSTATCOM\n\n\n\n2020 Joint Statistical Meetings\n\n\n\n\n\nAug 2020\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics in the Community\n\n\nCommunity University Partnerships Fostering Data Science Education\n\n\n\nData for Good\n\n\nSTATCOM\n\n\n\n2020 Symposium on Data Science and Statistics\n\n\n\n\n\nJun 2020\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nSelection and Estimation\n\n\nof Conditional Graphical Models\n\n\n\nGraphical Models\n\n\n\n2020 International Biometric Society Eastern North American Region Spring Meeting\n\n\n\n\n\nMar 2020\n\n\nStephen Salerno and Yi Li\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "content/presentations/posters/2025.06.24-GBCC/index.html",
-    "href": "content/presentations/posters/2025.06.24-GBCC/index.html",
-    "title": "Inference with Predicted Data",
+    "objectID": "content/presentations/talks/2018.03.14-MSKCC/index.html",
+    "href": "content/presentations/talks/2018.03.14-MSKCC/index.html",
+    "title": "A Method for Simultaneous Batch Effect Correction and Analysis of Metabolomics Data",
     "section": "",
     "text": "Back to top"
   },
   {
-    "objectID": "content/presentations/posters/2019.03.24-ENAR/index.html",
-    "href": "content/presentations/posters/2019.03.24-ENAR/index.html",
-    "title": "A Bayesian Semi-Parametric Copula Factor Model",
+    "objectID": "content/presentations/posters/2025.10.28-Sloan/index.html",
+    "href": "content/presentations/posters/2025.10.28-Sloan/index.html",
+    "title": "scorcher",
     "section": "",
     "text": "Back to top"
   },
   {
-    "objectID": "content/d4g.html",
-    "href": "content/d4g.html",
-    "title": "d4g",
+    "objectID": "content/presentations/posters/2022.06.07-StJude/index.html",
+    "href": "content/presentations/posters/2022.06.07-StJude/index.html",
+    "title": "A New Deep Learning Approach",
     "section": "",
     "text": "Back to top"
   },
@@ -119,18 +182,25 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nscorcher\n\n\nDemocratizing AI/ML for Precision Oncology\n\n\n\nMachine Learning\n\n\nR\n\n\nTorch\n\n\n\n2025 Sloan Precision Oncology Symposium\n\n\n\n\n\nOct 2025\n\n\nStephen Salerno, Carrie Wright, Ava Hoffman, Awan Afiaz, Sean Kross, Barbara Lam, Xiaoyu Qu, Min Fang, Jeffrey T. Leek\n\n\n\n\n\n\n\n\n\n\n\n\nInference with Predicted Data\n\n\nWhat do we do after we have machine learned everything?\n\n\n\nInference with Predicted Data\n\n\nMachine Learning\n\n\nR\n\n\n\n2025 Galaxy & Bioconductor Community Conference\n\n\n\n\n\nJun 2025\n\n\nStephen Salerno, Jiacheng Miao, Awan Afiaz, Kentaro Hoffman, Jesse Gronsbell, Jianhui Gao, David Cheng, Anna Neufeld, Qiongshi Lu, Tyler H. McCormick, Jeffrey T. Leek\n\n\n\n\n\n\n\n\n\n\n\n\nA New Deep Learning Approach\n\n\nfor Predicting Survival Processes in the Presence of Semi-Competing Risks\n\n\n\nDeep Learning\n\n\nSemi-Competing Risks\n\n\n\n2022 St. Jude Future Fellow Research Conference\n\n\n\n\n\nJun 2022\n\n\nStephen Salerno, Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nA Bayesian Semi-Parametric Copula Factor Model\n\n\nfor Estimating Composite Measures of Quality\n\n\n\nFactor Model\n\n\nQuality Measurement\n\n\n\n2019 International Biometric Society Eastern North American Region Spring Meeting\n\n\n\n\n\nMar 2019\n\n\nStephen Salerno, Lili Zhao, Yi Li\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "content/presentations/posters/2022.06.07-StJude/index.html",
-    "href": "content/presentations/posters/2022.06.07-StJude/index.html",
-    "title": "A New Deep Learning Approach",
+    "objectID": "content/presentations/posters/2019.03.24-ENAR/index.html",
+    "href": "content/presentations/posters/2019.03.24-ENAR/index.html",
+    "title": "A Bayesian Semi-Parametric Copula Factor Model",
     "section": "",
     "text": "Back to top"
   },
   {
-    "objectID": "content/presentations/posters/2025.10.28-Sloan/index.html",
-    "href": "content/presentations/posters/2025.10.28-Sloan/index.html",
-    "title": "scorcher",
+    "objectID": "content/presentations/posters/2025.06.24-GBCC/index.html",
+    "href": "content/presentations/posters/2025.06.24-GBCC/index.html",
+    "title": "Inference with Predicted Data",
     "section": "",
     "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks.html",
+    "href": "content/presentations/talks.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nInference with Predicted Data\n\n\nWhat do we do after we have machine learned (or AI’d?) everything?\n\n\n\nInference with Predicted Data\n\n\nMachine Learning\n\n\nR\n\n\n\nComputation, AI, and Data Science Seminar Series, Wayne State University\n\n\n\n\n\nOct 2025\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nWhat’s the Weight?\n\n\nEstimating Controlled Outcome Differences in Complex Surveys for Health Disparities Research\n\n\n\nCausal Inference\n\n\nComplex Surveys\n\n\nAverage Controlled Difference\n\n\nNHANES\n\n\n\n2025 EcoSta\n\n\n\n\n\nAug 2025\n\n\nStephen Salerno, Emily K Roberts, Belinda L. Needham, Tyler H. McCormick, Fan Li, Bhramar Mukherjee, Xu Shi\n\n\n\n\n\n\n\n\n\n\n\n\nInference with Predicted Data\n\n\nWhat do we do after we have machine learned everything?\n\n\n\nInference with Predicted Data\n\n\nMachine Learning\n\n\nR\n\n\n\n2025 Galaxy and Bioconductor Community Conference\n\n\n\n\n\nJun 2025\n\n\nStephen Salerno, Jiacheng Miao, Awan Afiaz, Kentaro Hoffman, Jesse Gronsbell, Jianhui Gao, David Cheng, Anna Neufeld, Qiongshi Lu, Tyler H. McCormick, Jeffrey T. Leek\n\n\n\n\n\n\n\n\n\n\n\n\nA Pseudo-Value Approach\n\n\nto Causal Deep Learning of Semi-Competing Risks\n\n\n\nDeep Learning\n\n\nSemi-Competing Risks\n\n\nSurvival Analysis\n\n\nCausal Inference\n\n\n\n2025 Lifetime Data Science Conference\n\n\n\n\n\nMay 2025\n\n\nStephen Salerno, Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nValid Statistical Inference\n\n\non AI/ML Predicted Outcomes\n\n\n\nInference with Predicted Data\n\n\nMachine Learning\n\n\nR\n\n\n\nAAAS 2025 Annual Meeting\n\n\n\n\n\nFeb 2025\n\n\nStephen Salerno, Jiacheng Miao, Awan Afiaz, Kentaro Hoffman, Jesse Gronsbell, Jianhui Gao, David Cheng, Anna Neufeld, Qiongshi Lu, Tyler H. McCormick, Jeffrey T. Leek\n\n\n\n\n\n\n\n\n\n\n\n\nA Pseudo-Value Approach\n\n\nto Causal Deep Learning of Semi-Competing Risks\n\n\n\nDeep Learning\n\n\nSemi-Competing Risks\n\n\nSurvival Analysis\n\n\nCausal Inference\n\n\n\n2024 CFE-CMStatistics\n\n\n\n\n\nDec 2024\n\n\nStephen Salerno, Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nWhat’s the Weight?\n\n\nEstimating Controlled Outcome Differences in Complex Surveys for Health Disparities Research\n\n\n\nCausal Inference\n\n\nComplex Surveys\n\n\nAverage Controlled Difference\n\n\nNHANES\n\n\n\n2024 Joint Statistical Meetings\n\n\n\n\n\nAug 2024\n\n\nStephen Salerno, Emily K Roberts, Belinda L. Needham, Tyler H. McCormick, Bhramar Mukherjee, Xu Shi\n\n\n\n\n\n\n\n\n\n\n\n\nA Brief Introduction to Survival Analysis\n\n\nand (Semi-) Competing Risks\n\n\n\nSurvival Analysis\n\n\nSemi-Competing Risks\n\n\n\nEtzioni Lab Seminar\n\n\n\n\n\nSep 2023\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nDeep Learning of Semi-Competing Risk Data\n\n\nvia a Neural Expectation-Maximization Algorithm (LiDS Student Paper Award)\n\n\n\nDeep Learning\n\n\nSemi-Competing Risks\n\n\nSurvival Analysis\n\n\n\n2023 Joint Statistical Meetings\n\n\n\n\n\nAug 2023\n\n\nStephen Salerno, Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nDeep Learning for Semi-Competing Risks and Statistics in the Community\n\n\nSome Thoughts, Current Work, and Future Directions\n\n\n\nDeep Learning\n\n\nSemi-Competing Risks\n\n\nSurvival Analysis\n\n\nData for Good\n\n\n\n2023 Fred Hutch Data Science Lab Seminar Series\n\n\n\n\n\nApr 2023\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nDeep Learning of Semi-Competing Risk Data\n\n\nvia a Neural Expectation-Maximization Algorithm\n\n\n\nDeep Learning\n\n\nSemi-Competing Risks\n\n\nSurvival Analysis\n\n\n\nThe International Biometric Society Eastern North American Region 2023 Spring Meeting\n\n\n\n\n\nMar 2023\n\n\nStephen Salerno, Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nProspective Student Day\n\n\nAn Overview of My Research\n\n\n\nDeep Learning\n\n\nSemi-Competing Risks\n\n\nSurvival Analysis\n\n\n\n2022 Biostatistics Prospective Student Day\n\n\n\n\n\nNov 2022\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Journey\n\n\n\n\n\n\nData for Good\n\n\nData Science Education\n\n\n\nMIDAS Data Science Summer Camp\n\n\n\n\n\nJul 2022\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nData Science Journey\n\n\n\n\n\n\nData for Good\n\n\nData Science Education\n\n\n\n2022 MIDAS Data Science Summer Camp\n\n\n\n\n\nJul 2022\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nA New Deep Learning Approach\n\n\nfor Predicting Survival Processes in the Presence of Semi-Competing Risks\n\n\n\nDeep Learning\n\n\nSemi-Competing Risks\n\n\nSurvival Analysis\n\n\n\n2022 Department of Population Health Sciences Seminar, Icahn School of Medicine, Mount Sinai\n\n\n\n\n\nJun 2022\n\n\nStephen Salerno, Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nUse of Machine Learning and Michigan EHR Data\n\n\nto assess the prognostic utility of radiomic features in predicting the survival of hospitalized patient with COVID-19\n\n\n\nSurvival Analysis\n\n\nMachine Learning\n\n\nImaging\n\n\n\n2022 Michigan Biostatistics Collaborative Lunches\n\n\n\n\n\nApr 2022\n\n\nStephen Salerno, Yuming Sun\n\n\n\n\n\n\n\n\n\n\n\n\nA New Deep Learning Approach\n\n\nfor Predicting Survival Processes in the Presence of Semi-Competing Risks\n\n\n\nDeep Learning\n\n\nSemi-Competing Risks\n\n\nSurvival Analysis\n\n\n\n2022 International Biometric Society Eastern North American Region Spring Meeting\n\n\n\n\n\nMar 2022\n\n\nStephen Salerno, Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to R and RStudio\n\n\n\n\n\n\nData Science Education\n\n\n\nNeuroNetwork for Emerging Therapies (NeuroNet) at Michigan Medicine\n\n\n\n\n\nMar 2022\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nData Science for Good\n\n\n\n\n\n\nData for Good\n\n\nData Science Education\n\n\n\n2021 NxtGen Summer Academy\n\n\n\n\n\nJul 2021\n\n\nStephen Salerno, Ani Madurkar, Katie Nicholson, Gauri Kambhatla\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Create Data Visualizations Using Best Practices\n\n\n\n\n\n\nData for Good\n\n\nData Science Education\n\n\n\nData for Public Good Symposium\n\n\n\n\n\nFeb 2021\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nData for Good in Your Neighborhood\n\n\nHow Graduate Students and Local Communities Benefit from Collaborative Partnerships\n\n\n\nData for Good\n\n\nSTATCOM\n\n\n\n2020 Joint Statistical Meetings\n\n\n\n\n\nAug 2020\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics in the Community\n\n\nCommunity University Partnerships Fostering Data Science Education\n\n\n\nData for Good\n\n\nSTATCOM\n\n\n\n2020 Symposium on Data Science and Statistics\n\n\n\n\n\nJun 2020\n\n\nStephen Salerno\n\n\n\n\n\n\n\n\n\n\n\n\nSelection and Estimation\n\n\nof Conditional Graphical Models\n\n\n\nGraphical Models\n\n\n\n2020 International Biometric Society Eastern North American Region Spring Meeting\n\n\n\n\n\nMar 2020\n\n\nStephen Salerno, Yi Li\n\n\n\n\n\n\n\n\n\n\n\n\nA Method for Simultaneous Batch Effect Correction and Analysis of Metabolomics Data\n\n\nin the Absence of Internal Standards\n\n\n\nBatch Effects\n\n\nFactor Models\n\n\n\nMemorial Sloan Kettering Cancer Center\n\n\n\n\n\nMar 2018\n\n\nStephen Salerno\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "content/presentations/talks/2020.03.19-ENAR/index.html",
@@ -143,6 +213,13 @@
     "objectID": "content/presentations/talks/2020.08.06-JSM/index.html",
     "href": "content/presentations/talks/2020.08.06-JSM/index.html",
     "title": "Data for Good in Your Neighborhood",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2021.07.27-NxtGen/index.html",
+    "href": "content/presentations/talks/2021.07.27-NxtGen/index.html",
+    "title": "Data Science for Good",
     "section": "",
     "text": "Back to top"
   },
@@ -161,18 +238,60 @@
     "text": "Back to top"
   },
   {
-    "objectID": "content/presentations/talks/2022.11.05-PSD/index.html",
-    "href": "content/presentations/talks/2022.11.05-PSD/index.html",
-    "title": "Prospective Student Day",
+    "objectID": "content/presentations/talks/2022.07.15-MIDAS/index.html",
+    "href": "content/presentations/talks/2022.07.15-MIDAS/index.html",
+    "title": "Data Science Journey",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2023.03.22-ENAR/index.html",
+    "href": "content/presentations/talks/2023.03.22-ENAR/index.html",
+    "title": "Deep Learning of Semi-Competing Risk Data",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2023.08.03-JSM/index.html",
+    "href": "content/presentations/talks/2023.08.03-JSM/index.html",
+    "title": "Deep Learning of Semi-Competing Risk Data",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2024.08.04-JSM/index.html",
+    "href": "content/presentations/talks/2024.08.04-JSM/index.html",
+    "title": "What’s the Weight?",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2025.02.14-AAAS/index.html",
+    "href": "content/presentations/talks/2025.02.14-AAAS/index.html",
+    "title": "Valid Statistical Inference",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2025.06.26-GBCC/index.html",
+    "href": "content/presentations/talks/2025.06.26-GBCC/index.html",
+    "title": "Inference with Predicted Data",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "content/presentations/talks/2025.10.15-Wayne/index.html",
+    "href": "content/presentations/talks/2025.10.15-Wayne/index.html",
+    "title": "Inference with Predicted Data",
     "section": "",
     "text": "Back to top"
   },
   {
     "objectID": "content/recipes.html",
     "href": "content/recipes.html",
-    "title": "Recipes",
+    "title": "Welcome!",
     "section": "",
-    "text": "Family favorites and go-to dishes, collected in one place.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNana’s Italian Wedding Cookies\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Welcome!\nAt this point in a personal website, you might expect to see a statistics blog. And to be fair, there are so many wonderful blogs out there covering everything from #rstats, reproducibility, and data visualization to broader questions about science and statistics.\nHere, I wanted to offer something a little different. Cooking has always been my other passion. In fact, I first learned about biostatistics as a field while working in my family’s restaurant, long before I knew what an academic career might look like.\nSo instead of a traditional blog, I hope to (semi-)frequently share recipes from my family and loved ones. These are dishes with history and stories that feel just as much a part of who I am as my research and software.\nAnd if you have a recipe and a story you would like to share, I would love to hear it!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNana’s Italian Wedding Cookies\n\n\nOne of my favorite family traditions\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "content/research.html",

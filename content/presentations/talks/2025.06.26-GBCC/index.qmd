@@ -1,0 +1,28 @@
+---
+title: Inference with Predicted Data
+subtitle: What do we do after we have machine learned everything?
+author: 
+  - Stephen Salerno
+  - Jiacheng Miao
+  - Awan Afiaz
+  - Kentaro Hoffman
+  - Jesse Gronsbell
+  - Jianhui Gao
+  - David Cheng
+  - Anna Neufeld
+  - Qiongshi Lu
+  - Tyler H. McCormick
+  - Jeffrey T. Leek
+categories:
+  - Inference with Predicted Data
+  - Machine Learning
+  - R
+description: 2025 Galaxy and Bioconductor Community Conference
+date: 2025-06-26
+image: img.png
+editor: source
+---
+
+<iframe id="2025.06.26-GBCC.pdf" src="./2025.06.26-GBCC.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

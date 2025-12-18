@@ -1,9 +1,12 @@
 ---
-title: "Prospective Student Day"
-subtitle: "An Overview of My Research"
-author: "Stephen Salerno"
-categories: ["Data Science Education"]
-description: "2022 Biostatistics Prospective Student Day"
+title: Prospective Student Day
+subtitle: An Overview of My Research
+author: Stephen Salerno
+categories:
+  - Deep Learning
+  - Semi-Competing Risks
+  - Survival Analysis
+description: 2022 Biostatistics Prospective Student Day
 date: 2022-11-05
 image: img.png
 editor: source

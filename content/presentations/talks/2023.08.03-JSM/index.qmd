@@ -1,0 +1,19 @@
+---
+title: Deep Learning of Semi-Competing Risk Data 
+subtitle: via a Neural Expectation-Maximization Algorithm (LiDS Student Paper Award)
+author: 
+  - Stephen Salerno
+  - Yi Li
+categories:
+  - Deep Learning
+  - Semi-Competing Risks
+  - Survival Analysis
+description: 2023 Joint Statistical Meetings
+date: 2023-08-03
+image: img.png
+editor: source
+---
+
+<iframe id="2023.08.03-JSM.pdf" src="./2023.08.03-JSM.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

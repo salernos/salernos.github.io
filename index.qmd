@@ -27,11 +27,12 @@ I am a postdoctoral fellow in Biostatistics at the Fred Hutchinson Cancer Center
 
 My research focuses on:
 
-- Statistical methods for drawing inference on algorithmically derived variables (post-prediction inference)  
-- Deep learning for high-dimensional data  
-- Survival analysis and causal questions in oncology and chronic disease  
+- Statistical methods for drawing inference on AI/ML-generated data  
+- Deep learning for high-dimensional data and correlated survival endpoints  
+- Survival analysis for oncology and chronic disease  
+- Causal inference in settings of complex sampling
 
-I also work on clinical quality measures, public reporting, and health policy, especially in kidney disease and lung cancer, and I am committed to building user-friendly software and contributing to data-for-good initiatives.
+I also work on clinical quality measure development, public reporting, and health policy, especially in kidney disease and lung cancer, and I am committed to building user-friendly software and contributing to data-for-good initiatives.
 
 :::
 

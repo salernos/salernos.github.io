@@ -1,9 +1,10 @@
 ---
-title: "Data Science Journey"
-subtitle: ""
-author: "Stephen Salerno"
-categories: ["Data for Good", "Data Science Education"]
-description: "2022 MIDAS Data Science Summer Camp"
+title: Data Science Journey
+author: Stephen Salerno
+categories: 
+  - Data for Good
+  - Data Science Education
+description: 2022 MIDAS Data Science Summer Camp
 date: 2022-07-15
 image: img.png
 editor: source

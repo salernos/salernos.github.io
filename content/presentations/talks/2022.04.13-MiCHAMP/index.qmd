@@ -1,9 +1,14 @@
 ---
-title: "Use of Machine Learning and Michigan EHR Data"
-subtitle: "to assess the prognostic utility of radiomic features in predicting the survival of hospitalized patient with COVID-19"
-author: "Stephen Salerno and Yuming Sun"
-categories: ["Survival Analysis", "Machine Learning", "Imaging"]
-description: "2022 Michigan Biostatistics Collaborative Lunches"
+title: Use of Machine Learning and Michigan EHR Data
+subtitle: to assess the prognostic utility of radiomic features in predicting the survival of hospitalized patient with COVID-19
+author: 
+  - Stephen Salerno
+  - Yuming Sun
+categories: 
+  - Survival Analysis
+  - Machine Learning
+  - Imaging
+description: 2022 Michigan Biostatistics Collaborative Lunches
 date: 2022-04-13
 image: img.png
 editor: source

@@ -4,20 +4,6 @@
     "items": []
   },
   {
-    "listing": "/content/presentations/talks.html",
-    "items": [
-      "/content/presentations/talks/2022.11.05-PSD/index.html",
-      "/content/presentations/talks/2022.07.15-MIDAS/index.html",
-      "/content/presentations/talks/2022.06.21-MtSinai/index.html",
-      "/content/presentations/talks/2022.04.13-MiCHAMP/index.html",
-      "/content/presentations/talks/2022.03.29-ENAR/index.html",
-      "/content/presentations/talks/2021.07.27-NxtGen/index.html",
-      "/content/presentations/talks/2020.08.06-JSM/index.html",
-      "/content/presentations/talks/2020.06.04-SDSS/index.html",
-      "/content/presentations/talks/2020.03.19-ENAR/index.html"
-    ]
-  },
-  {
     "listing": "/content/presentations/posters.html",
     "items": [
       "/content/presentations/posters/2025.10.28-Sloan/index.html",
@@ -27,9 +13,38 @@
     ]
   },
   {
+    "listing": "/content/presentations/talks.html",
+    "items": [
+      "/content/presentations/talks/2025.10.15-Wayne/index.html",
+      "/content/presentations/talks/2025.08.22-EcoSta/index.html",
+      "/content/presentations/talks/2025.06.26-GBCC/index.html",
+      "/content/presentations/talks/2025.05.30-LiDS/index.html",
+      "/content/presentations/talks/2025.02.14-AAAS/index.html",
+      "/content/presentations/talks/2024.12.16-CFE-CMStatistics/index.html",
+      "/content/presentations/talks/2024.08.04-JSM/index.html",
+      "/content/presentations/talks/2023.09.26-Etzioni/index.html",
+      "/content/presentations/talks/2023.08.03-JSM/index.html",
+      "/content/presentations/talks/2023.04.11-DaSL/index.html",
+      "/content/presentations/talks/2023.03.22-ENAR/index.html",
+      "/content/presentations/talks/2022.11.05-PSD/index.html",
+      "/content/presentations/talks/2022.07.15-Camp/index.html",
+      "/content/presentations/talks/2022.07.15-MIDAS/index.html",
+      "/content/presentations/talks/2022.06.21-MtSinai/index.html",
+      "/content/presentations/talks/2022.04.13-MiCHAMP/index.html",
+      "/content/presentations/talks/2022.03.29-ENAR/index.html",
+      "/content/presentations/talks/2022.03.04-NeuroNet/index.html",
+      "/content/presentations/talks/2021.07.27-NxtGen/index.html",
+      "/content/presentations/talks/2021.02.26-D4PG/index.html",
+      "/content/presentations/talks/2020.08.06-JSM/index.html",
+      "/content/presentations/talks/2020.06.04-SDSS/index.html",
+      "/content/presentations/talks/2020.03.19-ENAR/index.html",
+      "/content/presentations/talks/2018.03.14-MSKCC/index.html"
+    ]
+  },
+  {
     "listing": "/content/recipes.html",
     "items": [
-      "/content/recipes/2025-11-15_Nanas-Cookies.html"
+      "/content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html"
     ]
   },
   {

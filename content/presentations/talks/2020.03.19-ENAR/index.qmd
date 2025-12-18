@@ -1,9 +1,12 @@
 ---
-title: "Selection and Estimation"
-subtitle: "of Conditional Graphical Models"
-author: "Stephen Salerno and Yi Li"
-categories: ["Graphical Models"]
-description: "2020 International Biometric Society Eastern North American Region Spring Meeting"
+title: Selection and Estimation
+subtitle: of Conditional Graphical Models
+author:
+  - Stephen Salerno
+  - Yi Li
+categories: 
+  - Graphical Models
+description: 2020 International Biometric Society Eastern North American Region Spring Meeting
 date: 2020-03-19
 image: img.png
 editor: source

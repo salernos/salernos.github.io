@@ -1,0 +1,19 @@
+---
+title: Deep Learning for Semi-Competing Risks and Statistics in the Community
+subtitle: Some Thoughts, Current Work, and Future Directions
+author: 
+  - Stephen Salerno
+categories:
+  - Deep Learning
+  - Semi-Competing Risks
+  - Survival Analysis
+  - Data for Good
+description: 2023 Fred Hutch Data Science Lab Seminar Series
+date: 2023-04-11
+image: img.png
+editor: source
+---
+
+<iframe id="2023.04.11-DaSL.pdf" src="./2023.04.11-DaSL.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

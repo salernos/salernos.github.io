@@ -1,9 +1,14 @@
 ---
-title: "A New Deep Learning Approach"
-subtitle: "for Predicting Survival Processes in the Presence of Semi-Competing Risks"
-author: "Stephen Salerno and Yi Li"
-categories: ["Survival Analysis", "Machine Learning"]
-description: "2022 Department of Population Health Sciences Seminar, Icahn School of Medicine, Mount Sinai"
+title: A New Deep Learning Approach
+subtitle: for Predicting Survival Processes in the Presence of Semi-Competing Risks
+author: 
+  - Stephen Salerno
+  - Yi Li
+categories: 
+  - Deep Learning
+  - Semi-Competing Risks
+  - Survival Analysis
+description: 2022 Department of Population Health Sciences Seminar, Icahn School of Medicine, Mount Sinai
 date: 2022-06-21
 image: img.png
 editor: source

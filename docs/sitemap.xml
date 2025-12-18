@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://salernos.github.io/index.html</loc>
-    <lastmod>2025-12-03T23:19:30.017Z</lastmod>
+    <lastmod>2025-12-16T02:18:10.754Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/software/semicompdnn.html</loc>
@@ -25,88 +25,144 @@
     <lastmod>2025-12-12T05:37:57.543Z</lastmod>
   </url>
   <url>
-    <loc>https://salernos.github.io/content/recipes/2025-11-15_Nanas-Cookies.html</loc>
-    <lastmod>2025-11-15T05:49:26.757Z</lastmod>
+    <loc>https://salernos.github.io/content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html</loc>
+    <lastmod>2025-12-16T02:21:37.322Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/presentations/workshops.html</loc>
     <lastmod>2025-12-07T20:44:03.532Z</lastmod>
   </url>
   <url>
-    <loc>https://salernos.github.io/content/presentations/talks/2022.07.15-MIDAS/index.html</loc>
-    <lastmod>2022-10-27T15:20:37.005Z</lastmod>
+    <loc>https://salernos.github.io/content/presentations/talks/2025.08.22-EcoSta/index.html</loc>
+    <lastmod>2025-12-18T02:14:54.480Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2025.05.30-LiDS/index.html</loc>
+    <lastmod>2025-12-18T02:26:24.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2024.12.16-CFE-CMStatistics/index.html</loc>
+    <lastmod>2025-12-17T19:52:48.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2023.09.26-Etzioni/index.html</loc>
+    <lastmod>2025-12-18T01:10:29.546Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2023.04.11-DaSL/index.html</loc>
+    <lastmod>2025-12-18T02:55:51.363Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2022.11.05-PSD/index.html</loc>
+    <lastmod>2025-12-17T18:15:20.394Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2022.07.15-Camp/index.html</loc>
+    <lastmod>2025-12-18T01:04:51.896Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/presentations/talks/2022.04.13-MiCHAMP/index.html</loc>
-    <lastmod>2022-10-27T14:56:10.105Z</lastmod>
+    <lastmod>2025-12-17T18:16:06.058Z</lastmod>
   </url>
   <url>
-    <loc>https://salernos.github.io/content/presentations/talks/2021.07.27-NxtGen/index.html</loc>
-    <lastmod>2022-10-27T14:53:56.661Z</lastmod>
+    <loc>https://salernos.github.io/content/presentations/talks/2022.03.04-NeuroNet/index.html</loc>
+    <lastmod>2025-12-18T01:32:36.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2021.02.26-D4PG/index.html</loc>
+    <lastmod>2025-12-18T00:39:01.180Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/presentations/talks/2020.06.04-SDSS/index.html</loc>
-    <lastmod>2022-10-25T23:45:31.487Z</lastmod>
+    <lastmod>2025-12-17T18:19:52.708Z</lastmod>
   </url>
   <url>
-    <loc>https://salernos.github.io/content/presentations/talks.html</loc>
-    <lastmod>2025-12-07T20:25:47.362Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/presentations/posters/2025.06.24-GBCC/index.html</loc>
-    <lastmod>2025-12-05T19:01:29.494Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/presentations/posters/2019.03.24-ENAR/index.html</loc>
-    <lastmod>2025-12-07T20:09:58.762Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/good/good3.html</loc>
-    <lastmod>2025-11-15T05:41:50.965Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/d4g.html</loc>
-    <lastmod>2025-11-15T03:38:34.408Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/good/good.html</loc>
-    <lastmod>2025-12-12T20:53:43.525Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/presentations/posters.html</loc>
-    <lastmod>2025-12-07T20:25:58.558Z</lastmod>
-  </url>
-  <url>
-    <loc>https://salernos.github.io/content/presentations/posters/2022.06.07-StJude/index.html</loc>
-    <lastmod>2025-12-07T17:56:42.202Z</lastmod>
+    <loc>https://salernos.github.io/content/presentations/talks/2018.03.14-MSKCC/index.html</loc>
+    <lastmod>2025-12-18T00:53:31.878Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/presentations/posters/2025.10.28-Sloan/index.html</loc>
     <lastmod>2025-12-05T19:01:05.891Z</lastmod>
   </url>
   <url>
+    <loc>https://salernos.github.io/content/presentations/posters/2022.06.07-StJude/index.html</loc>
+    <lastmod>2025-12-07T17:56:42.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/posters.html</loc>
+    <lastmod>2025-12-07T20:25:58.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/good.html</loc>
+    <lastmod>2025-12-15T02:41:43.420Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/good/good3.html</loc>
+    <lastmod>2025-11-15T05:41:50.965Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/posters/2019.03.24-ENAR/index.html</loc>
+    <lastmod>2025-12-07T20:09:58.762Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/posters/2025.06.24-GBCC/index.html</loc>
+    <lastmod>2025-12-05T19:01:29.494Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks.html</loc>
+    <lastmod>2025-12-07T20:25:47.362Z</lastmod>
+  </url>
+  <url>
     <loc>https://salernos.github.io/content/presentations/talks/2020.03.19-ENAR/index.html</loc>
-    <lastmod>2024-04-21T13:30:04.548Z</lastmod>
+    <lastmod>2025-12-17T18:20:27.425Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/presentations/talks/2020.08.06-JSM/index.html</loc>
-    <lastmod>2022-10-25T23:36:34.183Z</lastmod>
+    <lastmod>2025-12-17T18:18:17.345Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2021.07.27-NxtGen/index.html</loc>
+    <lastmod>2025-12-17T18:17:39.242Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/presentations/talks/2022.03.29-ENAR/index.html</loc>
-    <lastmod>2022-10-25T23:46:05.911Z</lastmod>
+    <lastmod>2025-12-17T18:16:51.258Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/presentations/talks/2022.06.21-MtSinai/index.html</loc>
-    <lastmod>2022-10-27T15:14:53.019Z</lastmod>
+    <lastmod>2025-12-17T18:15:07.660Z</lastmod>
   </url>
   <url>
-    <loc>https://salernos.github.io/content/presentations/talks/2022.11.05-PSD/index.html</loc>
-    <lastmod>2022-11-12T18:28:09.694Z</lastmod>
+    <loc>https://salernos.github.io/content/presentations/talks/2022.07.15-MIDAS/index.html</loc>
+    <lastmod>2025-12-17T18:14:10.758Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2023.03.22-ENAR/index.html</loc>
+    <lastmod>2025-12-17T20:37:03.762Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2023.08.03-JSM/index.html</loc>
+    <lastmod>2025-12-17T20:33:05.693Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2024.08.04-JSM/index.html</loc>
+    <lastmod>2025-12-17T20:11:45.707Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2025.02.14-AAAS/index.html</loc>
+    <lastmod>2025-12-18T02:22:00.595Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2025.06.26-GBCC/index.html</loc>
+    <lastmod>2025-12-17T19:35:36.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://salernos.github.io/content/presentations/talks/2025.10.15-Wayne/index.html</loc>
+    <lastmod>2025-12-17T18:12:49.540Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/recipes.html</loc>
-    <lastmod>2025-11-17T18:31:15.657Z</lastmod>
+    <lastmod>2025-12-15T23:50:29.129Z</lastmod>
   </url>
   <url>
     <loc>https://salernos.github.io/content/research.html</loc>

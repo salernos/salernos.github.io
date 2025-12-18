@@ -1,0 +1,17 @@
+---
+title: A Method for Simultaneous Batch Effect Correction and Analysis of Metabolomics Data
+subtitle: in the Absence of Internal Standards
+author: 
+  - Stephen Salerno
+categories:
+  - Batch Effects
+  - Factor Models
+description: Memorial Sloan Kettering Cancer Center
+date: 2018-03-14
+image: img.png
+editor: source
+---
+
+<iframe id="2018.03.14-MSKCC.pdf" src="./2018.03.14-MSKCC.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+
+</iframe>

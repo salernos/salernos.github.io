@@ -1,0 +1,81 @@
+---
+title: Data for Good
+subtitle: Service, outreach, and community-engaged data science
+page-layout: full
+search: false
+toc: false
+format:
+  html:
+    sidebar: false
+    anchor-sections: false
+execute: 
+  echo: false
+---
+
+Beyond research, I am deeply committed to data science education and data for good outreach. The following are a few select initiatives that I am passionate about.
+
+## Statistics in the Community (STATCOM)
+
+[STATCOM](https://sph.umich.edu/biostat/statcom/) is a volunteer student organization that provides pro bono statistical consulting services to non-profit and community organizations. This work was a privilege, spanning projects from understanding community health perceptions after the Flint Water Crisis to supporting trans youth advocacy and improving access to fresh produce in food deserts. As president of STATCOM at the University of Michigan, I helped coordinate teams of student volunteers working on projects with mission-driven organizations. These collaborations often involved:
+
+- Designing and analyzing surveys to understand community needs
+- Building predictive and descriptive models to guide program decisions
+- Creating visualizations and tools that partners could use after our projects ended
+
+This work benefits both **community partners**, who gain access to expertise and resources they might not otherwise have, and **students**, who gain experience working with real data and collaborators posing meaningful, tangible questions that affect their local communities. 
+
+::: {.grid}
+::: g-col-4
+{{< video https://www.youtube.com/embed/V3iGTrot7Ig >}}
+:::
+
+::: g-col-4
+{{< video https://www.youtube.com/embed/l9SVErXlckA >}}
+:::
+
+::: g-col-4
+{{< video https://www.youtube.com/embed/hISFahSOhGQ >}}
+:::
+:::
+
+### Example Collaboration: Starr Commonwealth
+
+::: {.grid}
+::: g-col-8
+*"[Starr Commonwealth](https://starr.org/) partnered with Statistics in the Community (STATCOM) at the University of Michigan for external validation of its program of work. Starr provides community-based programs and behavioral health services for children, youth, and families as well as professional learning for educators and clinicians in trauma-informed, resilience-focused care. Part of Starr's mission is to increase accessibility to trauma-informed, resilience-focused, evidence-based intervention tools and programs."* 
+
+[Learn More](https://starr.org/2024/starr-commonwealth-external-validation-statcom-university-michigan/?srsltid=AfmBOoqVRrrOFYKbl01pCVVvIRJklIUD7buRSYz0VuQHxgdM_-2rB0wl){.action-btn role="button"}
+:::
+
+::: g-col-4
+{{< video https://www.youtube.com/embed/hvgobPCsA80?si=ilt0Hyte6Q-2ICGX >}}
+:::
+:::
+
+### Data for Public Good Symposium
+
+The **Data for Public Good Symposium** highlights work at the intersection of data science, policy, and community impact. My contributions to this space include:
+
+- Presenting work on community-engaged data science and prediction-powered inference  
+- Serving as a bridge between methodological research and applied, community-driven projects  
+- Helping surface examples where rigorous methods and local expertise come together to inform action
+
+## MIDAS Student Leadership Team
+
+The **MIDAS Student Leadership Team** (Michigan Institute for Data Science) brings together students from across campus who are interested in data science, outreach, and community-building. As part of this team, I:
+
+- Helped shape student-facing programming, including seminars, workshops, and networking events  
+- Supported initiatives that connect students with real-world, socially impactful data projects  
+- Advocated for inclusive, accessible training and mentorship pathways in data science
+
+This work complements my STATCOM experience by extending data-for-good activities to a broader, cross-disciplinary community and by embedding data science education within a larger institutional ecosystem.
+
+## Cancer AI Alliance (CAIA)
+
+The **Cancer AI Alliance (CAIA)** is a collaborative effort focused on building trustworthy, impactful AI tools for cancer research and care. My involvement centers on:
+
+- Developing and evaluating AI/ML models for precision oncology
+- Studying how **AI-generated predictions** can be used responsibly in downstream statistical inference  
+- Building infrastructure and workflows so that models are transparent, reproducible, and aligned with real clinical needs
+
+Within CAIA, I view data for good as encompassing not only community-facing outreach, but also responsible deployment of AI in high-stakes settings, ensuring that methods are rigorously validated, interpretable, and equitable.

@@ -15,7 +15,288 @@
 <link>https://salernos.github.io/content/presentations/talks.html</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Sat, 05 Nov 2022 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 15 Oct 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Inference with Predicted Data</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2025.10.15-Wayne/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2025.10.15-Wayne.pdf" src="./2025.10.15-Wayne.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Inference with Predicted Data</category>
+  <category>Machine Learning</category>
+  <category>R</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2025.10.15-Wayne/</guid>
+  <pubDate>Wed, 15 Oct 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2025.10.15-Wayne/img.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>What’s the Weight?</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Emily K Roberts</dc:creator>
+  <dc:creator>Belinda L. Needham</dc:creator>
+  <dc:creator>Tyler H. McCormick</dc:creator>
+  <dc:creator>Fan Li</dc:creator>
+  <dc:creator>Bhramar Mukherjee</dc:creator>
+  <dc:creator>Xu Shi</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2025.08.22-EcoSta/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2025.08.22-EcoSta.pdf" src="./2025.08.22-EcoSta.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Causal Inference</category>
+  <category>Complex Surveys</category>
+  <category>Average Controlled Difference</category>
+  <category>NHANES</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2025.08.22-EcoSta/</guid>
+  <pubDate>Fri, 22 Aug 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2025.08.22-EcoSta/img.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Inference with Predicted Data</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Jiacheng Miao</dc:creator>
+  <dc:creator>Awan Afiaz</dc:creator>
+  <dc:creator>Kentaro Hoffman</dc:creator>
+  <dc:creator>Jesse Gronsbell</dc:creator>
+  <dc:creator>Jianhui Gao</dc:creator>
+  <dc:creator>David Cheng</dc:creator>
+  <dc:creator>Anna Neufeld</dc:creator>
+  <dc:creator>Qiongshi Lu</dc:creator>
+  <dc:creator>Tyler H. McCormick</dc:creator>
+  <dc:creator>Jeffrey T. Leek</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2025.06.26-GBCC/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2025.06.26-GBCC.pdf" src="./2025.06.26-GBCC.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Inference with Predicted Data</category>
+  <category>Machine Learning</category>
+  <category>R</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2025.06.26-GBCC/</guid>
+  <pubDate>Thu, 26 Jun 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2025.06.26-GBCC/img.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>A Pseudo-Value Approach</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Yi Li</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2025.05.30-LiDS/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2025.05.30-LiDS.pdf" src="./2025.05.30-LiDS.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Deep Learning</category>
+  <category>Semi-Competing Risks</category>
+  <category>Survival Analysis</category>
+  <category>Causal Inference</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2025.05.30-LiDS/</guid>
+  <pubDate>Fri, 30 May 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2025.05.30-LiDS/img.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Valid Statistical Inference</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Jiacheng Miao</dc:creator>
+  <dc:creator>Awan Afiaz</dc:creator>
+  <dc:creator>Kentaro Hoffman</dc:creator>
+  <dc:creator>Jesse Gronsbell</dc:creator>
+  <dc:creator>Jianhui Gao</dc:creator>
+  <dc:creator>David Cheng</dc:creator>
+  <dc:creator>Anna Neufeld</dc:creator>
+  <dc:creator>Qiongshi Lu</dc:creator>
+  <dc:creator>Tyler H. McCormick</dc:creator>
+  <dc:creator>Jeffrey T. Leek</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2025.02.14-AAAS/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2025.02.14-AAAS.pdf" src="./2025.02.14-AAAS.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Inference with Predicted Data</category>
+  <category>Machine Learning</category>
+  <category>R</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2025.02.14-AAAS/</guid>
+  <pubDate>Fri, 14 Feb 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2025.02.14-AAAS/img.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>A Pseudo-Value Approach</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Yi Li</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2024.12.16-CFE-CMStatistics/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2024.12.16-CFE-CMStatistics.pdf" src="./2024.12.16-CFE-CMStatistics.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Deep Learning</category>
+  <category>Semi-Competing Risks</category>
+  <category>Survival Analysis</category>
+  <category>Causal Inference</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2024.12.16-CFE-CMStatistics/</guid>
+  <pubDate>Mon, 16 Dec 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2024.12.16-CFE-CMStatistics/img.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>What’s the Weight?</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Emily K Roberts</dc:creator>
+  <dc:creator>Belinda L. Needham</dc:creator>
+  <dc:creator>Tyler H. McCormick</dc:creator>
+  <dc:creator>Bhramar Mukherjee</dc:creator>
+  <dc:creator>Xu Shi</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2024.08.04-JSM/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2024.08.04-JSM.pdf" src="./2024.08.04-JSM.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Causal Inference</category>
+  <category>Complex Surveys</category>
+  <category>Average Controlled Difference</category>
+  <category>NHANES</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2024.08.04-JSM/</guid>
+  <pubDate>Sun, 04 Aug 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2024.08.04-JSM/img.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>A Brief Introduction to Survival Analysis</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2023.09.26-Etzioni/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2023.09.26-Etzioni.pdf" src="./2023.09.26-Etzioni.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Survival Analysis</category>
+  <category>Semi-Competing Risks</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2023.09.26-Etzioni/</guid>
+  <pubDate>Tue, 26 Sep 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2023.09.26-Etzioni/img.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Deep Learning of Semi-Competing Risk Data</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Yi Li</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2023.08.03-JSM/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2023.08.03-JSM.pdf" src="./2023.08.03-JSM.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Deep Learning</category>
+  <category>Semi-Competing Risks</category>
+  <category>Survival Analysis</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2023.08.03-JSM/</guid>
+  <pubDate>Thu, 03 Aug 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2023.08.03-JSM/img.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Deep Learning for Semi-Competing Risks and Statistics in the Community</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2023.04.11-DaSL/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2023.04.11-DaSL.pdf" src="./2023.04.11-DaSL.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Deep Learning</category>
+  <category>Semi-Competing Risks</category>
+  <category>Survival Analysis</category>
+  <category>Data for Good</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2023.04.11-DaSL/</guid>
+  <pubDate>Tue, 11 Apr 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2023.04.11-DaSL/img.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
+<item>
+  <title>Deep Learning of Semi-Competing Risk Data</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Yi Li</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2023.03.22-ENAR/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2023.03.22-ENAR.pdf" src="./2023.03.22-ENAR.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Deep Learning</category>
+  <category>Semi-Competing Risks</category>
+  <category>Survival Analysis</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2023.03.22-ENAR/</guid>
+  <pubDate>Wed, 22 Mar 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2023.03.22-ENAR/img.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
 <item>
   <title>Prospective Student Day</title>
   <dc:creator>Stephen Salerno</dc:creator>
@@ -31,10 +312,33 @@
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Data Science Education</category>
+  <category>Deep Learning</category>
+  <category>Semi-Competing Risks</category>
+  <category>Survival Analysis</category>
   <guid>https://salernos.github.io/content/presentations/talks/2022.11.05-PSD/</guid>
   <pubDate>Sat, 05 Nov 2022 04:00:00 GMT</pubDate>
   <media:content url="https://salernos.github.io/content/presentations/talks/2022.11.05-PSD/img.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
+<item>
+  <title>Data Science Journey</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2022.07.15-Camp/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2022.07.15-Camp.pdf" src="./2022.07.15-Camp.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Data for Good</category>
+  <category>Data Science Education</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2022.07.15-Camp/</guid>
+  <pubDate>Fri, 15 Jul 2022 04:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2022.07.15-Camp/img.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Data Science Journey</title>
@@ -59,7 +363,8 @@
 </item>
 <item>
   <title>A New Deep Learning Approach</title>
-  <dc:creator>Stephen Salerno and Yi Li</dc:creator>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Yi Li</dc:creator>
   <link>https://salernos.github.io/content/presentations/talks/2022.06.21-MtSinai/</link>
   <description><![CDATA[ 
 
@@ -72,15 +377,17 @@
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Deep Learning</category>
+  <category>Semi-Competing Risks</category>
   <category>Survival Analysis</category>
-  <category>Machine Learning</category>
   <guid>https://salernos.github.io/content/presentations/talks/2022.06.21-MtSinai/</guid>
   <pubDate>Tue, 21 Jun 2022 04:00:00 GMT</pubDate>
   <media:content url="https://salernos.github.io/content/presentations/talks/2022.06.21-MtSinai/img.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
   <title>Use of Machine Learning and Michigan EHR Data</title>
-  <dc:creator>Stephen Salerno and Yuming Sun</dc:creator>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Yuming Sun</dc:creator>
   <link>https://salernos.github.io/content/presentations/talks/2022.04.13-MiCHAMP/</link>
   <description><![CDATA[ 
 
@@ -102,7 +409,8 @@
 </item>
 <item>
   <title>A New Deep Learning Approach</title>
-  <dc:creator>Stephen Salerno and Yi Li</dc:creator>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Yi Li</dc:creator>
   <link>https://salernos.github.io/content/presentations/talks/2022.03.29-ENAR/</link>
   <description><![CDATA[ 
 
@@ -115,15 +423,39 @@
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Deep Learning</category>
+  <category>Semi-Competing Risks</category>
   <category>Survival Analysis</category>
-  <category>Machine Learning</category>
   <guid>https://salernos.github.io/content/presentations/talks/2022.03.29-ENAR/</guid>
   <pubDate>Tue, 29 Mar 2022 04:00:00 GMT</pubDate>
   <media:content url="https://salernos.github.io/content/presentations/talks/2022.03.29-ENAR/img.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
+  <title>Introduction to R and RStudio</title>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <link>https://salernos.github.io/content/presentations/talks/2022.03.04-NeuroNet/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe id="2022.03.04-NeuroNet.pdf" src="./2022.03.04-NeuroNet.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+</iframe>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Data Science Education</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2022.03.04-NeuroNet/</guid>
+  <pubDate>Fri, 04 Mar 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2022.03.04-NeuroNet/img.png" medium="image" type="image/png" height="107" width="144"/>
+</item>
+<item>
   <title>Data Science for Good</title>
-  <dc:creator>Stephen Salerno, Ani Madurkar, Katie Nicholson, and Gauri Kambhatla</dc:creator>
+  <dc:creator>Stephen Salerno</dc:creator>
+  <dc:creator>Ani Madurkar</dc:creator>
+  <dc:creator>Katie Nicholson</dc:creator>
+  <dc:creator>Gauri Kambhatla</dc:creator>
   <link>https://salernos.github.io/content/presentations/talks/2021.07.27-NxtGen/</link>
   <description><![CDATA[ 
 
@@ -143,66 +475,25 @@
   <media:content url="https://salernos.github.io/content/presentations/talks/2021.07.27-NxtGen/img.png" medium="image" type="image/png" height="80" width="144"/>
 </item>
 <item>
-  <title>Data for Good in Your Neighborhood</title>
+  <title>How to Create Data Visualizations Using Best Practices</title>
   <dc:creator>Stephen Salerno</dc:creator>
-  <link>https://salernos.github.io/content/presentations/talks/2020.08.06-JSM/</link>
+  <link>https://salernos.github.io/content/presentations/talks/2021.02.26-D4PG/</link>
   <description><![CDATA[ 
 
 
 
 
-<iframe id="2020.08.06-JSM.pdf" src="./2020.08.06-JSM.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
+<iframe id="2021.02.26-D4PG.pdf" src="./2021.02.26-D4PG.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
 </iframe>
 
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Data for Good</category>
-  <category>STATCOM</category>
-  <guid>https://salernos.github.io/content/presentations/talks/2020.08.06-JSM/</guid>
-  <pubDate>Thu, 06 Aug 2020 04:00:00 GMT</pubDate>
-  <media:content url="https://salernos.github.io/content/presentations/talks/2020.08.06-JSM/img.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
-<item>
-  <title>Statistics in the Community</title>
-  <dc:creator>Stephen Salerno</dc:creator>
-  <link>https://salernos.github.io/content/presentations/talks/2020.06.04-SDSS/</link>
-  <description><![CDATA[ 
-
-
-
-
-<iframe id="2020.06.04-SDSS.pdf" src="./2020.06.04-SDSS.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
-</iframe>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Data for Good</category>
-  <category>STATCOM</category>
-  <guid>https://salernos.github.io/content/presentations/talks/2020.06.04-SDSS/</guid>
-  <pubDate>Thu, 04 Jun 2020 04:00:00 GMT</pubDate>
-  <media:content url="https://salernos.github.io/content/presentations/talks/2020.06.04-SDSS/img.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
-<item>
-  <title>Selection and Estimation</title>
-  <dc:creator>Stephen Salerno and Yi Li</dc:creator>
-  <link>https://salernos.github.io/content/presentations/talks/2020.03.19-ENAR/</link>
-  <description><![CDATA[ 
-
-
-
-
-<iframe id="2020.03.19-ENAR.pdf" src="./2020.03.19-ENAR.pdf" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 500px; width: 100%;">
-</iframe>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Graphical Models</category>
-  <guid>https://salernos.github.io/content/presentations/talks/2020.03.19-ENAR/</guid>
-  <pubDate>Thu, 19 Mar 2020 04:00:00 GMT</pubDate>
-  <media:content url="https://salernos.github.io/content/presentations/talks/2020.03.19-ENAR/img.png" medium="image" type="image/png" height="108" width="144"/>
+  <category>Data Science Education</category>
+  <guid>https://salernos.github.io/content/presentations/talks/2021.02.26-D4PG/</guid>
+  <pubDate>Fri, 26 Feb 2021 05:00:00 GMT</pubDate>
+  <media:content url="https://salernos.github.io/content/presentations/talks/2021.02.26-D4PG/img.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>

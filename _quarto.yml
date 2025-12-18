@@ -51,7 +51,7 @@ website:
             href: content/presentations/talks.qmd
           - text: Posters
             href: content/presentations/posters.qmd
-      - href: content/good/good.qmd
+      - href: content/good.qmd
         text: Data for Good
       - href: content/recipes.qmd
         text: Recipes

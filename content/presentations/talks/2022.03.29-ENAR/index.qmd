@@ -1,9 +1,14 @@
 ---
-title: "A New Deep Learning Approach"
-subtitle: "for Predicting Survival Processes in the Presence of Semi-Competing Risks"
-author: "Stephen Salerno and Yi Li"
-categories: ["Survival Analysis", "Machine Learning"]
-description: "2022 International Biometric Society Eastern North American Region Spring Meeting"
+title: A New Deep Learning Approach
+subtitle: for Predicting Survival Processes in the Presence of Semi-Competing Risks
+author: 
+  - Stephen Salerno
+  - Yi Li
+categories: 
+  - Deep Learning
+  - Semi-Competing Risks
+  - Survival Analysis
+description: 2022 International Biometric Society Eastern North American Region Spring Meeting
 date: 2022-03-29
 image: img.png
 editor: source
