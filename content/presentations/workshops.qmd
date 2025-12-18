@@ -13,7 +13,7 @@ listing:
   max-description-length: 200
   fields: [image, title, description, categories]
   contents:
-    - href: https://salernos.github.io/ipdworkshop/
+    - path: https://salernos.github.io/ipdworkshop/
       title: "Inference with Predicted Data (IPD) Workshop"
       date: 2025-06-07
       categories:
@@ -24,17 +24,6 @@ listing:
       description: |
         In this workshop, we explore the consequences of inference with 
         predicted data across several biomedical applications.
-    - href: https://salernos.github.io/ipd-workshop/
-      title: "Introduction to Prediction-based Inference: Methods & Applications"
-      date: 2026-03-17
-      categories:
-        - Inference with Predicted Data
-        - Machine Learning
-        - R
-      image: content/images/ipd-workshop.png
-      description: |
-        In this tutorial, we explore the consequences of inference on predicted 
-        data across several biomedical applications. 
 page-layout: full
 search: true
 ---
