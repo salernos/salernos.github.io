@@ -4,7 +4,6 @@ subtitle: |
   Select workshops are given below. A full listing is available on my
   **[CV](/content/CV.pdf)**.
 listing:
-  type: grid
   sort: "date desc"
   feed: true
   categories: true
@@ -20,7 +19,7 @@ listing:
         - Inference with Predicted Data
         - Machine Learning
         - R
-      image: /content/images/ipdworkshop.png
+      image: /content/images/workshops/ipdworkshop.png
       description: |
         In this workshop, we explore the consequences of inference with 
         predicted data across several biomedical applications.

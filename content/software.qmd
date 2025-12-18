@@ -7,7 +7,6 @@ search: true
 listing:
   contents: "software/"
   feed: true
-  type: grid
   sort: "date desc"
   categories: true
   sort-ui: true

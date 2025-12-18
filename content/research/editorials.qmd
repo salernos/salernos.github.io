@@ -11,7 +11,7 @@ execute:
   message: false
 ---
 
-This page lists all of my publications, organized by year. Click a paper’s *title* to visit the publisher page and access the official version. Use *Abstract* to reveal the summary, *Citation* for the APA 7th-edition reference, and *BibTeX* to view the BibTeX entry. Clicking the link a second time will close the display again. *Preprint* links to a free author version (not the final typeset copy), and *Materials* leads to an open repository with data, code, and other open-science resources. 
+This page lists all of my publications, organized by year. Click a paper’s *title* to visit the publisher page and access the official version. Use *Abstract* to reveal the summary, *Citation* for the APA 7th-edition reference, and *BibTeX* to view the BibTeX entry. Clicking the link a second time will close the display again. *Free Text* links to a free full-text version, and *Materials* leads to an open repository with data, code, and other open-science resources. 
 
 ★ = (co)first-authored work
 
@@ -290,7 +290,7 @@ build_card <- function(
   )
 
   ttl_node <- if (isTRUE(nzchar(doi_url %||% ""))) {
-    tags$div(class = "pub-title", tags$a(title, href = doi_url, target = "_blank", rel = "noopener"))
+    tags$div(class = "pub-title", tags$a(title, href = preprint_url, target = "_blank", rel = "noopener"))
   } else {
     tags$div(class = "pub-title", title)
   }
@@ -311,17 +311,17 @@ build_card <- function(
     if (isTRUE(primary)) tags$span(
       class = "lab-star",
       role  = "img",
-      title = "This project was led by the AffCom lab",
-      `aria-label` = "This project was led by the AffCom lab",
+      title = "First or co-first author",
+      `aria-label` = "First or co-first author",
       "★",
-      tags$span(class = "sr-only", " This project was led by the AffCom lab")
+      tags$span(class = "sr-only", " First or co-first author")
     ),
     # Action links
     tags$a("Abstract", href = "#", `data-action`="abstract", role="button"),
     tags$a("Citation", href = "#", `data-action`="citation", role="button"),
     tags$a("BibTeX",   href = "#", `data-action`="bib",      role="button"),
     if (isTRUE(has_preprint_key))
-      tags$a("Preprint", class = "external", href = (preprint_url %||% "#"), target = "_blank", rel="noopener"),
+      tags$a("Free Text", class = "external", href = (preprint_url %||% "#"), target = "_blank", rel="noopener"),
     if (isTRUE(has_materials_key))
       tags$a("Materials", class = "external", href = (materials_url %||% "#"), target = "_blank", rel="noopener")
   )
