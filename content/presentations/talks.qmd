@@ -2,7 +2,7 @@
 title: Presentations
 subtitle: |
   Select presentations are given below. A full listing is available on my
-  **[CV](content/CV.pdf)**.
+  **[CV](../CV.pdf)**.
 listing:
   contents: "talks"
   feed: true
