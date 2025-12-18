@@ -16,13 +16,15 @@ Beyond research, I am deeply committed to data science education and data for go
 
 ## Statistics in the Community (STATCOM)
 
-[STATCOM](https://sph.umich.edu/biostat/statcom/) is a volunteer student organization that provides pro bono statistical consulting services to non-profit and community organizations. This work was a privilege, spanning projects from understanding community health perceptions after the Flint Water Crisis to supporting trans youth advocacy and improving access to fresh produce in food deserts. As president of STATCOM at the University of Michigan, I helped coordinate teams of student volunteers working on projects with mission-driven organizations. These collaborations often involved:
+[STATCOM](https://sph.umich.edu/biostat/statcom/) is a volunteer student organization that provides pro bono statistical consulting services to non-profit and community organizations. This work spans projects from understanding community health perceptions after the Flint Water Crisis to supporting trans youth advocacy and improving access to fresh produce in food deserts. As president of STATCOM at the University of Michigan, I helped coordinate teams of student volunteers working on projects with mission-driven organizations. These collaborations often involved:
 
 - Designing and analyzing surveys to understand community needs
 - Building predictive and descriptive models to guide program decisions
 - Creating visualizations and tools that partners could use after our projects ended
 
-This work benefits both **community partners**, who gain access to expertise and resources they might not otherwise have, and **students**, who gain experience working with real data and collaborators posing meaningful, tangible questions that affect their local communities. 
+This work benefits both **community partners**, who gain access to expertise and resources they might not otherwise have, and our **students**, who gain experience working with real data and collaborators posing meaningful, tangible questions that affect their local communities. 
+
+<br>
 
 ::: {.grid}
 ::: g-col-4
@@ -38,11 +40,15 @@ This work benefits both **community partners**, who gain access to expertise and
 :::
 :::
 
+<br>
+
 ### Example Collaboration: Starr Commonwealth
 
 ::: {.grid}
 ::: g-col-8
 *"[Starr Commonwealth](https://starr.org/) partnered with Statistics in the Community (STATCOM) at the University of Michigan for external validation of its program of work. Starr provides community-based programs and behavioral health services for children, youth, and families as well as professional learning for educators and clinicians in trauma-informed, resilience-focused care. Part of Starr's mission is to increase accessibility to trauma-informed, resilience-focused, evidence-based intervention tools and programs."* 
+
+<br>
 
 [Learn More](https://starr.org/2024/starr-commonwealth-external-validation-statcom-university-michigan/?srsltid=AfmBOoqVRrrOFYKbl01pCVVvIRJklIUD7buRSYz0VuQHxgdM_-2rB0wl){.action-btn role="button"}
 :::
@@ -52,6 +58,7 @@ This work benefits both **community partners**, who gain access to expertise and
 :::
 :::
 
+<!---
 ### Data for Public Good Symposium
 
 The **Data for Public Good Symposium** highlights work at the intersection of data science, policy, and community impact. My contributions to this space include:
@@ -59,6 +66,9 @@ The **Data for Public Good Symposium** highlights work at the intersection of da
 - Presenting work on community-engaged data science and prediction-powered inference  
 - Serving as a bridge between methodological research and applied, community-driven projects  
 - Helping surface examples where rigorous methods and local expertise come together to inform action
+--->
+
+<br>
 
 ## MIDAS Student Leadership Team
 
@@ -68,14 +78,26 @@ The **MIDAS Student Leadership Team** (Michigan Institute for Data Science) brin
 - Supported initiatives that connect students with real-world, socially impactful data projects  
 - Advocated for inclusive, accessible training and mentorship pathways in data science
 
-This work complements my STATCOM experience by extending data-for-good activities to a broader, cross-disciplinary community and by embedding data science education within a larger institutional ecosystem.
+This work complements my STATCOM experience by extending data-for-good activities to a broader, cross-disciplinary community and by embedding data science education within a larger institutional ecosystem. As part of the student leadership team, I served on the Data for Good and Women+ Data Science committees.
+
+
+<br>
+
 
 ## Cancer AI Alliance (CAIA)
 
-The **Cancer AI Alliance (CAIA)** is a collaborative effort focused on building trustworthy, impactful AI tools for cancer research and care. My involvement centers on:
+::: {.grid}
+::: g-col-8
+The **Cancer AI Alliance** is a landmark, multi-institutional initiative connecting Fred Hutch, Dana-Farber, Memorial Sloan Kettering, and Sidney Kimmel to enable secure, federated AI model development across more than one million patients. I work collaboratively with faculty and investigators while maintaining an independent research agenda focused on statistical frameworks for inter-institutional, AI-driven studies. I am currently working on a prioritized CAIA project with the Allen Institute for AI, applying AI to real-world NSCLC outcomes. My involvement centers on:
 
 - Developing and evaluating AI/ML models for precision oncology
 - Studying how **AI-generated predictions** can be used responsibly in downstream statistical inference  
 - Building infrastructure and workflows so that models are transparent, reproducible, and aligned with real clinical needs
 
 Within CAIA, I view data for good as encompassing not only community-facing outreach, but also responsible deployment of AI in high-stakes settings, ensuring that methods are rigorously validated, interpretable, and equitable.
+:::
+
+::: g-col-4
+{{< video https://www.youtube.com/embed/BDGBBUVCouo?si=c3YONj2s98MEQcXy >}}
+:::
+:::
