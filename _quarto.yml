@@ -55,7 +55,7 @@ website:
         text: Data for Good
       - href: content/recipes.qmd
         text: Recipes
-      - href: https://www.overleaf.com/read/yhrjsgdhqygr#f5017b?pdf=1
+      - href: content/CV.pdf
         text: CV
 
   page-footer:

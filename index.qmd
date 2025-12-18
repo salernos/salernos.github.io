@@ -159,7 +159,7 @@ Full record of my training, positions, publications, talks, teaching, and servic
 ::: {.home-card-body}
 Full record of my training, positions, publications, talks, teaching, and service.
 :::
-[View CV (PDF) →](cv.pdf){.home-card-link target="_blank" rel="noopener"}
+[View CV (PDF) →](content/CV.pdf){.home-card-link target="_blank" rel="noopener"}
 :::
 
 :::

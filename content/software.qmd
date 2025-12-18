@@ -22,6 +22,6 @@ listing:
 
 ::: {.software-intro}
 
-I build open-source tools at the intersection of statistics, machine learning, and precision oncology. Below are packages, libraries, and tools I maintain or actively contribute to.
+I build open-source tools at the intersection of statistics, machine learning, biomedicine, and public health. Below are packages, libraries, and tools I currently maintain or actively contribute to.
 
 :::
