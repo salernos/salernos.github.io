@@ -1,15 +1,8 @@
 [
   {
-    "listing": "/content/presentations/workshops.html",
-    "items": []
-  },
-  {
-    "listing": "/content/presentations/posters.html",
+    "listing": "/content/recipes.html",
     "items": [
-      "/content/presentations/posters/2025.10.28-Sloan/index.html",
-      "/content/presentations/posters/2025.06.24-GBCC/index.html",
-      "/content/presentations/posters/2022.06.07-StJude/index.html",
-      "/content/presentations/posters/2019.03.24-ENAR/index.html"
+      "/content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html"
     ]
   },
   {
@@ -42,10 +35,17 @@
     ]
   },
   {
-    "listing": "/content/recipes.html",
+    "listing": "/content/presentations/posters.html",
     "items": [
-      "/content/recipes/2025-12-15_Nanas-Cookies/2025-12-15_Nanas-Cookies.html"
+      "/content/presentations/posters/2025.10.28-Sloan/index.html",
+      "/content/presentations/posters/2025.06.24-GBCC/index.html",
+      "/content/presentations/posters/2022.06.07-StJude/index.html",
+      "/content/presentations/posters/2019.03.24-ENAR/index.html"
     ]
+  },
+  {
+    "listing": "/content/presentations/workshops.html",
+    "items": []
   },
   {
     "listing": "/content/software.html",
